@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Learnmorebtn from './Learnmorebtn';
+import Link from 'next/link';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -26,11 +27,11 @@ const Navbar = () => {
         <div className="sticky top-0 z-30">
             <div className="text-white w-full bg-darkbg relative overflow-visible">
                 <ul className="max-w-[1800px] mx-auto flex flex-row items-center justify-between lg:text-xl text-lg">
-                    <a href="/">
+                    <Link href="/">
                         <li className="text-2xl ml-8">
                             <img src="/horizontalmtclogo.jpg" alt="Logo" className="w-36" />
                         </li>
-                    </a>
+                    </Link>
 
                     {/* Hamburger Icon */}
                     <button
@@ -160,9 +161,9 @@ const Navbar = () => {
 
                         </li>
 
-                        <a href="/contact" className="hover:underline mr-8 relative block py-6 px-4 lg:p-6 uppercase hover:text-white">
+                        <Link href="/contact" className="hover:underline mr-8 relative block py-6 px-4 lg:p-6 uppercase hover:text-white">
                             <li>CONTACT</li>
-                        </a>
+                        </Link>
                     </div>
                 </ul>
             </div>
