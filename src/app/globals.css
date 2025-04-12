@@ -1,26 +1,62 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+@theme {
+  --color-darkbg: #050126;
+  --color-darkbg2: #090340;
+  --color-lightbg: #2c18db;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: clip;
+  
+  /* Prevent horizontal scrolling */
+  /* overflow-y: auto; */
+  /* Ensure vertical scrolling when necessary */
+  height: auto;
+  width: 100%;
+}
+
+.mega-menu {
+  opacity:0;
+  visibility:hidden;
+  /* z-index: -900; */
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  transition: all 0.15s linear 0s;
+}
+
+
+
+/* #hoverable Class Styles */
+.hoverable {
+  position: static;
+}
+
+.hoverable > a:after {
+
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.hoverable:hover .mega-menu {
+  opacity:1;
+  visibility:visible;
+  /* z-index: 900; */
+}
+
+.homebg {
+  background-image: url('/teachingimg1.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: rgb(181, 179, 179);
+  background-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
 }
