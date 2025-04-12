@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="sticky top-0 z-30">
             <div className="text-white w-full bg-darkbg relative overflow-visible">
                 <ul className="max-w-[1800px] mx-auto flex flex-row items-center justify-between lg:text-xl text-lg">
-                    <a href="./index.html">
+                    <a href="/">
                         <li className="text-2xl ml-8">
                             <img src="/horizontalmtclogo.jpg" alt="Logo" className="w-36" />
                         </li>
@@ -56,7 +56,7 @@ const Navbar = () => {
                             <a href="./buildwebsites.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">BUILD WEBSITES</a>
                             <a href="./makegames.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MAKE GAMES</a>
                             <div className="h-px bg-gray-700 my-2"></div>
-                            <a href="./contact.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">CONTACT</a>
+                            <a href="/contact" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">CONTACT</a>
                         </div>
                     </div>
 
@@ -160,7 +160,7 @@ const Navbar = () => {
 
                         </li>
 
-                        <a href="./contact.html" className="hover:underline mr-8 relative block py-6 px-4 lg:p-6 uppercase hover:text-white">
+                        <a href="/contact" className="hover:underline mr-8 relative block py-6 px-4 lg:p-6 uppercase hover:text-white">
                             <li>CONTACT</li>
                         </a>
                     </div>
