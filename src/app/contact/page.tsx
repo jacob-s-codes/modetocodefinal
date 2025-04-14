@@ -41,7 +41,7 @@ const page = () => {
                         <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
                             <h2 className="text-4xl font-bold uppercase  pb-2 ">FInd us on social media</h2>
                             <hr className="w-full border-4" />
-                            <p className="py-12 text-2xl font-light">Check out our social media and stay updated with what we're up to!</p>
+                            <p className="py-12 text-2xl font-light">Check out our social media and stay updated with what we&apos;re up to!</p>
                             <Socialmedia />
                         </div>
 
