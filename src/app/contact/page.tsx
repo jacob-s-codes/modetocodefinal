@@ -28,7 +28,7 @@ const page = () => {
                             </a>
                         </div>
                         <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
-                            <img src="/teachingimg6.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+                            <img src="/teachingimg18.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
                         </div>
                     </div>
                 </div>
