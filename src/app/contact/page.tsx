@@ -19,7 +19,7 @@ const page = () => {
                             <h2 className="uppercase text-4xl font-bold pb-2">INTERESTED IN JOINING OR OFFERING MODE TO CODE AT YOUR SCHOOL?</h2>
                             <hr className="border-4 border-black mb-8" />
                             <p className="text-2xl font-light mb-8">You can email Jacob at <span className='font-bold'>jacob@modetocode.com</span> for specific questions or email <span className='font-bold'>info@modetocode.com</span> for general ones.</p>
-                            <p className="text-2xl font-light mb-8"> You can also find and contact one of the members of our team by going to the "Meet the Team" page.</p>
+                            <p className="text-2xl font-light mb-8"> You can also find and contact one of the members of our team by going to the &quot;Meet the Team&ldquo; page.</p>
                             <a href="/about.html" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                                 <span
                                     className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
