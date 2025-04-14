@@ -4,7 +4,7 @@
 import Testimonials from '@/components/Testimonials';
 
 export default function Home() {
-  
+
   return (
     <div className="w-full overflow-x-hidden overflow-y-hidden">
       <div className="homebg h-screen w-full bg-cover bg-center overflow-y-hidden">
@@ -98,31 +98,31 @@ export default function Home() {
 
 
           <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
-                    <img src="/teachingimg16.jpg" alt=""
-                        className="animateright w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center"/>
-                    <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
-                        <h3 className="font-light text-blue-900">BUILDING COMMUNITY</h3>
-                        <h2 className="text-4xl font-bold uppercase pt-1 pb-2 ">interested in teaching or having this free
-                            program
-                            offered at your school?</h2>
-                        <hr className="w-full border-4"/>
-                        <p className="pt-12 text-2xl font-light">Mode to Code is <span className="font-bold">completely
-                                free </span>
-                            for students and schools. We are always looking for new schools to partner with and teachers
-                            to
-                            help us teach our curriculum. If you are interested in having Mode to Code offered at your
-                            school, please reach out to us!</p>
-                        <a href="/contact" className="relative inline-flex px-8 py-4 mt-12 font-medium group w-fit">
-                            <span
-                                className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
-                            <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
-                            <span
-                                className="relative text-black group-hover:text-white text-lg uppercase">Contact
-                                us</span>
-                        </a>
-                    </div>
+            <img src="/teachingimg16.jpg" alt=""
+              className="animateright w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
+            <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
+              <h3 className="font-light text-blue-900">BUILDING COMMUNITY</h3>
+              <h2 className="text-4xl font-bold uppercase pt-1 pb-2 ">interested in teaching or having this free
+                program
+                offered at your school?</h2>
+              <hr className="w-full border-4" />
+              <p className="pt-12 text-2xl font-light">Mode to Code is <span className="font-bold">completely
+                free </span>
+                for students and schools. We are always looking for new schools to partner with and teachers
+                to
+                help us teach our curriculum. If you are interested in having Mode to Code offered at your
+                school, please reach out to us!</p>
+              <a href="/contact" className="relative inline-flex px-8 py-4 mt-12 font-medium group w-fit">
+                <span
+                  className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
+                <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
+                <span
+                  className="relative text-black group-hover:text-white text-lg uppercase">Contact
+                  us</span>
+              </a>
+            </div>
 
-                </div>
+          </div>
         </div>
 
       </div>
