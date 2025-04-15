@@ -4,7 +4,7 @@ const Learnmorebtn = () => {
     return (
 
         <div className='mt-4'>
-            <a href="" className="border-b border-b-white hover:border-b-2 ">Learn more</a>
+            <p className="border-b border-b-white w-fit hover:border-b-2 ">Learn more</p>
         </div>
 
     )
