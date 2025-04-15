@@ -10,15 +10,15 @@ const Footer = () => {
                 <div className="flex flex-row lg:gap-x-12 gap-x-10 pr-12">
                     <div className="flex flex-col gap-y-2">
                         <p className="font-extrabold">ABOUT US</p>
-                        <a href="./about.html" className="hover:text-blue-500">About</a>
-                        <a href="./theteam.html" className="hover:text-blue-500">The Team</a>
-                        <a href="./contact.html" className="hover:text-blue-500">Contact</a>
+                        <a href="/about" className="hover:text-blue-500">About</a>
+                        <a href="/theteam" className="hover:text-blue-500">The Team</a>
+                        <a href="/contact" className="hover:text-blue-500">Contact</a>
                     </div>
                     <div className="flex flex-col gap-y-2">
                         <p className="font-extrabold">PAGES</p>
-                        <a href="./index.html" className="hover:text-blue-500">Home</a>
-                        <a href="./casestudies.html" className="hover:text-blue-500">Case studies</a>
-                        <a href="./learn.html" className="hover:text-blue-500">Learn</a>
+                        <a href="/" className="hover:text-blue-500">Home</a>
+                        <a href="/casestudies" className="hover:text-blue-500">Case studies</a>
+                        <a href="/learn" className="hover:text-blue-500">Learn</a>
                     </div>
 
                 </div>
