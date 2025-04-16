@@ -82,3 +82,14 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+.casestudiesbg {
+  background-image: url("/teachingimg19.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgb(181, 179, 179);
+  background-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}

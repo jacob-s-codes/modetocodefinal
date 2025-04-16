@@ -48,7 +48,7 @@ const Navbar = () => {
                         <div className="p-4 flex flex-col gap-2">
                             <a href="./about.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">ABOUT</a>
                             <a href="./theteam.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MEET THE TEAM</a>
-                            <a href="./casestudies.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">CASE STUDIES</a>
+                            <a href="./casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">CASE STUDIES</a>
                             <div className="h-px bg-gray-700 my-2"></div>
                             <a href="./learn.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">LEARN</a>
                             <a href="./learnai.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">LEARN AI</a>
@@ -74,7 +74,7 @@ const Navbar = () => {
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
                                     {/* Text Section - 50% width */}
                                     <div className="flex flex-col items-center justify-center w-full lg:w-1/2 px-4 ">
-                                        <ul className="w-full  pb-6 pt-6 border border-white px-2 rounded-lg hover:bg-darkbg2">
+                                        <ul className="w-full  pb-6 pt-6 border-2 border-white px-2 rounded-lg hover:bg-darkbg2">
                                             <div className="flex items-center">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-file-person-fill h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
                                                     <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11" />
@@ -92,7 +92,7 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Case Studies</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <Learnmorebtn />
+                                            <a href="/casestudies"><Learnmorebtn /></a>
                                         </ul>
                                     </div>
 
