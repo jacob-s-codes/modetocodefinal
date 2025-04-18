@@ -46,16 +46,16 @@ const Navbar = () => {
                         className={`absolute top-full right-0 w-3/4 sm:w-1/2 h-screen bg-darkbg text-white shadow-2xl transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible translate-x-0' : 'opacity-0 invisible translate-x-full'}`}
                     >
                         <div className="p-4 flex flex-col gap-2">
-                            <a href="./about.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">ABOUT</a>
-                            <a href="./theteam.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MEET THE TEAM</a>
-                            <a href="./casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">CASE STUDIES</a>
+                            <Link href="./about.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">ABOUT</Link>
+                            <Link href="./theteam.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MEET THE TEAM</Link>
+                            <Link href="./casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">CASE STUDIES</Link>
                             <div className="h-px bg-gray-700 my-2"></div>
-                            <a href="./learn.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">LEARN</a>
-                            <a href="./learnai.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">LEARN AI</a>
-                            <a href="./buildwebsites.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">BUILD WEBSITES</a>
-                            <a href="./makegames.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MAKE GAMES</a>
+                            <Link href="./learn.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">LEARN</Link>
+                            <Link href="./learnai.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">LEARN AI</Link>
+                            <Link href="./buildwebsites.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">BUILD WEBSITES</Link>
+                            <Link href="./makegames.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MAKE GAMES</Link>
                             <div className="h-px bg-gray-700 my-2"></div>
-                            <a href="/contact" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">CONTACT</a>
+                            <Link href="/contact" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">CONTACT</Link>
                         </div>
                     </div>
 
@@ -65,7 +65,7 @@ const Navbar = () => {
                     <div className="hidden flex-row justify-between lg:gap-x-36 gap-x-12 sm:flex">
                         <li className="hoverable hover:bg-darkbg hover:text-white">
                             <div className='flex flex-row items-center group'>
-                                <a href="#" className="relative block py-6 pr-2 uppercase hover:text-white">ABOUT</a>
+                                <Link href="#" className="relative block py-6 pr-2 uppercase hover:text-white">ABOUT</Link>
                                 <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" className="bi bi-caret-down w-6 h-auto rotate-180 group-hover:rotate-[-1deg] duration-500" viewBox="0 0 16 16">
                                     <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659" />
                                 </svg>
@@ -82,7 +82,7 @@ const Navbar = () => {
                                                 <h3 className="addfont-bold text-xl text-white uppercase mb-2">Meet the team</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <a href="/meettheteam"><Learnmorebtn /></a>
+                                            <Link href="/meettheteam"><Learnmorebtn /></Link>
                                         </ul>
                                         <ul className="w-full mt-2 pb-6 pt-6 border border-white px-2 rounded-lg hover:bg-darkbg2">
                                             <div className="flex items-center">
@@ -92,7 +92,7 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Case Studies</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <a href="/casestudies"><Learnmorebtn /></a>
+                                            <Link href="/casestudies"><Learnmorebtn /></Link>
                                         </ul>
                                     </div>
 
@@ -109,7 +109,7 @@ const Navbar = () => {
 
                         <li className="hoverable hover:bg-darkbg hover:text-white">
                         <div className='flex flex-row items-center group '>
-                                <a href="#" className="relative block py-6 pr-2 uppercase hover:text-white">LEARN</a>
+                                <Link href="#" className="relative block py-6 pr-2 uppercase hover:text-white">LEARN</Link>
                                 <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" className="bi bi-caret-down w-6 h-auto rotate-180 group-hover:rotate-[-1deg] duration-500" viewBox="0 0 16 16">
                                     <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659" />
                                 </svg>

@@ -2,6 +2,7 @@
 
 
 import Testimonials from '@/components/Testimonials';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -28,13 +29,13 @@ export default function Home() {
                 hands of the young people and we are committed to ensuring that they are well equipped to
                 take
                 on the challenges of the future.</p>
-              <a href="/about.html" className="relative inline-flex px-8 py-4 font-medium group w-fit">
+              <Link href="/about" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                 <span
                   className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
                 <span className="relative text-black group-hover:text-white ">LEARN MORE ABOUT
                   US</span>
-              </a>
+              </Link>
             </div>
             <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
               <img src="/teachingimg6.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
@@ -84,12 +85,12 @@ export default function Home() {
               <h2 className="uppercase text-4xl font-bold pb-2 pt-1">Helpful technology that students can apply to the real world</h2>
               <hr className="border-4 border-black mb-8" />
               <p className="text-2xl font-light mb-8">Teaching students valuable technology that they can immediately start using in their everyday lives. Students that take the Intro to Web Development Mode to Code course learn the basics of HTML and CSS. We also dive into TailwindCSS, a popular CSS framework!</p>
-              <a href="https://docs.google.com/document/d/1Zlth06mrS1nKHkwDvhHZauodJ-R0rReItN2jh66ooIU/edit?tab=t.0#heading=h.6lr3dxwvur1j" target="_blank" className="relative inline-flex px-8 py-4 font-medium group w-fit">
+              <Link href="https://docs.google.com/document/d/1Zlth06mrS1nKHkwDvhHZauodJ-R0rReItN2jh66ooIU/edit?tab=t.0#heading=h.6lr3dxwvur1j" target="_blank" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                 <span
                   className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
                 <span className="relative text-black group-hover:text-white uppercase">Check Out our curriculum</span>
-              </a>
+              </Link>
             </div>
             <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
               <img src="/teachingimg7.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
@@ -112,14 +113,14 @@ export default function Home() {
                 to
                 help us teach our curriculum. If you are interested in having Mode to Code offered at your
                 school, please reach out to us!</p>
-              <a href="/contact" className="relative inline-flex px-8 py-4 mt-12 font-medium group w-fit">
+              <Link href="/contact" className="relative inline-flex px-8 py-4 mt-12 font-medium group w-fit">
                 <span
                   className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
                 <span
                   className="relative text-black group-hover:text-white text-lg uppercase">Contact
                   us</span>
-              </a>
+              </Link>
             </div>
 
           </div>

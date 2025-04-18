@@ -1,5 +1,6 @@
 import React from 'react'
 import Socialmedia from './Socialmedia'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -10,15 +11,15 @@ const Footer = () => {
                 <div className="flex flex-row lg:gap-x-12 gap-x-10 pr-12">
                     <div className="flex flex-col gap-y-2">
                         <p className="font-extrabold">ABOUT US</p>
-                        <a href="/about" className="hover:text-blue-500">About</a>
-                        <a href="/theteam" className="hover:text-blue-500">The Team</a>
-                        <a href="/contact" className="hover:text-blue-500">Contact</a>
+                        <Link href="/about" className="hover:text-blue-500">About</Link>
+                        <Link href="/theteam" className="hover:text-blue-500">The Team</Link>
+                        <Link href="/contact" className="hover:text-blue-500">Contact</Link>
                     </div>
                     <div className="flex flex-col gap-y-2">
                         <p className="font-extrabold">PAGES</p>
-                        <a href="/" className="hover:text-blue-500">Home</a>
-                        <a href="/casestudies" className="hover:text-blue-500">Case studies</a>
-                        <a href="/learn" className="hover:text-blue-500">Learn</a>
+                        <Link href="/" className="hover:text-blue-500">Home</Link>
+                        <Link href="/casestudies" className="hover:text-blue-500">Case studies</Link>
+                        <Link href="/learn" className="hover:text-blue-500">Learn</Link>
                     </div>
 
                 </div>
