@@ -93,3 +93,15 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+.imgeffect {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.relative:hover .imgeffect {
+  transform: scale(1.2);
+}

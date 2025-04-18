@@ -7,45 +7,52 @@ import Socialmedia from "@/components/Socialmedia";
 const page = () => {
     return (
         <div className="w-full overflow-x-hidden overflow-y-hidden">
-            <div className="casestudiesbg h-screen w-full bg-cover bg-center overflow-y-hidden">
+            <div className="contactbg h-screen w-full bg-cover bg-center overflow-y-hidden">
                 <div className="h-full flex flex-col justify-center items-center text-white">
-                    <h1 className="text-9xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">CASE STUDIES</h1>
+                    <h1 className="text-9xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">CONTACT US</h1>
                 </div>
             </div>
             {/* Who we are */}
             <div className="w-full bg-blue-200 pb-32">
-                <div className=" w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between  pt-32 ">
-                    <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between">
-                        <div className="flex flex-col xl:max-w-3xl max-w-xl animateleft">
-                            <h3 className="uppercase text-blue-900 text-3xl">Email us</h3>
-                            <h2 className="uppercase text-4xl font-bold pb-2">INTERESTED IN JOINING OR OFFERING MODE TO CODE AT YOUR SCHOOL?</h2>
-                            <hr className="border-4 border-black mb-8" />
-                            <p className="text-2xl font-light mb-8">You can email Jacob at <span className='font-bold'>jacob@modetocode.com</span> for specific questions or email <span className='font-bold'>info@modetocode.com</span> for general ones.</p>
-                            <p className="text-2xl font-light mb-8"> You can also find and contact one of the members of our team by going to the &quot;Meet the Team&ldquo; page.</p>
-                            <a href="/meettheteam" className="relative inline-flex px-8 py-4 font-medium group w-fit">
-                                <span
-                                    className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
-                                <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
-                                <span className="relative text-black group-hover:text-white uppercase">Meet the team</span>
-                            </a>
+                <div className="py-48 max-w-[1800px] mx-auto px-12">
+                    <h2 className="text-6xl font-bold pb-12">EXPLORE CASE STUDIES</h2>
+
+                    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                        <a href="/cais.html"><div className="relative hover:cursor-pointer flex flex-col justify-between rounded-2xl overflow-hidden h-full text-white">
+                            <img src="/caislogo.jpg" alt="" className="imgeffect"/>
+                                <div className="absolute py-12 inset-0 flex flex-col justify-between p-8 bg-gradient-to-t from-black/60 to-transparent">
+                                    <h3 className="lg:text-4xl text-2xl font-bold uppercase">Chinese American International School</h3>
+                                    <p className="lg:text-2xl text-xl font-thin">This was one of the first schools for Mode to Code!</p>
+                                </div>
+                        </div></a>
+
+                        <div className="relative hover:cursor-pointer flex flex-col justify-between rounded-2xl overflow-hidden h-full text-white">
+                            <img src="/liveoaklogo.jpg" alt="" className="imgeffect"/>
+                                <div className="absolute py-12 inset-0 flex flex-col justify-between p-8 bg-gradient-to-t from-black/60 to-transparent">
+                                    <h3 className="lg:text-4xl text-2xl font-bold uppercase">Live Oak School</h3>
+                                    <p className="lg:text-2xl text-xl font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti perspiciatis ipsa ullam necessitatibus illo laudantium harum, odit sapiente?</p>
+                                </div>
                         </div>
-                        <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
-                            <img src="/teachingimg18.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+
+                        <div className="relative hover:cursor-pointer flex flex-col justify-between rounded-2xl overflow-hidden h-fit text-white">
+                            <img src="/rhodagoldmanlogo.jpg" alt="" className="imgeffect"/>
+
+                                <div className="absolute py-12 inset-0 flex flex-col justify-between p-8 bg-gradient-to-t from-black/60 to-transparent">
+                                    <h3 className="lg:text-4xl text-2xl font-bold uppercase">Rhoda Goldman Plaza</h3>
+                                    <p className="lg:text-2xl text-xl font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti perspiciatis ipsa ullam necessitatibus illo laudantium harum, odit sapiente?</p>
+                                </div>
+                        </div>
+
+                        <div className="relative hover:cursor-pointer flex flex-col justify-between rounded-2xl overflow-hidden h-full text-white">
+                            <img src="/liveoaklogo.jpg" alt="" className="imgeffect"/>
+                                <div className="absolute py-12 inset-0 flex flex-col justify-between p-8 bg-gradient-to-t from-black/60 to-transparent">
+                                    <h3 className="lg:text-4xl text-2xl font-bold uppercase">Live Oak School</h3>
+                                    <p className="lg:text-2xl text-xl font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti perspiciatis ipsa ullam necessitatibus illo laudantium harum, odit sapiente?</p>
+                                </div>
                         </div>
                     </div>
 
 
-                    <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
-                        <img src="/horizontalmtclogo.jpg" alt=""
-                            className="animateright w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
-                        <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
-                            <h2 className="text-4xl font-bold uppercase  pb-2 ">FInd us on social media</h2>
-                            <hr className="w-full border-4" />
-                            <p className="py-12 text-2xl font-light">Check out our social media and stay updated with what we&apos;re up to!</p>
-                            <Socialmedia />
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div >
