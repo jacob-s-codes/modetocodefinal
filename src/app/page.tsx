@@ -93,13 +93,13 @@ export default function Home() {
               </Link>
             </div>
             <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
-              <img src="/teachingimg7.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+              <img src="/teachingimg8.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
             </div>
           </div>
 
 
           <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
-            <img src="/teachingimg16.jpg" alt=""
+            <img src="/teachingimg25.jpg" alt=""
               className="animateright w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
             <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
               <h3 className="font-light text-blue-900">BUILDING COMMUNITY</h3>

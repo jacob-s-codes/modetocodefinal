@@ -73,9 +73,9 @@ body {
 }
 
 .meettheteambg {
-  background-image: url("/teachingimg16.jpg");
+  background-image: url("/teachingimg26.jpg");
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-color: rgb(181, 179, 179);
   background-blend-mode: multiply;
@@ -87,6 +87,17 @@ body {
   background-image: url("/teachingimg19.jpg");
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgb(181, 179, 179);
+  background-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
+
+.aboutusbg {
+  background-image: url("/teachingimg9.jpg");
+  background-size: cover;
+  background-position: top center;
   background-repeat: no-repeat;
   background-color: rgb(181, 179, 179);
   background-blend-mode: multiply;

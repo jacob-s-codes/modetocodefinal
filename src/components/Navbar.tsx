@@ -65,7 +65,7 @@ const Navbar = () => {
                     <div className="hidden flex-row justify-between lg:gap-x-36 gap-x-12 sm:flex">
                         <li className="hoverable hover:bg-darkbg hover:text-white">
                             <div className='flex flex-row items-center group'>
-                                <Link href="#" className="relative block py-6 pr-2 uppercase hover:text-white">ABOUT</Link>
+                                <Link href="/about" className="relative block py-6 pr-2 uppercase hover:text-white">ABOUT</Link>
                                 <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" className="bi bi-caret-down w-6 h-auto rotate-180 group-hover:rotate-[-1deg] duration-500" viewBox="0 0 16 16">
                                     <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659" />
                                 </svg>
