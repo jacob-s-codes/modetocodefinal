@@ -46,7 +46,7 @@ const Navbar = () => {
                         className={`absolute top-full right-0 w-3/4 sm:w-1/2 h-screen bg-darkbg text-white shadow-2xl transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible translate-x-0' : 'opacity-0 invisible translate-x-full'}`}
                     >
                         <div className="p-4 flex flex-col gap-2">
-                            <Link href="./about.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">ABOUT</Link>
+                            <Link href="/about" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">ABOUT</Link>
                             <Link href="./theteam.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MEET THE TEAM</Link>
                             <Link href="./casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">CASE STUDIES</Link>
                             <div className="h-px bg-gray-700 my-2"></div>
@@ -65,10 +65,8 @@ const Navbar = () => {
                     <div className="hidden flex-row justify-between lg:gap-x-36 gap-x-12 sm:flex">
                         <li className="hoverable hover:bg-darkbg hover:text-white">
                             <div className='flex flex-row items-center group'>
-                                <Link href="/about" className="relative block py-6 pr-2 uppercase hover:text-white">ABOUT</Link>
-                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" className="bi bi-caret-down w-6 h-auto rotate-180 group-hover:rotate-[-1deg] duration-500" viewBox="0 0 16 16">
-                                    <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659" />
-                                </svg>
+                                <Link href="/about" className="relative block py-6 pr-2 uppercase hover:text-blue-300">ABOUT</Link>
+                                
                             </div>
                             <div className="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg">
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
@@ -109,10 +107,8 @@ const Navbar = () => {
 
                         <li className="hoverable hover:bg-darkbg hover:text-white">
                         <div className='flex flex-row items-center group '>
-                                <Link href="#" className="relative block py-6 pr-2 uppercase hover:text-white">LEARN</Link>
-                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" className="bi bi-caret-down w-6 h-auto rotate-180 group-hover:rotate-[-1deg] duration-500" viewBox="0 0 16 16">
-                                    <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659" />
-                                </svg>
+                                <Link href="/learn" className="relative block py-6 pr-2 uppercase hover:text-blue-300">LEARN</Link>
+                                
                             </div>
                             <div className="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg ">
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
@@ -159,7 +155,7 @@ const Navbar = () => {
 
                         </li>
 
-                        <Link href="/contact" className="hover:underline mr-8 relative block py-6 px-4 lg:p-6 uppercase hover:text-white">
+                        <Link href="/contact" className="mr-8 relative block py-6 px-4 lg:p-6 uppercase hover:text-blue-300">
                             <li>CONTACT</li>
                         </Link>
                     </div>
