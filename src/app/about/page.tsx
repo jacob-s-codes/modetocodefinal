@@ -1,8 +1,5 @@
 "use client";
 
-import Socialmedia from "@/components/Socialmedia";
-import Link from "next/link";
-
 
 
 const page = () => {
