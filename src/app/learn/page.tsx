@@ -17,7 +17,7 @@ const page = () => {
                             <h2 className="text-4xl font-bold uppercase pt-2 ">HANDCRAFTED ROADMAPS THAT YOU CAN USE TO START</h2>
                             <hr className="w-full border-4" />
                             <p className="pt-12 text-xl font-light">Learning to Code can feel overwhelming. Not knowing where to
-                                start can be a problem. I've handcrafted roadmaps that utilize <span className="font-bold">100%
+                                start can be a problem. I&apos;ve handcrafted roadmaps that utilize <span className="font-bold">100%
                                     free, high quality resources</span> that you can use to start learning.</p>
                         </div>
                         <img src="/roadmapimg.jpg" alt="" className=" w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg" />
