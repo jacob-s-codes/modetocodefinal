@@ -122,7 +122,7 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Learn AI</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <Learnmorebtn />
+                                            <Link href="/learnai"><Learnmorebtn /></Link>
                                         </ul>
                                         <ul className="w-full mt-2 pb-6 pt-6 border-2 hover:bg-darkbg2 border-white px-2 rounded-lg">
                                             <div className="flex items-center">
