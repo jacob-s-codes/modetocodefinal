@@ -47,13 +47,13 @@ const Navbar = () => {
                     >
                         <div className="p-4 flex flex-col gap-2">
                             <Link href="/about" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">ABOUT</Link>
-                            <Link href="./theteam.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MEET THE TEAM</Link>
-                            <Link href="./casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">CASE STUDIES</Link>
+                            <Link href="/meettheteam" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MEET THE TEAM</Link>
+                            <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">CASE STUDIES</Link>
                             <div className="h-px bg-gray-700 my-2"></div>
-                            <Link href="./learn.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">LEARN</Link>
-                            <Link href="./learnai.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">LEARN AI</Link>
-                            <Link href="./buildwebsites.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">BUILD WEBSITES</Link>
-                            <Link href="./makegames.html" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MAKE GAMES</Link>
+                            <Link href="/learn" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">LEARN</Link>
+                            <Link href="/learnai" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">LEARN AI</Link>
+                            <Link href="/buildwebsites" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">BUILD WEBSITES</Link>
+                            <Link href="/makegames" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MAKE GAMES</Link>
                             <div className="h-px bg-gray-700 my-2"></div>
                             <Link href="/contact" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">CONTACT</Link>
                         </div>
