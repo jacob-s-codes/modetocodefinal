@@ -127,6 +127,17 @@ body {
   width: 100vw;
 }
 
+.buildwebsitesbg {
+  background-image: url("/buildwebsites.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: rgb(181, 179, 179);
+  background-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
+
 .imgeffect {
   height: 100%;
   width: 100%;
