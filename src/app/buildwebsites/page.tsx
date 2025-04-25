@@ -11,9 +11,9 @@ const page = () => {
                 </div>
             </div>
             <div className='w-full'>
-                <CardLeft title={'Step 1: Basics of AI'} description={'Start here on your AI journey! This 3blue1brown video is a great introduction to how AI works using neural networks.'} imageUrl={'/3blue1brow.jpg'} buttonText={'Start Watching Now!'} buttonUrl={'https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&ab_channel=3Blue1Brown'}></CardLeft>
+                <CardLeft title={'Step 1: Learn HTML and CSS'} description={'This websites teaches you all the basics that you need to know about websites and is how I started learning.'} imageUrl={'/Internetingishard.png'} buttonText={'Try it Out!'} buttonUrl={'https://internetingishard.netlify.app/html-and-css/introduction/'}></CardLeft>
 
-                <CardRight title={"Step 2: Harvard\'s AI Course"} description={'Now that you understand the basics of AI, start coding your own projects! This Harvard course is a great place to start. This free course will take you through the basics of AI and machine learning.'} imageUrl={'/harvardimage.jpg'} buttonText={'Try it out!'} buttonUrl={'https://www.edx.org/learn/machine-learning/harvard-university-machine-learning-and-ai-with-python'} ></CardRight>
+                <CardRight title={"Step 2: The Odin Project"} description={'Another completely free resource that allows you to learn the basics of HTML and CSS but also more advanced topics if you\'re interested.'} imageUrl={'/theodinprojectimage.png'} buttonText={'Try it Out!'} buttonUrl={'https://www.theodinproject.com/paths/foundations/courses/foundations#html-foundations'} ></CardRight>
 
                 <CardLeft title={'Step 3: Free Code Camp AI Course'} description={'This almost 4-hour video will help you create your own AI self-driving car. This is a great way to learn how to code AI projects.'} imageUrl={'/fccai.png'} buttonText={'Watch Now!'} buttonUrl={'https://www.youtube.com/watch?v=VgzHT9quo5c'}></CardLeft>
 
