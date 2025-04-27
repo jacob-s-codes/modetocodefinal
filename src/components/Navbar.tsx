@@ -35,11 +35,12 @@ const Navbar = () => {
 
                     {/* Hamburger Icon */}
                     <button
-                        className="flex flex-col justify-center items-center sm:hidden h-12 w-12 mr-8 focus:outline-none"
-                        onClick={toggleMobileMenu}
-                    >
-                        <span className={`block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${isMobileMenuOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
-                    </button>
+    className="flex flex-col justify-center items-center sm:hidden h-12 w-12 mr-8 focus:outline-none"
+    onClick={toggleMobileMenu}
+>
+    <span className={`block h-0.5 w-6 rounded-sm bg-white mb-1.5 transition-all duration-300 ease-out ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : 'translate-y-0'}`}></span>
+    <span className={`block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${isMobileMenuOpen ? '-rotate-45' : 'translate-y-0'}`}></span>
+</button>
 
                     {/* Dropdown for Mobile Menu */}
                     <div
