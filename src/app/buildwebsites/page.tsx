@@ -18,6 +18,8 @@ const page = () => {
                 <CardLeft title={'Step 3: Free Code Camp HTML and CSS'} description={'This website provides fantastic, free resources to help you learn almost anything about coding that you would want, but their web development course specifically is incredibly helpful!'} imageUrl={'/freecodecamplogo.png'} buttonText={'Try it Out!'} buttonUrl={'https://www.freecodecamp.org/'}></CardLeft>
 
                 <CardRight title={"Step 4: Tailwind CSS"} description={'Once you\'ve got the basics of HTML and CSS, you can start customizing and styling your websites to look cool and modern. I used Tailwind CSS to make this website and I highly recommend it! Here\'s a free 4 hour course that will teach you everything you need!'} imageUrl={'/tailwindlogo.webp'} buttonText={'Try it out!'} buttonUrl={'https://www.youtube.com/watch?v=ft30zcMlFao'} ></CardRight>
+
+                <CardLeft title={'Step 5: Host Your Website Online (For Free!)'} description={'Watch this video on how to use github and then watch this short video to learn how to host your video online for free using github!'} imageUrl={'/githublogo.png'} buttonText={'Host now!'} buttonUrl={'https://www.youtube.com/watch?v=OltY8JIaP-4'}></CardLeft>
             </div>
 
         </div>
