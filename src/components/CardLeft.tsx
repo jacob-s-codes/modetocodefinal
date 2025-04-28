@@ -23,7 +23,7 @@ export default function Card({ title, description, imageUrl, buttonText, buttonU
                 <Link href={buttonUrl}
                     target="_blank">
                     <button
-                        className="text-white border-4 md:px-6 px-2 py-1 rounded-lg border-white transition-all ease-linear duration-200 hover:shadow-2xl bg-transparent hover:scale-[105%]">
+                        className="text-white border-2 md:px-6 px-2 py-1 rounded-lg border-white transition-all ease-linear duration-200 hover:shadow-2xl bg-transparent hover:bg-white hover:text-black hover:cursor-pointer ">
                         {buttonText}
                     </button>
                 </Link>
