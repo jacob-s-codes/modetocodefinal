@@ -91,7 +91,7 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Case Studies</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <Link href="/casestudies"><Learnmorebtn /></Link>
+                                            <Link href="/casestudies">Coming soon!</Link>
                                         </ul>
                                     </div>
 
