@@ -22,7 +22,7 @@ export default function Home() {
               <h3 className="uppercase text-blue-900 text-3xl">About us</h3>
               <h2 className="uppercase text-4xl font-bold pb-2">Who we are</h2>
               <hr className="border-4 border-black mb-8" />
-              <p className="text-2xl font-light mb-8">We are a team of dedicated professionals who are passionate about
+              <p className="text-2xl font-light mb-8">We are a team of high school students who are passionate about
                 teaching the
                 next generation valuable technological tools. We believe that the future of the world is in
                 the
