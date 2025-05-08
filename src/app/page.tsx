@@ -24,7 +24,7 @@ export default function Home() {
               <hr className="border-4 border-black mb-8" />
               <p className="text-2xl font-light mb-8">We are a team of high school students who are passionate about
                 teaching the
-                next generation valuable technological tools. We believe that the future of the world is in
+                next generation valuable technological tools they need to succeed. We believe that the future of the world is in
                 the
                 hands of the young people and we are committed to ensuring that they are well equipped to
                 take
