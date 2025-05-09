@@ -28,7 +28,7 @@ export default function Home() {
                 the
                 hands of the young people and we are committed to ensuring that they are well equipped to
                 take
-                on the challenges of the future.</p>
+                on the future technology.</p>
               <Link href="/about" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                 <span
                   className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
