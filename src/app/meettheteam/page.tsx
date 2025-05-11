@@ -4,63 +4,84 @@ import ProfileCard from "@/components/Profilecard";
 const people = [
     {
         image: "/teachingimg1.jpg",
-        name: "Jacob Shaul",
+        name: "Jacob S",
         title: "Founder",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti perspiciatis ipsa ullam necessitatibus illo laudantium harum, odit sapiente?",
     },
     {
         image: "/teachingimg2.jpg",
-        name: "Jane Doe",
+        name: "Rohan S",
         title: "Instructor",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
         image: "/teachingimg2.jpg",
-        name: "Jane Doe",
+        name: "Caroline C",
         title: "Instructor",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
         image: "/teachingimg2.jpg",
-        name: "Jane Doe",
+        name: "Anna B",
         title: "Instructor",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
         image: "/teachingimg2.jpg",
-        name: "Jane Doe",
+        name: "Joey P",
         title: "Instructor",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
         image: "/teachingimg2.jpg",
-        name: "Jane Doe",
+        name: "Aydin K",
         title: "Instructor",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
         image: "/teachingimg2.jpg",
-        name: "Jane Doe",
+        name: "Graham T",
         title: "Instructor",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
         image: "/teachingimg2.jpg",
-        name: "Jane Doe",
+        name: "Ella S",
         title: "Instructor",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
         image: "/teachingimg2.jpg",
-        name: "Jane Doe",
+        name: "Aristu S",
+        title: "Instructor",
+        description:
+            "Passionate about teaching and empowering young minds with tech skills.",
+    },
+    {
+        image: "/teachingimg2.jpg",
+        name: "Rowan C",
+        title: "Instructor",
+        description:
+            "Passionate about teaching and empowering young minds with tech skills.",
+    },
+    {
+        image: "/teachingimg2.jpg",
+        name: "Naveen G",
+        title: "Instructor",
+        description:
+            "Passionate about teaching and empowering young minds with tech skills.",
+    },
+    {
+        image: "/teachingimg2.jpg",
+        name: "Ethan P",
         title: "Instructor",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
