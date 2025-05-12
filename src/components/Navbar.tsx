@@ -97,7 +97,7 @@ const Navbar = () => {
 
                                     {/* Image Section - 50% width */}
                                     <div className="w-full lg:w-1/2 px-4">
-                                        <img src="/teachingimg1.jpg" alt="MTC Logo" className="w-full h-auto object-contain rounded-lg" />
+                                        <img src="/teachingimg29.jpg" alt="MTC Logo" className="w-full h-auto object-contain rounded-lg" />
                                     </div>
                                 </div>
                             </div>
