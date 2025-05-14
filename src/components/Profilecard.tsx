@@ -18,6 +18,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ image, name, title, descripti
         />
       </div>
       <h3 className="text-2xl font-bold pt-4 uppercase">{name}</h3>
+      <hr className="border-1 mb-2"/>
       <h4 className="font-semibold pb-4 uppercase">{title}</h4>
       <p>{description}</p>
     </div>

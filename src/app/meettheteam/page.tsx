@@ -3,11 +3,11 @@ import ProfileCard from "@/components/Profilecard";
 
 const people = [
     {
-        image: "/teachingimg1.jpg",
+        image: "/jacobpic.jpg",
         name: "Jacob S",
         title: "Founder",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti perspiciatis ipsa ullam necessitatibus illo laudantium harum, odit sapiente?",
+            "Jacob founded Mode to Code over the summer of 2024. Jacob enjoys coding, playing drums, and hanging out with his family. You can email him at: jacob@modetocode.com",
     },
     {
         image: "/teachingimg2.jpg",
