@@ -3,6 +3,9 @@ import Socialmedia from './Socialmedia'
 import Link from 'next/link'
 
 const Footer = () => {
+    const time = new Date();
+    let year = time.getFullYear();
+
   return (
     <div>
         <hr className='border-2 border-black'/>
@@ -27,7 +30,7 @@ const Footer = () => {
                     <Socialmedia />
                     <div className="flex flex-row lg:gap-x-8 gap-x-3 text-right">
                         <p className="">Mode to Code, SF, CA</p>
-                        <p>© 2025 Mode to Code</p>
+                        <p>© {year} Mode to Code</p>
                     </div>
                 </div>
             </div>
