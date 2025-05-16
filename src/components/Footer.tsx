@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Footer = () => {
     const time = new Date();
-    let year = time.getFullYear();
+    const year = time.getFullYear();
 
   return (
     <div>
