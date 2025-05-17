@@ -5,9 +5,6 @@ import Link from 'next/link';
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    interface Menu {
-        link: string;
-    }
 
     const [activeMenu, setActiveMenu] = useState<string | undefined>(undefined);
 
