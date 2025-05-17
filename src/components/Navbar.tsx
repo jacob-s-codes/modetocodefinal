@@ -79,7 +79,7 @@ const Navbar = () => {
                         <li 
                             className="hoverable hover:bg-darkbg hover:text-white"
                             onMouseEnter={() => setActiveMenu('about')}
-                            onMouseLeave={() => setActiveMenu(null)}
+                            onMouseLeave={() => setActiveMenu(undefined)}
                         >
                             <div className='flex flex-row items-center group'>
                                 <Link href="/about" className="relative block py-6 pr-2 uppercase hover:text-blue-300">ABOUT</Link>
@@ -125,7 +125,7 @@ const Navbar = () => {
                         <li 
                             className="hoverable hover:bg-darkbg hover:text-white"
                             onMouseEnter={() => setActiveMenu('learn')}
-                            onMouseLeave={() => setActiveMenu(null)}
+                            onMouseLeave={() => setActiveMenu(undefined)}
                         >
                             <div className='flex flex-row items-center group'>
                                 <Link href="/learn" className="relative block py-6 pr-2 uppercase hover:text-blue-300">LEARN</Link>
