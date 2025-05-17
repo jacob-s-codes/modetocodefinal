@@ -82,7 +82,7 @@ const Navbar = () => {
                             onMouseLeave={() => setActiveMenu(undefined)}
                         >
                             <div className='flex flex-row items-center group'>
-                                <Link href="/about" className="relative block py-6 pr-2 uppercase hover:text-blue-300">ABOUT</Link>
+                                <Link href="/about" className="relative block py-6 pr-2 uppercase hover:text-blue-300" onClick={handleMegaMenuLinkClick}>ABOUT</Link>
                             </div>
                             <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg ${activeMenu === 'about' ? 'active-mega-menu' : ''}`}>
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
@@ -126,10 +126,12 @@ const Navbar = () => {
                             className="hoverable hover:bg-darkbg hover:text-white"
                             onMouseEnter={() => setActiveMenu('learn')}
                             onMouseLeave={() => setActiveMenu(undefined)}
+                            
                         >
                             <div className='flex flex-row items-center group'>
-                                <Link href="/learn" className="relative block py-6 pr-2 uppercase hover:text-blue-300">LEARN</Link>
+                                <Link href="/learn" className="relative block py-6 pr-2 uppercase hover:text-blue-300" onClick={handleMegaMenuLinkClick}>LEARN</Link>
                             </div>
+
                             <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg ${activeMenu === 'learn' ? 'active-mega-menu' : ''}`}>
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
                                     {/* Text Section - 50% width */}
