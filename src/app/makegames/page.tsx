@@ -11,13 +11,13 @@ const page = () => {
                 </div>
             </div>
             <div className='w-full'>
-                <CardLeft title={'Step 1: Learn the Basics'} description={'Python is a coding language that is easy to learn and is used by many programmers. I highly recommend starting with Khan Academy, a free, online learning platform.'} imageUrl={'/3blue1brow.jpg'} buttonText={'Start Watching Now!'} buttonUrl={'https://www.khanacademy.org/computing/intro-to-python-fundamentals'}></CardLeft>
+                <CardLeft title={'Step 1: Learn the Basics'} description={'Python is a coding language that is easy to learn and is used by many programmers. I highly recommend starting with Khan Academy, a free, online learning platform.'} imageUrl={'/khanlogo.png'} buttonText={'Try it out!'} buttonUrl={'https://www.khanacademy.org/computing/intro-to-python-fundamentals'}></CardLeft>
 
-                <CardRight title={"Step 2: Harvard\'s AI Course"} description={'Now that you understand the basics of AI, start coding your own projects! This Harvard course is a great place to start. This free course will take you through the basics of AI and machine learning.'} imageUrl={'/harvardimage.jpg'} buttonText={'Try it out!'} buttonUrl={'https://www.edx.org/learn/machine-learning/harvard-university-machine-learning-and-ai-with-python'} ></CardRight>
+                <CardRight title={"Step 2: Bro Code Python Course"} description={'This is an excellent course that will teach you more of the basics while also giving you great projects to work on!'} imageUrl={'/brocodeimg.jpg'} buttonText={'Watch now!'} buttonUrl={'https://youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT&si=SCJsO8HqhKSgQ2iL'} ></CardRight>
 
-                <CardLeft title={'Step 3: Free Code Camp AI Course'} description={'This almost 4-hour video will help you create your own AI self-driving car. This is a great way to learn how to code AI projects.'} imageUrl={'/fccai.png'} buttonText={'Watch Now!'} buttonUrl={'https://www.youtube.com/watch?v=VgzHT9quo5c'}></CardLeft>
+                <CardLeft title={'Step 3: Practice Problems'} description={'Once you feel like you\'ve mastered the basics, try out these free logic problems in python!'} imageUrl={'/codingbat.jpg'} buttonText={'Start practicing!'} buttonUrl={'https://codingbat.com/python'}></CardLeft>
 
-                <CardRight title={"Step 4: Google\'s AI Course"} description={'Check out Google\'s own free AI course, \"AI for Anyone\". This fantastic course is taught by Google\'s AI experts and will teach you the basics of AI.'} imageUrl={'/googleimg.jpeg'} buttonText={'Try it out!'} buttonUrl={'https://www.edx.org/learn/machine-learning/harvard-university-machine-learning-and-ai-with-python'} ></CardRight>
+                <CardRight title={"Step 4: Free Code Camp Pygame"} description={'At this point, you should have the basics down and are ready to make your own games. This excellent tutorial will help you make your own platformer in python!'} imageUrl={'/platformer.png'} buttonText={'Watch now!'} buttonUrl={'https://www.youtube.com/watch?v=6gLeplbqtqg'} ></CardRight>
             </div>
 
         </div>
