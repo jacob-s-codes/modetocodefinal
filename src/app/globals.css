@@ -30,6 +30,10 @@ body {
 }
 
 
+.active-mega-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
 
 /* #hoverable Class Styles */
 .hoverable {
@@ -37,17 +41,10 @@ body {
 }
 
 .hoverable > a:after {
-
   font-size: 10px;
   padding-left: 6px;
   position: relative;
   top: -1px;
-}
-
-.hoverable:hover .mega-menu {
-  opacity:1;
-  visibility:visible;
-  /* z-index: 900; */
 }
 
 .homebg {

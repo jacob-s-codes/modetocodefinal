@@ -5,6 +5,8 @@ import Link from 'next/link';
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+    const [activeMenu, setActiveMenu] = useState(null);
+
     // Effect to prevent body scrolling when mobile menu is open
     useEffect(() => {
         if (isMobileMenuOpen) {
@@ -19,8 +21,18 @@ const Navbar = () => {
         };
     }, [isMobileMenuOpen]);
 
+    useEffect(() => {
+        console.log("Hello");
+    });
+
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+    // Function to handle clicks on mega menu links
+    const handleMegaMenuLinkClick = () => {
+        // Hide the menu by setting activeMenu to null
+        setActiveMenu(null);
     };
 
     return (
@@ -35,41 +47,43 @@ const Navbar = () => {
 
                     {/* Hamburger Icon */}
                     <button
-    className="flex flex-col justify-center items-center sm:hidden h-12 w-12 mr-8 focus:outline-none"
-    onClick={toggleMobileMenu}
->
-    <span className={`block h-0.5 w-6 rounded-sm bg-white mb-1.5 transition-all duration-300 ease-out ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : 'translate-y-0'}`}></span>
-    <span className={`block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${isMobileMenuOpen ? '-rotate-45' : 'translate-y-0'}`}></span>
-</button>
+                        className="flex flex-col justify-center items-center sm:hidden h-12 w-12 mr-8 focus:outline-none"
+                        onClick={toggleMobileMenu}
+                    >
+                        <span className={`block h-0.5 w-6 rounded-sm bg-white mb-1.5 transition-all duration-300 ease-out ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : 'translate-y-0'}`}></span>
+                        <span className={`block h-0.5 w-6 rounded-sm bg-white transition-all duration-300 ease-out ${isMobileMenuOpen ? '-rotate-45' : 'translate-y-0'}`}></span>
+                    </button>
 
                     {/* Dropdown for Mobile Menu */}
                     <div
                         className={`absolute top-full right-0 w-3/4 sm:w-1/2 h-screen bg-darkbg text-white shadow-2xl transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible translate-x-0' : 'opacity-0 invisible translate-x-full'}`}
                     >
                         <div className="p-4 flex flex-col gap-2">
-                            <Link href="/about" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">ABOUT</Link>
-                            <Link href="/meettheteam" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MEET THE TEAM</Link>
-                            <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">CASE STUDIES</Link>
+                            <Link href="/about" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>ABOUT</Link>
+                            {/* <MobileLink name={"ABOUT"} link={'/about'}/> */}
+                            <Link href="/meettheteam" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>MEET THE TEAM</Link>
+                            <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>CASE STUDIES</Link>
                             <div className="h-px bg-gray-700 my-2"></div>
-                            <Link href="/learn" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">LEARN</Link>
-                            <Link href="/learnai" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">LEARN AI</Link>
-                            <Link href="/buildwebsites" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">BUILD WEBSITES</Link>
-                            <Link href="/makegames" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8">MAKE GAMES</Link>
+                            <Link href="/learn" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>LEARN</Link>
+                            <Link href="/learnai" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>LEARN AI</Link>
+                            <Link href="/buildwebsites" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>BUILD WEBSITES</Link>
+                            <Link href="/makegames" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>MAKE GAMES</Link>
                             <div className="h-px bg-gray-700 my-2"></div>
-                            <Link href="/contact" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200">CONTACT</Link>
+                            <Link href="/contact" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>CONTACT</Link>
                         </div>
                     </div>
 
-
-
                     {/* Desktop Navigation */}
                     <div className="hidden flex-row justify-between lg:gap-x-36 gap-x-12 sm:flex">
-                        <li className="hoverable hover:bg-darkbg hover:text-white">
+                        <li 
+                            className="hoverable hover:bg-darkbg hover:text-white"
+                            onMouseEnter={() => setActiveMenu('about')}
+                            onMouseLeave={() => setActiveMenu(null)}
+                        >
                             <div className='flex flex-row items-center group'>
                                 <Link href="/about" className="relative block py-6 pr-2 uppercase hover:text-blue-300">ABOUT</Link>
-                                
                             </div>
-                            <div className="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg">
+                            <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg ${activeMenu === 'about' ? 'active-mega-menu' : ''}`}>
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
                                     {/* Text Section - 50% width */}
                                     <div className="flex flex-col items-center justify-center w-full lg:w-1/2 px-4 ">
@@ -81,7 +95,9 @@ const Navbar = () => {
                                                 <h3 className="addfont-bold text-xl text-white uppercase mb-2">Meet the team</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <Link href="/meettheteam"><Learnmorebtn /></Link>
+                                            <div onClick={handleMegaMenuLinkClick}>
+                                                <Link href="/meettheteam"><Learnmorebtn /></Link>
+                                            </div>
                                         </ul>
                                         <ul className="w-full mt-2 pb-6 pt-6 border border-white px-2 rounded-lg hover:bg-darkbg2">
                                             <div className="flex items-center">
@@ -91,7 +107,9 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Case Studies</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <Link href="/casestudies">Coming soon!</Link>
+                                            <div onClick={handleMegaMenuLinkClick}>
+                                                <Link href="/casestudies">Coming soon!</Link>
+                                            </div>
                                         </ul>
                                     </div>
 
@@ -101,17 +119,17 @@ const Navbar = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </li>
 
-
-
-                        <li className="hoverable hover:bg-darkbg hover:text-white">
-                        <div className='flex flex-row items-center group '>
+                        <li 
+                            className="hoverable hover:bg-darkbg hover:text-white"
+                            onMouseEnter={() => setActiveMenu('learn')}
+                            onMouseLeave={() => setActiveMenu(null)}
+                        >
+                            <div className='flex flex-row items-center group'>
                                 <Link href="/learn" className="relative block py-6 pr-2 uppercase hover:text-blue-300">LEARN</Link>
-                                
                             </div>
-                            <div className="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg ">
+                            <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg ${activeMenu === 'learn' ? 'active-mega-menu' : ''}`}>
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
                                     {/* Text Section - 50% width */}
                                     <div className="flex flex-col items-center justify-center w-full lg:w-1/2 px-4 ">
@@ -123,7 +141,9 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Learn AI</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <Link href="/learnai"><Learnmorebtn /></Link>
+                                            <div onClick={handleMegaMenuLinkClick}>
+                                                <Link href="/learnai"><Learnmorebtn /></Link>
+                                            </div>
                                         </ul>
                                         <ul className="w-full mt-2 pb-6 pt-6 border-2 hover:bg-darkbg2 border-white px-2 rounded-lg">
                                             <div className="flex items-center">
@@ -133,7 +153,9 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Build websites</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <Link href="/buildwebsites"><Learnmorebtn /></Link>
+                                            <div onClick={handleMegaMenuLinkClick}>
+                                                <Link href="/buildwebsites"><Learnmorebtn /></Link>
+                                            </div>
                                         </ul>
                                         <ul className="w-full mt-2 pb-6 pt-6 border-2 border-white hover:bg-darkbg2 px-2 rounded-lg">
                                             <div className="flex items-center">
@@ -143,7 +165,9 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Make videogames</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <Learnmorebtn />
+                                            <div onClick={handleMegaMenuLinkClick}>
+                                                <Link href="/makegames"><Learnmorebtn /></Link>
+                                            </div>
                                         </ul>
                                     </div>
 
@@ -153,7 +177,6 @@ const Navbar = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </li>
 
                         <Link href="/contact" className="mr-8 relative block py-6 px-4 lg:p-6 uppercase hover:text-blue-300">
