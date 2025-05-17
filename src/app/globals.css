@@ -113,6 +113,17 @@ body {
   width: 100vw;
 }
 
+.makegamesbg {
+  background-image: url("/videogamebg.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: rgb(181, 179, 179);
+  background-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
+
 .learnaibg {
   background-image: url("/aibg.jpeg");
   background-size: cover;

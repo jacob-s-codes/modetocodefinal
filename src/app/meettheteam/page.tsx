@@ -67,6 +67,13 @@ const people = [
             "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. Founded my schools Girls Who Code club. I also enjoy math, basketball, and reading.",
     },
     {
+        image: "/ellapic.jpg",
+        name: "Lila R",
+        title: "Social Media Manager",
+        description:
+            "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. Founded my schools Girls Who Code club. I also enjoy math, basketball, and reading.",
+    },
+    {
         image: "/teachingimg2.jpg",
         name: "Aristu S",
         title: "Instructor",
