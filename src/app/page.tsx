@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className="w-full overflow-x-hidden overflow-y-hidden">
-      <div className="h-screen w-full bg-cover bg-center overflow-y-hidden">
+      <div className="h-screen w-full  overflow-y-hidden">
         <div className="h-full flex flex-col justify-center items-center text-white">
           <h1 className="lg:text-9xl text-8xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500 z-20">MODE TO CODE</h1>
           <div>
