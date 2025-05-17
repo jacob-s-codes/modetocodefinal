@@ -93,7 +93,7 @@ const Navbar = () => {
                                                 </svg>
                                                 <h3 className="addfont-bold text-xl text-white uppercase mb-2">Meet the team</h3>
                                             </div>
-                                            <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
+                                            <p className="text-sm text-white">Check out the amazing volunteers, teachers and leaders who help Mode to Code</p>
                                             <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 <Link href="/meettheteam" className='w-fit'><Learnmorebtn /></Link>
                                             </div>
@@ -105,7 +105,7 @@ const Navbar = () => {
                                                 </svg>
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Case Studies</h3>
                                             </div>
-                                            <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
+                                            <p className="text-sm text-white">Learn more about the impact of our various programs in the community</p>
                                             <div onClick={handleMegaMenuLinkClick}>
                                                 {/* <Link href="/casestudies">Coming soon!</Link> */}
                                                 <p className='text-sm mt-4'>Coming soon!</p>
@@ -142,7 +142,7 @@ const Navbar = () => {
                                                 </svg>
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Learn AI</h3>
                                             </div>
-                                            <p className="text-sm text-white">Learn about neural networks, linear algebra, and more!</p>
+                                            <p className="text-sm text-white">Learn about neural networks, linear algebra and more</p>
                                             <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 <Link href="/learnai"><Learnmorebtn /></Link>
                                             </div>
@@ -154,7 +154,7 @@ const Navbar = () => {
                                                 </svg>
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Build websites</h3>
                                             </div>
-                                            <p className="text-sm text-white">Learn how to start building your own websites!</p>
+                                            <p className="text-sm text-white">Learn how to start building your own websites</p>
                                             <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 <Link href="/buildwebsites"><Learnmorebtn /></Link>
                                             </div>
@@ -166,7 +166,7 @@ const Navbar = () => {
                                                 </svg>
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Make videogames</h3>
                                             </div>
-                                            <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
+                                            <p className="text-sm text-white">Learn how to build your own video games from scratch</p>
                                             <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 <Link href="/makegames"><Learnmorebtn /></Link>
                                             </div>

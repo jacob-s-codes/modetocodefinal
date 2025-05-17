@@ -25,13 +25,7 @@ export default function Home() {
               <h3 className="uppercase text-blue-900 text-3xl">About us</h3>
               <h2 className="uppercase text-4xl font-bold pb-2">Who we are</h2>
               <hr className="border-4 border-black mb-8" />
-              <p className="lg:text-2xl text-xl font-light mb-8">We are a team of high school students who are passionate about
-                teaching the
-                next generation valuable technological tools they need to succeed. We believe that the future of the world is in
-                the
-                hands of the young people and we are committed to ensuring that they are well equipped to
-                take
-                on the future technology.</p>
+              <p className="lg:text-2xl text-xl font-light mb-8">We are a team of high school students who are passionate about teaching the next generation valuable technological tools they will need to succeed. We believe the future is in the hands of young people. We are committed to ensuring they are well equipped to find the solutions we need in the future through technology.</p>
               <Link href="/about" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                 <span
                   className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
@@ -87,7 +81,7 @@ export default function Home() {
               <h3 className="uppercase font-light text-blue-900 lg:text-3xl text-2xl">AI, WEB DEVELOPMENT, AND PYTHON</h3>
               <h2 className="uppercase lg:text-4xl text-3xl font-bold pb-2 pt-1">Helpful technology that students can apply to the real world</h2>
               <hr className="border-4 border-black mb-8" />
-              <p className="lg:text-2xl text-xl font-light mb-8">Teaching students valuable technology that they can immediately start using in their everyday lives. Students that take the Intro to Web Development Mode to Code course learn the basics of HTML and CSS. We also dive into TailwindCSS, a popular CSS framework!</p>
+              <p className="lg:text-2xl text-xl font-light mb-8">Teaching students valuable technology which they can start using in their everyday lives. Students take our Intro to Web Development course and learn the basics of HTML and CSS. We also dive into TailwindCSS, a popular CSS framework.</p>
               <Link href="https://docs.google.com/document/d/1Zlth06mrS1nKHkwDvhHZauodJ-R0rReItN2jh66ooIU/edit?tab=t.0#heading=h.6lr3dxwvur1j" target="_blank" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                 <span
                   className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
@@ -112,10 +106,7 @@ export default function Home() {
               <hr className="w-full border-4" />
               <p className="pt-12 lg:text-2xl text-xl font-light">Mode to Code is <span className="font-bold">completely
                 free </span>
-                for students and schools. We are always looking for new schools to partner with and teachers
-                to
-                help us teach our curriculum. If you are interested in having Mode to Code offered at your
-                school, please reach out to us!</p>
+                for schools and students. We are always looking for new school partners and teachers to help bring our curriculum to their students. If you are interested in having Mode to Code offered at your school, please reach out to us!</p>
               <Link href="/contact" className="relative inline-flex px-8 py-4 mt-12 font-medium group w-fit">
                 <span
                   className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
