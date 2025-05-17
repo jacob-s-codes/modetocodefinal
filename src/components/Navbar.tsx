@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="sticky top-0 z-30">
             <div className="text-white w-full bg-darkbg relative overflow-visible">
                 <ul className="max-w-[1800px] mx-auto flex flex-row items-center justify-between lg:text-xl text-lg">
-                    <Link href="/">
+                    <Link href="/" onClick={isMobileMenuOpen ? () => setIsMobileMenuOpen(false) : undefined}>
                         <li className="text-2xl ml-8">
                             <img src="/horizontalmtclogo.jpg" alt="Logo" className="w-36" />
                         </li>

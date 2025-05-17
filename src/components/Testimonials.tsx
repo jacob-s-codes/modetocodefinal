@@ -51,7 +51,7 @@ const Testimonials = () => {
             <img 
               src="/paulettetestimonial.png" 
               alt="Testimonial" 
-              className="rounded-xl sm:w-96 sm:h-96 w-64 h-auto object-cover shadow-2xl shadow-black"
+              className="rounded-xl sm:w-96 sm:h-96 w-96 h-auto object-cover shadow-2xl shadow-black"
             />
           </div>
           
@@ -59,7 +59,7 @@ const Testimonials = () => {
             <img 
               src="/josietestimonial.png" 
               alt="Testimonial" 
-              className="rounded-xl sm:w-96 sm:h-96 w-64 h-auto object-cover shadow-2xl shadow-black"
+              className="rounded-xl sm:w-96 sm:h-96 w-96 h-auto object-cover shadow-2xl shadow-black"
             />
           </div>
           
@@ -67,7 +67,7 @@ const Testimonials = () => {
             <img 
               src="/jessicatestimonial.png" 
               alt="Testimonial" 
-              className="rounded-xl sm:w-96 sm:h-96 w-64 h-auto object-cover shadow-2xl shadow-black"
+              className="rounded-xl sm:w-96 sm:h-96 w-96 h-auto object-cover shadow-2xl shadow-black"
             />
           </div>
           
@@ -75,7 +75,7 @@ const Testimonials = () => {
             <img 
               src="/parenttestimonial.png" 
               alt="Testimonial" 
-              className="rounded-xl sm:w-96 sm:h-96 w-64 h-auto object-cover shadow-2xl shadow-black"
+              className="rounded-xl sm:w-96 sm:h-96 w-96 h-auto object-cover shadow-2xl shadow-black"
             />
           </div>
           
@@ -83,7 +83,7 @@ const Testimonials = () => {
             <img 
               src="/naomitestimonial.png" 
               alt="Testimonial" 
-              className="rounded-xl sm:w-96 sm:h-96 w-64 h-auto object-cover shadow-2xl shadow-black"
+              className="rounded-xl sm:w-96 sm:h-96 w-96 h-auto object-cover shadow-2xl shadow-black"
             />
           </div>
         </div>
@@ -92,7 +92,7 @@ const Testimonials = () => {
       <style jsx>{`
         @media (max-width: 994px) {
           .review-wrp {
-            grid-template-columns: 1fr;
+            grid-template-columns: 2fr;
             column-gap: 4rem;
           }
         }

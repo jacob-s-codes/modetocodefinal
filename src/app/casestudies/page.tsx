@@ -7,15 +7,15 @@ const page = () => {
         <div className="w-full overflow-x-hidden overflow-y-hidden">
             <div className="casestudiesbg h-screen w-full bg-cover bg-center overflow-y-hidden">
                 <div className="h-full flex flex-col justify-center items-center text-white">
-                    <h1 className="text-9xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">CASE STUDIES</h1>
+                    <h1 className="lg:text-9xl text-7xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">CASE STUDIES</h1>
                 </div>
             </div>
             {/* Who we are */}
             <div className="w-full bg-blue-200 pb-32">
                 <div className="py-48 max-w-[1800px] mx-auto px-12">
-                    <h2 className="text-6xl font-bold pb-12">EXPLORE CASE STUDIES</h2>
+                    <h2 className="lg:text-6xl text-5xl font-bold pb-12 text-center">EXPLORE CASE STUDIES</h2>
 
-                    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
                         <Link href="/cais.html"><div className="relative hover:cursor-pointer flex flex-col justify-between rounded-2xl overflow-hidden h-full text-white">
                             <img src="/caislogo.jpg" alt="" className="imgeffect" />
                             <div className="absolute py-12 inset-0 flex flex-col justify-between p-8 bg-gradient-to-t from-black/60 to-transparent">

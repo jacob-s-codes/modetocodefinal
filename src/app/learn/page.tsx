@@ -6,12 +6,12 @@ const page = () => {
         <div className="w-full overflow-x-hidden overflow-y-hidden">
             <div className="learnbg h-screen w-full bg-cover bg-center overflow-y-hidden">
                 <div className="h-full flex flex-col justify-center items-center text-white">
-                    <h1 className="text-9xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">LEARN</h1>
+                    <h1 className="lg:text-9xl text-8xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">LEARN</h1>
                 </div>
             </div>
             <div className="bg-gradient-to-b from-white to-blue-200 pb-24">
                 <div className="py-48 max-w-[1800px] mx-auto px-12">
-                    <div className="flex flex-row items-center justify-between animateup">
+                    <div className="flex lg:flex-row flex-col-reverse items-center justify-between animateup">
                         <div className="text-3xl max-w-2xl ">
                             <h3 className=" text-blue-900">MTC ROADMAPS</h3>
                             <h2 className="text-4xl font-bold uppercase pt-2 ">HANDCRAFTED ROADMAPS THAT YOU CAN USE TO START</h2>
@@ -20,14 +20,14 @@ const page = () => {
                                 start can be a problem. I&apos;ve handcrafted roadmaps that utilize <span className="font-bold">100%
                                     free, high quality resources</span> that you can use to start learning.</p>
                         </div>
-                        <img src="/roadmapimg.jpg" alt="" className=" w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg" />
+                        <img src="/roadmapimg.jpg" alt="" className="lg:mb-0 mb-6 w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg" />
                     </div>
 
                 </div>
 
-                <div className="py-48 max-w-[1800px] mx-auto px-12 animateup">
+                <div className="py-48 max-w-[1800px] mx-auto px-8 animateup">
                     <h2 className="text-5xl font-bold text-center pb-24">3 TRACKS TO CHOOSE:</h2>
-                    <div className="flex flex-row items-start w-full justify-center gap-x-4">
+                    <div className="flex lg:flex-row flex-col items-start w-full justify-center gap-x-4 lg:gap-y-0 gap-y-4">
                         <Link href="/learnai"><div className="relative hover:cursor-pointer flex flex-col justify-between rounded-2xl overflow-hidden h-[600px] text-white">
                             <img src="/aibg.jpeg" alt="" className="imgeffect" />
 

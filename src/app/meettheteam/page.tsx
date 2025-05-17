@@ -96,13 +96,13 @@ const page = () => {
         <div className="w-full overflow-x-hidden overflow-y-hidden">
             <div className="meettheteambg h-screen w-full bg-cover bg-center overflow-y-hidden">
                 <div className="h-full flex flex-col justify-center items-center text-white">
-                    <h1 className="text-9xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">MEET THE TEAM</h1>
+                    <h1 className="lg:text-9xl text-7xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">MEET THE TEAM</h1>
                 </div>
             </div>
             {/* Who we are */}
             <div className="w-full bg-blue-200 pb-32">
-                <div className=" w-full max-w-[1800px] mx-auto px-8 row-auto col-auto gap-y-44 justify-between  pt-32 ">
-                    <h2 className="text-6xl font-bold pb-12">OUR TEAM</h2>
+                <div className=" w-full mx-auto row-auto col-auto gap-y-44 justify-between  pt-32 ">
+                    <h2 className="lg:text-6xl text-5xl font-bold pb-12 text-center">OUR TEAM</h2>
 
                     <div className="w-full">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-10">
