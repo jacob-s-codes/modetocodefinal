@@ -114,7 +114,7 @@ const page = () => {
                     <h2 className="lg:text-6xl text-5xl font-bold pb-12 text-center">OUR TEAM</h2>
 
                     <div className="w-full">
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-10">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-10">
                             {people.map((person, index) => (
                                 <ProfileCard
                                     key={index}
