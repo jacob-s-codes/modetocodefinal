@@ -7,14 +7,14 @@ const people = [
         name: "Jacob S",
         title: "Founder",
         description:
-            "Jacob founded Mode to Code over the summer of 2024. Jacob enjoys coding, playing drums, and hanging out with his family. You can email him at: jacob@modetocode.com",
+            "I founded Mode to Code over the summer of 2024. I enjoy coding, playing drums, and hanging out with my family. You can email me at: jacob@modetocode.com",
     },
     {
         image: "/teachingimg2.jpg",
         name: "Rohan S",
-        title: "Instructor",
+        title: "Instructor and Hackathon Organizer",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "I'm a teacher with Mode to Code, and I’ve loved coding since I was in elementary school. I now like working on small coding projects, usually websites. I also enjoy playing piano and tennis.",
     },
     {
         image: "/teachingimg2.jpg",
