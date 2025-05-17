@@ -10,7 +10,7 @@ const people = [
             "I founded Mode to Code over the summer of 2024. I enjoy coding, playing drums, and hanging out with my family. You can email me at: jacob@modetocode.com",
     },
     {
-        image: "/teachingimg2.jpg",
+        image: "/rohanpic.jpg",
         name: "Rohan S",
         title: "Instructor and Hackathon Organizer",
         description:
