@@ -31,6 +31,13 @@ const people = [
             "I'm a teacher with Mode to Code, and I’ve loved coding since I was in elementary school. I now like working on small coding projects, usually websites. I also enjoy playing piano and tennis.",
     },
     {
+        image: "/rowanpic.jpeg",
+        name: "Rowan C",
+        title: "UHS Hacks Lead Outreach and Code Support Volunteer",
+        description:
+            "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. I’ve seen how empowering it can be to bring an idea to life with code, and I wanted to be part of making that opportunity accessible to everyone. Outside of school, I enjoy biking, exploring nature, and traveling. I also work at a pizza restaurant and have lived in London! You can email me at: Rowan.chandra_26@sfuhs.org",
+    },
+    {
         image: "/teachingimg2.jpg",
         name: "Caroline C",
         title: "Instructor",
@@ -66,13 +73,7 @@ const people = [
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
-    {
-        image: "/rowanpic.jpeg",
-        name: "Rowan C",
-        title: "Hackathon Lead Outreach",
-        description:
-            "Hi, I’m Rowan, a junior at San Francisco University High School. I joined UHS Hacks because I want to help create a space where students from across the Bay Area can come together to learn, build, and collaborate. I’ve seen how empowering it can be to bring an idea to life with code, and I wanted to be part of making that opportunity accessible to everyone. Outside of school, I enjoy biking, exploring nature, and traveling. I also work at a pizza restaurant and have lived in London, which has given me a love for exploring diverse cultures and experiences. You can email me at: Rowan.chandra_26@sfuhs.org",
-    },
+    
     {
         image: "/teachingimg2.jpg",
         name: "Naveen G",
