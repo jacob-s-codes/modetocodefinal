@@ -64,14 +64,14 @@ const people = [
         name: "Ella S",
         title: "Instructor",
         description:
-            "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. Founded my schools Girls Who Code club. I also enjoy math, basketball, and reading.",
+            "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. I founded my schools Girls Who Code club and also enjoy math, basketball, and reading.",
     },
     {
-        image: "/ellapic.jpg",
+        image: "/lilaimg.jpeg",
         name: "Lila R",
         title: "Social Media Manager",
         description:
-            "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. Founded my schools Girls Who Code club. I also enjoy math, basketball, and reading.",
+            "Hi! I help out with Mode to Code’s social media. In my free time, you can find me writing, learning about psychology, or listening to music.",
     },
     {
         image: "/teachingimg2.jpg",
