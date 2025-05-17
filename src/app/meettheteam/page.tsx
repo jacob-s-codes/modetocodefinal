@@ -71,7 +71,7 @@ const people = [
         name: "Lila R",
         title: "Social Media Manager",
         description:
-            "Hi! I help out with Mode to Code’s social media. In my free time, you can find me writing, learning about psychology, or listening to music.",
+            "Hi! I help out with Mode to Code’s social media. In my free time, you can find me writing, learning about psychology, or listening to music. You can email me at: lilajaderaj@gmail.com",
     },
     {
         image: "/teachingimg2.jpg",
