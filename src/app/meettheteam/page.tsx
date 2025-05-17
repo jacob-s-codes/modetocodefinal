@@ -7,7 +7,7 @@ const people = [
         name: "Jacob S",
         title: "Founder",
         description:
-            "I founded Mode to Code over the summer of 2024. I enjoy coding, playing drums, and hanging out with my family. You can email me at: jacob@modetocode.com",
+            "I founded Mode to Code over the summer of 2024, and am passionate about teaching technology. I enjoy coding, playing drums, and hanging out with my family. You can email me at: jacob@modetocode.com",
     },
     {
         image: "/rohanpic.jpg",
@@ -40,23 +40,23 @@ const people = [
     {
         image: "/teachingimg2.jpg",
         name: "Aydin K",
-        title: "Instructor",
+        title: "Assisted Living Program Co-Lead",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
         image: "/teachingimg2.jpg",
         name: "Graham T",
-        title: "Instructor",
+        title: "Assisted Living Program Co-Lead",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
-        image: "/teachingimg2.jpg",
+        image: "/ellapic.jpg",
         name: "Ella S",
         title: "Instructor",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. Founded my schools Girls Who Code club. I also enjoy math, basketball, and reading.",
     },
     {
         image: "/teachingimg2.jpg",
@@ -68,7 +68,7 @@ const people = [
     {
         image: "/teachingimg2.jpg",
         name: "Rowan C",
-        title: "Instructor",
+        title: "Hackathon Lead Outreach",
         description:
             "Passionate about teaching and empowering young minds with tech skills.",
     },
