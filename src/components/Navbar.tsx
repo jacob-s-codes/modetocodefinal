@@ -60,7 +60,8 @@ const Navbar = () => {
                             <Link href="/about" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>ABOUT</Link>
                             {/* <MobileLink name={"ABOUT"} link={'/about'}/> */}
                             <Link href="/meettheteam" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>MEET THE TEAM</Link>
-                            <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>CASE STUDIES</Link>
+                            {/* <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>CASE STUDIES - COMING SOON</Link> */}
+                            <p className="block px-4 py-3  rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>CASE STUDIES - COMING SOON</p>
                             <div className="h-px bg-gray-700 my-2"></div>
                             <Link href="/learn" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>LEARN</Link>
                             <Link href="/learnai" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>LEARN AI</Link>
@@ -85,7 +86,7 @@ const Navbar = () => {
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
                                     {/* Text Section - 50% width */}
                                     <div className="flex flex-col items-center justify-center w-full lg:w-1/2 px-4 ">
-                                        <ul className="w-full  pb-6 pt-6 border-2 border-white px-2 rounded-lg hover:bg-darkbg2">
+                                        <ul className="w-full  pb-6 pt-6 border-2 border-white px-2 rounded-lg ">
                                             <div className="flex items-center">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-file-person-fill h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
                                                     <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11" />
@@ -93,11 +94,11 @@ const Navbar = () => {
                                                 <h3 className="addfont-bold text-xl text-white uppercase mb-2">Meet the team</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <div onClick={handleMegaMenuLinkClick}>
-                                                <Link href="/meettheteam"><Learnmorebtn /></Link>
+                                            <div onClick={handleMegaMenuLinkClick} className='w-fit'>
+                                                <Link href="/meettheteam" className='w-fit'><Learnmorebtn /></Link>
                                             </div>
                                         </ul>
-                                        <ul className="w-full mt-2 pb-6 pt-6 border border-white px-2 rounded-lg hover:bg-darkbg2">
+                                        <ul className="w-full mt-2 pb-6 pt-6 border border-white px-2 rounded-lg ">
                                             <div className="flex items-center">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-file-person-fill h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
                                                     <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11" />
@@ -106,7 +107,8 @@ const Navbar = () => {
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
                                             <div onClick={handleMegaMenuLinkClick}>
-                                                <Link href="/casestudies">Coming soon!</Link>
+                                                {/* <Link href="/casestudies">Coming soon!</Link> */}
+                                                <p className='text-sm mt-4'>Coming soon!</p>
                                             </div>
                                         </ul>
                                     </div>
@@ -133,31 +135,31 @@ const Navbar = () => {
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
                                     {/* Text Section - 50% width */}
                                     <div className="flex flex-col items-center justify-center w-full lg:w-1/2 px-4 ">
-                                        <ul className="w-full  pb-6 pt-6 border-2 hover:bg-darkbg2 border-white px-2 rounded-lg">
+                                        <ul className="w-full  pb-6 pt-6 border-2  border-white px-2 rounded-lg">
                                             <div className="flex items-center">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-book h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
                                                     <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
                                                 </svg>
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Learn AI</h3>
                                             </div>
-                                            <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <div onClick={handleMegaMenuLinkClick}>
+                                            <p className="text-sm text-white">Learn about neural networks, linear algebra, and more!</p>
+                                            <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 <Link href="/learnai"><Learnmorebtn /></Link>
                                             </div>
                                         </ul>
-                                        <ul className="w-full mt-2 pb-6 pt-6 border-2 hover:bg-darkbg2 border-white px-2 rounded-lg">
+                                        <ul className="w-full mt-2 pb-6 pt-6 border-2  border-white px-2 rounded-lg">
                                             <div className="flex items-center">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-book h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
                                                     <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
                                                 </svg>
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Build websites</h3>
                                             </div>
-                                            <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <div onClick={handleMegaMenuLinkClick}>
+                                            <p className="text-sm text-white">Learn how to start building your own websites!</p>
+                                            <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 <Link href="/buildwebsites"><Learnmorebtn /></Link>
                                             </div>
                                         </ul>
-                                        <ul className="w-full mt-2 pb-6 pt-6 border-2 border-white hover:bg-darkbg2 px-2 rounded-lg">
+                                        <ul className="w-full mt-2 pb-6 pt-6 border-2 border-white px-2 rounded-lg">
                                             <div className="flex items-center">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-book h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
                                                     <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
@@ -165,7 +167,7 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Make videogames</h3>
                                             </div>
                                             <p className="text-sm text-white">Check out the amazing volunteers, teachers, and leaders that help Mode to Code!</p>
-                                            <div onClick={handleMegaMenuLinkClick}>
+                                            <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 <Link href="/makegames"><Learnmorebtn /></Link>
                                             </div>
                                         </ul>
