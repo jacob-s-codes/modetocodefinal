@@ -5,7 +5,11 @@ import Link from 'next/link';
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    const [activeMenu, setActiveMenu] = useState(null);
+    interface Menu {
+        link: string;
+    }
+
+    const [activeMenu, setActiveMenu] = useState<string | undefined>(undefined);
 
     // Effect to prevent body scrolling when mobile menu is open
     useEffect(() => {
@@ -32,7 +36,7 @@ const Navbar = () => {
     // Function to handle clicks on mega menu links
     const handleMegaMenuLinkClick = () => {
         // Hide the menu by setting activeMenu to null
-        setActiveMenu(null);
+        setActiveMenu(undefined);
     };
 
     return (
