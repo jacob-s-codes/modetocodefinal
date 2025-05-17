@@ -22,9 +22,6 @@ const Navbar = () => {
         };
     }, [isMobileMenuOpen]);
 
-    useEffect(() => {
-        console.log("Hello");
-    });
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
