@@ -49,7 +49,7 @@ const people = [
         name: "Anna B",
         title: "Instructor",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "Hi! I’m Anna, an instructor with Mode to Code. I help teach various classes to people of all ages. I enjoy coding in Python, Swift and HTML. I also love to play basketball and crochet.",
     },
     {
         image: "/teachingimg2.jpg",
