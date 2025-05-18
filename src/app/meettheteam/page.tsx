@@ -3,7 +3,7 @@ import ProfileCard from "@/components/Profilecard";
 
 const people = [
     {
-        image: "/jacobcheck2.jpg",
+        image: "/jacobpic.png",
         name: "Jacob S",
         title: "Founder",
         description:
@@ -24,18 +24,18 @@ const people = [
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
-        image: "/rohanpic.jpg",
+        image: "/rohanpic.png",
         name: "Rohan S",
         title: "Instructor and Head Code Support Volunteer for UHS Hacks",
         description:
             "I'm a teacher with Mode to Code, and I’ve loved coding since I was in elementary school. I now like working on small coding projects, usually websites. I also enjoy playing piano and tennis.",
     },
     {
-        image: "/rowanpic.jpeg",
+        image: "/rowanpic.png",
         name: "Rowan C",
         title: "UHS Hacks Lead Outreach and Code Support Volunteer",
         description:
-            "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. I’ve seen how empowering it can be to bring an idea to life with code, and I wanted to be part of making that opportunity accessible to everyone. Outside of school, I enjoy biking, exploring nature, and traveling. I also work at a pizza restaurant and have lived in London! You can email me at: Rowan.chandra_26@sfuhs.org",
+            "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
     },
     {
         image: "/teachingimg2.jpg",
@@ -67,7 +67,7 @@ const people = [
             "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. I founded my schools Girls Who Code club and also enjoy math, basketball, and reading.",
     },
     {
-        image: "/lilaimg.jpeg",
+        image: "/lilapic.png",
         name: "Lila R",
         title: "Social Media Manager",
         description:
@@ -82,11 +82,11 @@ const people = [
     },
     
     {
-        image: "/teachingimg2.jpg",
+        image: "/naveenpic.png",
         name: "Naveen G",
         title: "Instructor",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "Excited to help out with UHS Hacks. Currently a software developer at Branded NIL and founder of locatemeals.com. I like to make crypto and AI related projects and play basketball.",
     },
     {
         image: "/teachingimg2.jpg",
