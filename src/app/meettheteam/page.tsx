@@ -3,7 +3,7 @@ import ProfileCard from "@/components/Profilecard";
 
 const people = [
     {
-        image: "/jacobpic.jpg",
+        image: "/jacobcheck2.jpg",
         name: "Jacob S",
         title: "Founder",
         description:
