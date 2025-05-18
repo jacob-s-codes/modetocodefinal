@@ -84,7 +84,7 @@ const people = [
     {
         image: "/naveenpic.png",
         name: "Naveen G",
-        title: "Instructor",
+        title: "UHS Hacks Organizer and Code Support Volunteer",
         description:
             "Excited to help out with UHS Hacks. Currently a software developer at Branded NIL and founder of locatemeals.com. I like to make crypto and AI related projects and play basketball.",
     },
