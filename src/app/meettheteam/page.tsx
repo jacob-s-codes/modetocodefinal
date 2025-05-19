@@ -10,7 +10,7 @@ const people = [
             "I founded Mode to Code over the summer of 2024, and am passionate about teaching technology. I enjoy coding, playing drums, and hanging out with my family. You can email me at: jacob@modetocode.com",
     },
     {
-        image: "/teachingimg2.jpg",
+        image: "/aydinpic.jpg",
         name: "Aydin K",
         title: "Assisted Living Program Co-Lead",
         description:
