@@ -8,11 +8,11 @@ export default function Home() {
 
   return (
     <div className="w-full overflow-x-hidden overflow-y-hidden">
-      <div className="h-screen w-full  overflow-y-hidden">
+      <div className="h-screen w-full homebg overflow-y-hidden">
         <div className="h-full flex flex-col justify-center items-center text-white">
           <h1 className="lg:text-9xl text-8xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500 z-20">MODE TO CODE</h1>
-          <div>
-            <video src="/bgvideo.mp4" autoPlay muted loop playsInline className='absolute top-0 left-0 w-full h-full object-cover z-10'></video>
+          <div className='invisible lg:visible'>
+            <video src="/bgvideo.mp4" autoPlay muted loop playsInline className='absolute top-0 left-0 w-full h-full object-cover z-10 '></video>
           </div>
         </div>
       </div>
