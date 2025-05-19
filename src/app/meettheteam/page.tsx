@@ -62,7 +62,7 @@ const people = [
     {
         image: "/ellapic.jpg",
         name: "Ella S",
-        title: "Instructor",
+        title: "Instructor and High School Outreach for UHS Hacks",
         description:
             "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. I founded my schools Girls Who Code club and also enjoy math, basketball, and reading.",
     },
