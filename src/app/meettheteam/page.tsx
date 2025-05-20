@@ -52,11 +52,11 @@ const people = [
             "Hi! I’m Anna, an instructor with Mode to Code. I help teach various classes to people of all ages. I enjoy coding in Python, Swift and HTML. I also love to play basketball and crochet.",
     },
     {
-        image: "/teachingimg2.jpg",
+        image: "/joeypic.jpg",
         name: "Joey P",
         title: "Instructor",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "I taught with Jacob at the Noe Branch public library over the course of a few weeks where we taught a group of middle schoolers how to design in html. Outside of school I like to play badminton, chess, and hang out with friends :)",
     },
     
     {
@@ -74,7 +74,7 @@ const people = [
             "Hi! I help out with Mode to Code’s social media. In my free time, you can find me writing, learning about psychology, or listening to music. You can email me at: lilajaderaj@gmail.com",
     },
     {
-        image: "/teachingimg2.jpg",
+        image: "/aristupic.png",
         name: "Aristu S",
         title: "Instructor",
         description:
