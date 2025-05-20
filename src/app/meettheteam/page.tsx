@@ -14,7 +14,7 @@ const people = [
         name: "Aydin K",
         title: "Assisted Living Program Co-Lead",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "Hi! I'm Aydin, a co-leader of the Assisted Living Program for Mode to Code. My goal is to create a space where we can bridge the digital divide gap between the youth and the elderly. Outside of school and teaching, I love volunteering, playing soccer, and hanging out with friends.",
     },
     {
         image: "/teachingimg2.jpg",
