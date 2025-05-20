@@ -89,11 +89,11 @@ const people = [
             "Excited to help out with UHS Hacks. Currently a software developer at Branded NIL and founder of locatemeals.com. I like to make crypto and AI related projects and play basketball.",
     },
     {
-        image: "/teachingimg2.jpg",
+        image: "/ethanpic.png",
         name: "Ethan P",
-        title: "Instructor",
+        title: "UHS Hacks Code Support Volunteer and Organizer",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "Hi, I'm Ethan. I like all types of programming, including competitive programming, web, app, and game development, and math and physics visualizations. Regarding UHS Hacks, I've created the problems and solving interface for the midday competitive programming activity. You can view my projects at: https://github.com/grassEqualsBugs",
     },
     // Add more people as needed
 ];
