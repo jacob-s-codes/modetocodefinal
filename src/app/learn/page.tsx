@@ -12,7 +12,7 @@ const page = () => {
             <div className="bg-gradient-to-b from-white to-blue-200 pb-24">
                 <div className="py-48 max-w-[1800px] mx-auto px-12">
                     <div className="flex lg:flex-row flex-col-reverse items-center justify-between animateup">
-                        <div className="text-3xl max-w-2xl ">
+                        <div className="text-3xl max-w-2xl mr-8">
                             <h3 className=" text-blue-900">MTC ROADMAPS</h3>
                             <h2 className="text-4xl font-bold uppercase pt-2 ">HANDCRAFTED ROADMAPS THAT YOU CAN USE TO START</h2>
                             <hr className="w-full border-4" />
