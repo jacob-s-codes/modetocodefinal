@@ -17,11 +17,11 @@ const people = [
             "Hi! I'm Aydin, a co-leader of the Assisted Living Program for Mode to Code. My goal is to create a space where we can bridge the digital divide gap between the youth and the elderly. Outside of school and teaching, I love volunteering, playing soccer, and hanging out with friends.",
     },
     {
-        image: "/teachingimg2.jpg",
+        image: "/grahampic.jpg",
         name: "Graham T",
         title: "Assisted Living Program Co-Lead",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "Hi, my name is Graham. I joined Mode to Code because I noticed a disconnect between younger generations and their grandparents. Through the assisted living program, I hope to help bridge that gap. Outside of Mode to Code, I enjoy playing sports, reading, and spending time with my friends and family.",
     },
     {
         image: "/rohanpic.png",
@@ -45,7 +45,7 @@ const people = [
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
-        image: "/teachingimg2.jpg",
+        image: "/annapic.png",
         name: "Anna B",
         title: "Instructor",
         description:
