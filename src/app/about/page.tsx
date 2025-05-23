@@ -1,6 +1,7 @@
 "use client";
 
 import BasicButton from "@/components/BasicButton";
+import Map from "@/components/TeachingMap";
 
 
 
@@ -30,8 +31,9 @@ const page = () => {
 
 
                     <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
-                        <img src="/mapofworld.jpg" alt=""
-                            className="animateright w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
+                        {/* <img src="/mapofworld.jpg" alt=""
+                            className="animateright w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" /> */}
+                            <Map />
                         <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
                             <h3 className="uppercase text-blue-900 text-3xl">Making an impact</h3>
                             <h2 className="text-4xl font-bold uppercase  pb-2 ">TEACHING 600+ STUDENTS AT 15+ Institutions</h2>
@@ -41,6 +43,9 @@ const page = () => {
                         </div>
 
                     </div>
+
+
+                    
                 </div>
             </div>
         </div >
