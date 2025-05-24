@@ -2,9 +2,9 @@
 const caseStudies = [
     {
       slug: "cais",
-      title: "Teaching at CAIS",
+      title: "Mode to Code at CAIS",
       place: "Chinese American International School, San Francisco",
-      image: "/caislogo.jpg",
+      image: "/teachingimg17.jpg",
       description: "We taught HTML/CSS to local students and created their first websites.",
     },
     {
