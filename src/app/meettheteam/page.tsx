@@ -3,35 +3,35 @@ import ProfileCard from "@/components/Profilecard";
 
 const people = [
     {
-        image: "/jacobpic.png",
+        image: "/people/jacobpic.png",
         name: "Jacob S",
         title: "Founder",
         description:
             "I founded Mode to Code over the summer of 2024, and am passionate about teaching technology. I enjoy coding, playing drums, and hanging out with my family. You can email me at: jacob@modetocode.com",
     },
     {
-        image: "/aydinpic.jpg",
+        image: "/people/aydinpic.jpg",
         name: "Aydin K",
         title: "Assisted Living Program Co-Lead",
         description:
             "Hi! I'm Aydin, a co-leader of the Assisted Living Program for Mode to Code. My goal is to create a space where we can bridge the digital divide gap between the youth and the elderly. Outside of school and teaching, I love volunteering, playing soccer, and hanging out with friends.",
     },
     {
-        image: "/grahampic.jpg",
+        image: "/people/grahampic.jpg",
         name: "Graham T",
         title: "Assisted Living Program Co-Lead",
         description:
             "Hi, my name is Graham. I joined Mode to Code because I noticed a disconnect between younger generations and their grandparents. Through the assisted living program, I hope to help bridge that gap. Outside of Mode to Code, I enjoy playing sports, reading, and spending time with my friends and family.",
     },
     {
-        image: "/rohanpic.png",
+        image: "/people/rohanpic.png",
         name: "Rohan S",
         title: "Instructor and Head Code Support Volunteer for UHS Hacks",
         description:
             "I'm a teacher with Mode to Code, and I’ve loved coding since I was in elementary school. I now like working on small coding projects, usually websites. I also enjoy playing piano and tennis.",
     },
     {
-        image: "/rowanpic.png",
+        image: "/people/rowanpic.png",
         name: "Rowan C",
         title: "UHS Hacks Lead Outreach and Code Support Volunteer",
         description:
@@ -45,14 +45,14 @@ const people = [
             "Passionate about teaching and empowering young minds with tech skills.",
     },
     {
-        image: "/annapic.png",
+        image: "/people/annapic.png",
         name: "Anna B",
         title: "Instructor",
         description:
             "Hi! I’m Anna, an instructor with Mode to Code. I help teach various classes to people of all ages. I enjoy coding in Python, Swift and HTML. I also love to play basketball and crochet.",
     },
     {
-        image: "/joeypic.jpg",
+        image: "/people/joeypic.jpg",
         name: "Joey P",
         title: "Instructor",
         description:
@@ -60,21 +60,21 @@ const people = [
     },
     
     {
-        image: "/ellapic.jpg",
+        image: "/people/ellapic.jpg",
         name: "Ella S",
         title: "Instructor and High School Outreach for UHS Hacks",
         description:
             "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. I founded my schools Girls Who Code club and also enjoy math, basketball, and reading.",
     },
     {
-        image: "/lilapic.png",
+        image: "/people/lilapic.png",
         name: "Lila R",
         title: "Social Media Manager",
         description:
             "Hi! I help out with Mode to Code’s social media. In my free time, you can find me writing, learning about psychology, or listening to music. You can email me at: lilajaderaj@gmail.com",
     },
     {
-        image: "/aristupic.png",
+        image: "/people/aristupic.png",
         name: "Aristu S",
         title: "Instructor",
         description:
@@ -82,14 +82,14 @@ const people = [
     },
     
     {
-        image: "/naveenpic.png",
+        image: "/people/naveenpic.png",
         name: "Naveen G",
         title: "UHS Hacks Organizer and Code Support Volunteer",
         description:
             "Excited to help out with UHS Hacks. Currently a software developer at Branded NIL and founder of locatemeals.com. I like to make crypto and AI related projects and play basketball.",
     },
     {
-        image: "/ethanpic.png",
+        image: "/people/ethanpic.png",
         name: "Ethan P",
         title: "UHS Hacks Code Support Volunteer and Organizer",
         description:
