@@ -1,6 +1,6 @@
 "use client";
 import Casestudy from "@/components/Casestudy";
-import Link from "next/link";
+// import Link from "next/link";
 
 
 const page = () => {
