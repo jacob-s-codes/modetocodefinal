@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { link } from 'fs';
 
 export default function Casestudy({ place, title, image, description, link }: { place: string, title: string, image: string, description: string, link: string }) {
   return (
