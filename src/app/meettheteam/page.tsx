@@ -38,7 +38,7 @@ const people = [
             "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
     },
     {
-        image: "/teachingimg2.jpg",
+        image: "/horizontalmtclogo.jpg",
         name: "Caroline C",
         title: "Instructor",
         description:
@@ -58,7 +58,13 @@ const people = [
         description:
             "I taught with Jacob at the Noe Branch public library over the course of a few weeks where we taught a group of middle schoolers how to design in html. Outside of school I like to play badminton, chess, and hang out with friends :)",
     },
-    
+    {
+        image: "/horizontalmtclogo.jpg",
+        name: "Lila L",
+        title: "UHS Hacks Code Support and Outreach Volunteer",
+        description:
+            "I taught with Jacob at the Noe Branch public library over the course of a few weeks where we taught a group of middle schoolers how to design in html. Outside of school I like to play badminton, chess, and hang out with friends :)",
+    },
     {
         image: "/people/ellapic.jpg",
         name: "Ella S",
@@ -91,7 +97,7 @@ const people = [
     {
         image: "/people/ethanpic.png",
         name: "Ethan P",
-        title: "UHS Hacks Code Support Volunteer and Organizer",
+        title: "UHS Hacks Coding Competition Lead, Discord Organizer and Code Support Volunteer",
         description:
             "Hi, I'm Ethan. I like all types of programming, including competitive programming, web, app, and game development, and math and physics visualizations. Regarding UHS Hacks, I've created the problems and solving interface for the midday competitive programming activity. You can view my projects at: https://github.com/grassEqualsBugs",
     },
