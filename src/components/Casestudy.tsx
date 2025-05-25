@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Casestudy({ place, title, image, description, link }: { place: string, title: string, image: string, description: string, link: string }) {
   return (
-    <div className='flex flex-col gap-y-6 hover:shadow-2xl px-4 pt-4 pb-8 h-96 hover:shadow-black duration-300 w-80 rounded-lg'>
+    <div className='flex flex-col gap-x-4 lg:gap-y-6 gap-y-12 hover:shadow-2xl px-4 pt-4 pb-8 lg:h-96 hover:shadow-black duration-300 lg:w-80 w-full h-auto rounded-lg'>
       {/* <div className="relative w-full h-48 rounded-lg overflow-hidden">
         <Image
           src={image}

@@ -57,7 +57,7 @@ const CryptoText: React.FC<CryptoTextProps> = ({ text, className }) => {
         clearInterval(interval);
       }
 
-      iterations += 1 / 4;
+      iterations += 1 / 2;
     }, 50);
 
     return () => clearInterval(interval);

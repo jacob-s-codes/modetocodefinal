@@ -66,8 +66,9 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                     <img src={study.image2} className='w-full h-auto rounded-lg' alt={study.title} />
                     <img src={study.image3} className='w-full h-auto rounded-lg ' alt={study.title} />
                 </div>
-                <p className='max-w-4xl text-lg'>{study.descrption2}</p>
+                <p className='max-w-4xl text-lg'>{study.description2}</p>
                 {/* <hr className='max-w-4xl mx-auto my-8' /> */}
+                <h2 className='pt-8 pb-1 uppercase text-3xl font-semibold'>By the numbers:</h2>
                 <div className='flex flex-row items-center justify-between max-w-4xl mx-auto text-4xl text-center text-bold my-8'>
                     <CryptoText text={study.fact1 || "Default Fact"} />
                     <svg width="44" height="100" viewBox="0 0 44 1669" fill="none" xmlns="http://www.w3.org/2000/svg">
