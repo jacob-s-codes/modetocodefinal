@@ -39,7 +39,7 @@ const CryptoText: React.FC<CryptoTextProps> = ({ text, className }) => {
 
     let iterations = 0;
 
-    let interval: NodeJS.Timeout = setInterval(() => {
+    const interval: NodeJS.Timeout = setInterval(() => {
       setDisplayText((prev) =>
         prev
           .split('')
