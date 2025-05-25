@@ -1,11 +1,13 @@
 // app/casestudies/[slug]/page.tsx
+"use client";
 import { notFound } from 'next/navigation';
 import caseStudies from '@/app/data/caseStudies'; // Custom file where you store your data
+import CryptoText from '@/components/CryptoText';
+import Link from 'next/link';
 
 
 export default async function CaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
     const study = await params.then(p => caseStudies.find(cs => cs.slug === p.slug));
-
     if (!study) return notFound();
 
 
@@ -15,7 +17,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
             <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className=''>
 
-                    <h1 className="text-6xl uppercase pb-1">{study.title}</h1>
+                    <h1 className="lg:text-6xl text-4xl uppercase pb-1">{study.title}</h1>
                     <hr className='max-w-4xl mx-auto py-1' />
                     <h2 className="text-xl font-light text-gray-500">{study.place}</h2>
                     <div className='mt-4 flex items-center gap-x-6'>
@@ -61,21 +63,34 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
                 <p className='max-w-4xl text-lg'>{study.description1}</p>
                 <div className='flex lg:flex-row flex-col justify-center items-center my-8 gap-4'>
-                    <img src={study.image2} className='h-96 rounded-lg' alt={study.title} />
-                    <img src={study.image3} className='h-96 rounded-lg ' alt={study.title} />
+                    <img src={study.image2} className='w-full h-auto rounded-lg' alt={study.title} />
+                    <img src={study.image3} className='w-full h-auto rounded-lg ' alt={study.title} />
                 </div>
                 <p className='max-w-4xl text-lg'>{study.descrption2}</p>
-                <hr className='max-w-4xl mx-auto my-8' />
-                <div className='flex flex-row items-center justify-between max-w-4xl mx-auto text-4xl text-center text-bold'>
-                    <h3>4 Classes</h3>
-                    <svg  viewBox="0 0 2 1669" className='h-24 w-auto border border-black' fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 0.5C1 1189.7 1 1608 1 1668.5" stroke="black" />
+                {/* <hr className='max-w-4xl mx-auto my-8' /> */}
+                <div className='flex flex-row items-center justify-between max-w-4xl mx-auto text-4xl text-center text-bold my-8'>
+                    <CryptoText text={study.fact1 || "Default Fact"} />
+                    <svg width="44" height="100" viewBox="0 0 44 1669" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black" stroke-width="20" />
                     </svg>
 
-                    <h3>80 Students</h3>
-                    <h3>4 Hours</h3>
+
+
+
+
+
+                    <CryptoText text={study.fact2 || "Default Fact"} />
+                    <svg width="44" height="100" viewBox="0 0 44 1669" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black" stroke-width="20" />
+                    </svg>
+                    <CryptoText text={study.fact3 || "Default Fact"} />
 
                 </div>
+                <Link href="/casestudies" className='border border-black px-6 py-2 rounded-lg mt-8 hover:bg-darkbg hover:text-white duration-300'>Read more case studies!</Link>
+
+
+
+                {/* <hr className='max-w-4xl mx-auto my-8' /> */}
 
 
             </div>
