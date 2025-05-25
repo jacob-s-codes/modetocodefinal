@@ -17,8 +17,8 @@ const page = () => {
                     <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-x-6 items-center">
                         <Casestudy place="In-Person School" title="Chinese American International School" image="/caislogo.jpg" link="/casestudies/cais" description="One of Mode to Code's very first classes, Chinese American International School was"/>
                         <Casestudy place="Assisted Living Center" title="Rhoda Goldman Plaza" image="/rhodapic.jpg" link="/casestudies/rhodagoldman" description="One of Mode to Code's very first classes, Chinese American International School was"/>
-                        {/* <Casestudy place="Online Class" title="Chinese American International School" image="/bolivialogo.jpg" description="One of Mode to Code's very first classes, Chinese American International School was"/>
-                        <Casestudy place="Partner Company" title="Chinese American International School" image="/breakthrough.png" description="One of Mode to Code's very first classes, Chinese American International School was"/> */}
+                        <Casestudy place="Online Class" title="The American International School of Bolivia" image="/bolivialogo.jpg" link="/casestudies/bolivia" description="One of Mode to Code's very first classes, Chinese American International School was"/>
+                        <Casestudy place="Partner Company" title="Breakthrough SummerBridge" image="/breakthrough.png" link="/casestudies/breakthrough" description="One of Mode to Code's very first classes, Chinese American International School was"/>
                     </div>
 
                     {/* <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
