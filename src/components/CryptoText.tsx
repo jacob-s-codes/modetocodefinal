@@ -1,4 +1,3 @@
-// eslint -disable-next-line @typescript-eslint/no-unused-vars
 import React, { useState, useEffect, useRef } from 'react';
 
 interface CryptoTextProps {
@@ -39,9 +38,8 @@ const CryptoText: React.FC<CryptoTextProps> = ({ text, className }) => {
     if (!hasAnimated) return;
 
     let iterations = 0;
-    let interval: NodeJS.Timeout;
 
-    interval = setInterval(() => {
+    let interval: NodeJS.Timeout = setInterval(() => {
       setDisplayText((prev) =>
         prev
           .split('')
