@@ -69,10 +69,11 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                 <p className='max-w-4xl text-lg'>{study.description2}</p>
                 {/* <hr className='max-w-4xl mx-auto my-8' /> */}
                 <h2 className='pt-8 pb-1 uppercase text-3xl font-semibold'>By the numbers:</h2>
-                <div className='flex flex-row items-center justify-between max-w-4xl mx-auto text-4xl text-center text-bold my-8'>
+                <div className='flex lg:flex-row flex-col items-center lg:justify-between justify-center max-w-4xl mx-auto text-4xl text-center text-bold my-8'>
                     <CryptoText text={study.fact1 || "Default Fact"} />
+                    <hr className='lg:hidden visible w-full my-8'/>
                     <svg width="44" height="100" viewBox="0 0 44 1669" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black" stroke-width="20" />
+                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" className='lg:visible hidden' stroke="black" stroke-width="20" />
                     </svg>
 
 
@@ -82,8 +83,9 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
                     <CryptoText text={study.fact2 || "Default Fact"} />
                     <svg width="44" height="100" viewBox="0 0 44 1669" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black" stroke-width="20" />
+                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black" className='lg:visible hidden' stroke-width="20" />
                     </svg>
+                    <hr className='lg:hidden visible w-full'/>
                     <CryptoText text={study.fact3 || "Default Fact"} />
 
                 </div>
