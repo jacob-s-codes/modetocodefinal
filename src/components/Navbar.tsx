@@ -61,7 +61,7 @@ const Navbar = () => {
                             {/* <MobileLink name={"ABOUT"} link={'/about'}/> */}
                             <Link href="/meettheteam" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>MEET THE TEAM</Link>
                             {/* <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>CASE STUDIES - COMING SOON</Link> */}
-                            <p className="block px-4 py-3  rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>CASE STUDIES - COMING SOON</p>
+                            <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>CASE STUDIES</Link>
                             <div className="h-px bg-gray-700 my-2"></div>
                             <Link href="/learn" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>LEARN</Link>
                             <Link href="/learnai" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>LEARN AI</Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
                                             <p className="text-sm text-white">Learn more about the impact of our various programs in the community</p>
                                             <div onClick={handleMegaMenuLinkClick}>
                                                 {/* <Link href="/casestudies">Coming soon!</Link> */}
-                                                <p className='text-sm mt-4'>Coming soon!</p>
+                                                <Link href="/casestudies" className='w-fit'><Learnmorebtn /></Link>
                                             </div>
                                         </ul>
                                     </div>
