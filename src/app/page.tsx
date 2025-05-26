@@ -1,7 +1,7 @@
 "use client";
 
 
-import TeachingMap from '@/components/TeachingMap';
+// import TeachingMap from '@/components/TeachingMap';
 import Testimonials from '@/components/Testimonials';
 import Link from 'next/link';
 
