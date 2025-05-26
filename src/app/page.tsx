@@ -1,6 +1,7 @@
 "use client";
 
 
+import TeachingMap from '@/components/TeachingMap';
 import Testimonials from '@/components/Testimonials';
 import Link from 'next/link';
 
@@ -44,24 +45,29 @@ export default function Home() {
           <div className="w-full ">
             <div className="text-center w-full">
               <h2 className="font-black uppercase text-5xl">Our modes of teaching</h2>
-              <h3 className="text-2xl max-w-4xl mx-auto pt-2 font-light">Check out all the different ways that Mode to Code is teaching students around the world valuable technological concepts:</h3>
+              <h3 className="text-2xl max-w-4xl mx-auto pt-2 font">Check out all the different ways that Mode to Code is teaching students around the world valuable technological concepts:</h3>
             </div>
-            <div className="flex flex-row items-center  justify-center gap-x-6 gap-y-8 flex-wrap pt-16">
-              <div className="flex flex-col items-center w-md">
+            <div className="flex lg:flex-row flex-col items-center  justify-center gap-x-6 lg:gap-y-8 gap-y-16 pt-8">
+              <div className="flex flex-col items-center w-md h-96">
                 <img src="/teachingimg2.jpg" alt="" className="rounded-xl shadow-2xl shadow-darkbg" />
                 <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">In-person</h3>
                 <p className="text-center text-xl font-light pt-2">In-person classes for students who prefer a more hands-on approach to learning.</p>
               </div>
 
-              <div className="flex flex-col items-center w-md">
-                <img src="/teachingimg13.png" alt="" className="rounded-xl shadow-2xl shadow-darkbg " />
+              {/* <div className="flex flex-col items-center w-md">
+                <img src="/bolivia/boliviateaching3.jpg" alt="" className="rounded-xl shadow-2xl shadow-darkbg " />
                 <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">online</h3>
-                <p className="text-center text-xl font-light pt-2">Online classes for students to help students around the world!</p>
+                <p className="text-center text-xl font-light pt-2">Online classes for students around the world!</p>
+              </div> */}
+              <div className="flex flex-col items-center w-md h-96 lg:pt-0 pt-2">
+                <img src="/bolivia/boliviateaching3.jpg" alt="" className="rounded-xl shadow-2xl shadow-darkbg" />
+                <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">Online Classes</h3>
+                <p className="text-center text-xl font-light pt-2">Helping students learn virtually around the world!</p>
               </div>
 
-              <div className="flex flex-col items-center w-md">
+              <div className="flex flex-col items-center w-md h-96">
                 <img src="/teachingimg22.jpg" alt="" className="rounded-xl shadow-2xl shadow-darkbg" />
-                <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">For seniors</h3>
+                <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">For Assisted Living Residents</h3>
                 <p className="text-center text-xl font-light pt-2">Teaching students of all ages the technology that they need succeed.</p>
               </div>
             </div>
@@ -74,6 +80,14 @@ export default function Home() {
         <div className="w-full pt-44">
           <Testimonials />
         </div>
+
+        {/* <div className='w-full h-[30%] px-24 py-32 bg-blue-200 text-center'>
+          <div className='max-w-4xl mx-auto'>
+            <h2 className="font-black text-5xl uppercase">Check out all the places we&apos;ve taught!</h2>
+            <h3 className='pb-8 text-xl'>Mode to Code is proud to be teaching classes accross the world, from San Francisco to India! You can explore our different locations here:</h3>
+          </div>
+          <TeachingMap />
+        </div> */}
 
         <div className=" w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between  py-32 ">
           <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between">
