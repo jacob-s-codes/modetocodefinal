@@ -83,7 +83,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
                     <CryptoText text={study.fact2 || "Default Fact"} />
                     <svg width="44" height="100" viewBox="0 0 44 1669" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black" className='lg:visible invisible' stroke-width="20" />
+                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black"  stroke-width="20" />
                     </svg>
                     {/* <hr className='lg:invisible visible w-full'/> */}
                     <CryptoText text={study.fact3 || "Default Fact"} />
