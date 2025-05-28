@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from 'react';
 import Learnmorebtn from './Learnmorebtn';
 import Link from 'next/link';
