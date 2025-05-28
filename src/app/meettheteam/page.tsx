@@ -38,11 +38,11 @@ const people = [
             "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
     },
     {
-        image: "/horizontalmtclogo.jpg",
+        image: "/people/carolinepic.jpg",
         name: "Caroline C",
         title: "Instructor",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "Hi! I'm Caroline, an instructor with Mode to Code. I have been passionate about coding since elementary school, and now I lead my high school’s Girls Who Code club. Outside of school, I love to dance and hang out with my dogs!.",
     },
     {
         image: "/people/annapic.png",
