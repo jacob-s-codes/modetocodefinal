@@ -1,6 +1,6 @@
 "use client";
 import BasicButton from "@/components/BasicButton";
-import Map from "@/components/TeachingMap";
+// import Map from "@/components/TeachingMap";
 import dynamic from "next/dynamic";
 
 const TeachingMap = dynamic(() => import('@/components/TeachingMap'), {

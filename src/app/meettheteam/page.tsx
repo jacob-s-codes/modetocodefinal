@@ -38,11 +38,18 @@ const people = [
             "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
     },
     {
+        image: "/people/lilalpic.jpg",
+        name: "Lila L",
+        title: "UHS Hacks Lead Finance and Code Support Volunteer",
+        description:
+            "Hi! I’m helping out with UHS Hacks because I enjoy coding and want to help others learn more. I have experience in Java, Javascript, HTML, and CSS, and have helped develop websites for UCSF. In my free time, I enjoy doing gymnastics, drawing, and baking.",
+    },
+    {
         image: "/people/carolinepic.jpg",
         name: "Caroline C",
         title: "Instructor",
         description:
-            "Hi! I'm Caroline, an instructor with Mode to Code. I have been passionate about coding since elementary school, and now I lead my high school’s Girls Who Code club. Outside of school, I love to dance and hang out with my dogs!.",
+            "Hi! I'm Caroline, an instructor with Mode to Code. I have been passionate about coding since elementary school, and now I lead my high school’s Girls Who Code club. Outside of school, I love to dance and hang out with my dogs!",
     },
     {
         image: "/people/annapic.png",
@@ -58,19 +65,13 @@ const people = [
         description:
             "I taught with Jacob at the Noe Branch public library over the course of a few weeks where we taught a group of middle schoolers how to design in html. Outside of school I like to play badminton, chess, and hang out with friends :)",
     },
-    {
-        image: "/horizontalmtclogo.jpg",
-        name: "Lila L",
-        title: "UHS Hacks Code Support and Outreach Volunteer",
-        description:
-            "I taught with Jacob at the Noe Branch public library over the course of a few weeks where we taught a group of middle schoolers how to design in html. Outside of school I like to play badminton, chess, and hang out with friends :)",
-    },
+    
     {
         image: "/people/ellapic.jpg",
         name: "Ella S",
         title: "Instructor and High School Outreach for UHS Hacks",
         description:
-            "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. I founded my schools Girls Who Code club and also enjoy math, basketball, and reading.",
+            "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. I founded my school's Girls Who Code club and also enjoy math, basketball, and reading.",
     },
     {
         image: "/people/lilapic.png",
