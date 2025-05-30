@@ -1,3 +1,4 @@
+"use client";
 import Testimonials from "@/components/Testimonials";
 import Link from "next/link";
 
