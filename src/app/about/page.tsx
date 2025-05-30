@@ -1,7 +1,7 @@
 // "use client";
 // import dynamic from "next/dynamic";
 // import BasicButton from "@/components/BasicButton";
-import Client from "./client";
+import Client from "./AboutClient";
 // import { Metadata } from "next";
 // import Map from "@/components/TeachingMap";
 
