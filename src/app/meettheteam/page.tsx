@@ -83,9 +83,9 @@ const people = [
     {
         image: "/people/aristupic.png",
         name: "Aristu S",
-        title: "Instructor",
+        title: "UHS Hacks Outreach Volunteer",
         description:
-            "Passionate about teaching and empowering young minds with tech skills.",
+            "Hi, I'm Aristu. I'm passionate about teaching and empowering young minds with tech skills.",
     },
     
     {
