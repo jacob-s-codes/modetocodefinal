@@ -17,14 +17,14 @@ export default function TeachingMap() {
         <MapContainer center={[51.505, 2]} zoom={2} scrollWheelZoom={false} worldCopyJump={false} maxBounds={[
             [-85, -180], // Southwest corner
             [85, 180],   // Northeast corner
-          ]}
-          maxBoundsViscosity={1.0} dragging={true} zoomControl={false} doubleClickZoom={false} keyboard={false} className="w-full rounded-xl z-0" style={{ height: "calc(100vh - 200px)" }}>
+        ]}
+            maxBoundsViscosity={1.0} dragging={true} zoomControl={false} doubleClickZoom={false} keyboard={false} className="w-full rounded-xl z-0" style={{ height: "calc(100vh - 200px)" }}>
             <TileLayer
                 attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-  url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+                url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
             />
             <Marker position={[37.7749, -122.4194]
-} icon={DefaultIcon}>
+            } icon={DefaultIcon}>
                 <Popup>
                     7 middle schools in San Francisco, CA <br /> as well as 6 assisted living facilities!
                 </Popup>
@@ -64,7 +64,13 @@ export default function TeachingMap() {
                     Online classes in Jamaica!
                 </Popup>
             </Marker>
-            
+            <Marker position={[38.9875, -118.5311]} icon={DefaultIcon}>
+                <Popup>
+                    Online classes for students in Marin!
+                </Popup>
+            </Marker>
+
+
         </MapContainer>
     );
 };
