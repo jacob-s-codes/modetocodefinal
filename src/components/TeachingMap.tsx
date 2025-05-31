@@ -54,6 +54,17 @@ export default function TeachingMap() {
                     Online class offered in El Salvador in August!
                 </Popup>
             </Marker>
+            <Marker position={[-22.3285, 24.6849]} icon={DefaultIcon}>
+                <Popup>
+                    Online classes in Botswana!
+                </Popup>
+            </Marker>
+            <Marker position={[18.1096, -77.2975]} icon={DefaultIcon}>
+                <Popup>
+                    Online classes in Jamaica!
+                </Popup>
+            </Marker>
+            
         </MapContainer>
     );
 };
