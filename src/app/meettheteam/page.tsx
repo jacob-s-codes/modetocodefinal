@@ -9,6 +9,7 @@ const people = [
         description:
             "I founded Mode to Code over the summer of 2024, and am passionate about teaching technology. I enjoy coding, playing drums, and hanging out with my family. You can email me at: jacob@modetocode.com",
     },
+    
     {
         image: "/people/aydinpic.jpg",
         name: "Aydin K",
@@ -26,16 +27,9 @@ const people = [
     {
         image: "/people/rohanpic.png",
         name: "Rohan S",
-        title: "Instructor and Head Code Support Volunteer for UHS Hacks",
+        title: "Instructor and Lead Code Support Volunteer for UHS Hacks",
         description:
             "I'm a teacher with Mode to Code, and I’ve loved coding since I was in elementary school. I now like working on small coding projects, usually websites. I also enjoy playing piano and tennis.",
-    },
-    {
-        image: "/people/rowanpic.png",
-        name: "Rowan C",
-        title: "UHS Hacks Lead Outreach and Code Support Volunteer",
-        description:
-            "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
     },
     {
         image: "/people/lilalpic.jpg",
@@ -44,6 +38,14 @@ const people = [
         description:
             "Hi! I’m helping out with UHS Hacks because I enjoy coding and want to help others learn more. I have experience in Java, Javascript, HTML, and CSS, and have helped develop websites for UCSF. In my free time, I enjoy doing gymnastics, drawing, and baking.",
     },
+    {
+        image: "/people/rowanpic.png",
+        name: "Rowan C",
+        title: "UHS Hacks Lead Outreach and Code Support Volunteer",
+        description:
+            "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
+    },
+    
     {
         image: "/people/carolinepic.jpg",
         name: "Caroline C",
@@ -85,7 +87,7 @@ const people = [
         name: "Aristu S",
         title: "UHS Hacks Outreach Volunteer",
         description:
-            "Hi, I'm Aristu. I'm passionate about teaching and empowering young minds with tech skills.",
+            "Hi, I'm Aristu. I'm passionate about teaching and empowering young minds with tech skills. I'm excited to help out with UHS Hacks!",
     },
     
     {
