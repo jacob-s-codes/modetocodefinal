@@ -10,9 +10,6 @@ import HomeClient from './HomeClient';
 export const metadata = { 
   title: "Mode to Code | Home",
   description: "Building a community of students and teachers who are passionate about technology.",
-  icons: {
-    icon: '/favicon.ico',
-  },
 }
 
 export default function Home() {
