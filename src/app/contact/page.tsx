@@ -21,7 +21,7 @@ const page = () => {
                             <h3 className="uppercase text-blue-900 lg:text-3xl text-2xl">Email us</h3>
                             <h2 className="uppercase lg:text-4xl text-3xl font-bold pb-2">INTERESTED IN JOINING OR OFFERING MODE TO CODE AT YOUR SCHOOL?</h2>
                             <hr className="border-4 border-black mb-8" />
-                            <p className="lg:text-2xl text-xl font-light mb-8">You can email Jacob at <span className='font-bold'>jacob@modetocode.com</span> for specific questions or email <span className='font-bold'>info@modetocode.com</span> for general ones.</p>
+                            <p className="lg:text-2xl text-xl font-light mb-8">You can email Jacob at <a href="mailto:jacob@modetocode.com" className='font-bold'>jacob@modetocode.com</a> for specific questions or email <a href="mailto:info@modetocode.com" className='font-bold'>info@modetocode.com</a> for general ones.</p>
                             <p className="lg:text-2xl text-xl font-light mb-8"> You can also find and contact one of the members of our team by going to the &quot;Meet the Team&ldquo; page.</p>
                             <Link href="/meettheteam" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                                 <span
