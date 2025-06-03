@@ -1,3 +1,4 @@
+
 import MeetTheTeamClient from "./MeetTheTeamClient"
 
 export const metadata = {
