@@ -38,7 +38,7 @@ export default function HomeClient() {
 
 
                     {/* Modes of teaching */}
-                    <div className="w-full ">
+                    <div className="w-full px-4">
                         <div className="text-center w-full">
                             <h2 className="font-black uppercase text-5xl">Our modes of teaching</h2>
                             <h3 className="text-2xl max-w-4xl mx-auto pt-2 font">Check out all the different ways that Mode to Code is teaching students around the world valuable technological concepts:</h3>
