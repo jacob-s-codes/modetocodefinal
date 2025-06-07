@@ -67,7 +67,13 @@ const people = [
         description:
             "I taught with Jacob at the Noe Branch public library over the course of a few weeks where we taught a group of middle schoolers how to design in html. Outside of school I like to play badminton, chess, and hang out with friends :)",
     },
-    
+    {
+        image: "/people/khalilpic.jpg",
+        name: "Khalil S",
+        title: "Instructor",
+        description:
+            "Hi, my name is Khalil. I want to make sure that in a time with such advanced and targeted cyber attacks, everyone can feel safe and comfortable using technology and the internet. I enjoy fencing and 3d modeling. ",
+    },
     {
         image: "/people/ellapic.jpg",
         name: "Ella S",
