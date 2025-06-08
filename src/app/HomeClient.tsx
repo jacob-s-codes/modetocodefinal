@@ -1,4 +1,5 @@
 "use client";
+import Banner from "@/components/Banner";
 import Testimonials from "@/components/Testimonials";
 import Link from "next/link";
 
@@ -54,7 +55,7 @@ export default function HomeClient() {
                   <img src="/bolivia/boliviateaching3.jpg" alt="" className="rounded-xl shadow-2xl shadow-darkbg " />
                   <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">online</h3>
                   <p className="text-center text-xl font-light pt-2">Online classes for students around the world!</p>
-                </div> */}
+                    </div> */}
                             <div className="flex flex-col items-center w-md h-96 lg:pt-0 pt-2">
                                 <img src="/bolivia/boliviateaching3.jpg" alt="" className="rounded-xl shadow-2xl shadow-darkbg" />
                                 <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">Online Classes</h3>
@@ -68,6 +69,11 @@ export default function HomeClient() {
                             </div>
                         </div>
                     </div>
+
+
+                    {/* <div>
+                        <Banner/>
+                    </div> */}
 
 
                 </div>
