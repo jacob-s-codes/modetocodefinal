@@ -1,5 +1,5 @@
 "use client";
-import Banner from "@/components/Banner";
+// import Banner from "@/components/Banner";
 import Testimonials from "@/components/Testimonials";
 import Link from "next/link";
 
