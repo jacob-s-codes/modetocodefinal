@@ -45,7 +45,13 @@ const people = [
         description:
             "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
     },
-    
+    {
+        image: "/people/lilapic.png",
+        name: "Lila R",
+        title: "Social Media Manager",
+        description:
+            "Hi! I help out with Mode to Code’s social media. In my free time, you can find me writing, learning about psychology, or listening to music. You can email me at: lilajaderaj@gmail.com",
+    },
     {
         image: "/people/carolinepic.jpg",
         name: "Caroline C",
@@ -82,13 +88,6 @@ const people = [
             "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. I founded my school's Girls Who Code club and also enjoy math, basketball, and reading.",
     },
     {
-        image: "/people/lilapic.png",
-        name: "Lila R",
-        title: "Social Media Manager",
-        description:
-            "Hi! I help out with Mode to Code’s social media. In my free time, you can find me writing, learning about psychology, or listening to music. You can email me at: lilajaderaj@gmail.com",
-    },
-    {
         image: "/people/aristupic.png",
         name: "Aristu S",
         title: "UHS Hacks Outreach Volunteer",
@@ -123,11 +122,11 @@ export default function MeetTheTeamClient() {
             </div>
             {/* Who we are */}
             <div className="w-full bg-blue-200 pb-32">
-                <div className=" w-full mx-auto row-auto col-auto gap-y-44 justify-between  pt-32 ">
+                <div className=" w-full row-auto col-auto gap-y-44 justify-between  pt-32 ">
                     <h2 className="lg:text-6xl text-5xl font-bold pb-12 text-center">OUR TEAM</h2>
 
                     <div className="w-full">
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-10">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6">
                             {people.map((person, index) => (
                                 <ProfileCard
                                     key={index}
