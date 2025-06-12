@@ -92,6 +92,10 @@ export default function HomeClient() {
           </div> */}
 
                 <div className=" w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between  py-32 ">
+                    {/* <div className="w-full text-center">
+                        <h2 className="font-black uppercase text-4xl">In the news</h2>
+                        <h3>Read about real-world impacts, interviews, and more: </h3>
+                    </div> */}
                     <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between">
                         <div className="flex flex-col xl:max-w-3xl max-w-xl animateleft">
                             <h3 className="uppercase font-light text-blue-900 lg:text-3xl text-2xl">AI, WEB DEVELOPMENT, AND PYTHON</h3>
