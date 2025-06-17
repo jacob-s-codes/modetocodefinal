@@ -41,7 +41,7 @@ const caseStudies = [
         image2: "/bolivia/boliviateaching2.jpeg",
         image3: "/bolivia/boliviateaching3.jpg",
         description1: "In May 2025, Mode to Code began teaching online classes at The American International School of Bolivia. This class was taught by Jacob and Anna, who were able to adapt the curriculum to meet the needs of the students. The students were able to learn the basics of HTML, CSS, and JavaScript. The class was a great success, with students learning how to create their own websites.",
-        description2: "The students were able to collaborate with each other and share their work. The class was a great success, and we are excited to continue working with The American International School of Bolivia in the future. This class also saw the largest Mode to Code class yet, with over 170 students attending the first class. The students were engaged and excited to learn, and many expressed interest in continuing their coding education.",
+        description2: "This class also saw the largest Mode to Code class yet, with over 170 students attending the first class. The students were engaged and excited to learn, and many expressed interest in continuing their coding education.",
         fact1: "4 classes",
         fact2: "220 students",
         fact3: "2 instructors",

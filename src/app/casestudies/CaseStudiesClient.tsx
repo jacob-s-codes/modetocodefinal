@@ -12,7 +12,7 @@ export default function CaseStudies() {
                 <div className="py-48 max-w-[1800px] flex flex-col items-center mx-auto px-12">
                     <h2 className="lg:text-6xl text-5xl font-bold pb-12 text-center">EXPLORE CASE STUDIES</h2>
                     <div className="w-full max-w-7xl grid grid-cols-1 xl:grid-cols-4 md:grid-cols-3 lg:gap-y-0 gap-y-4 gap-x-6 items-center">
-                        <Casestudy place="In-Person School" title="Chinese American International School" image="/caislogo.jpg" link="/casestudies/cais" description="One of Mode to Code's very first classes, Chinese American International School was"/>
+                        <Casestudy place="In-Person" title="Chinese American International School" image="/caislogo.jpg" link="/casestudies/cais" description="One of Mode to Code's very first classes, Chinese American International School was"/>
                         <Casestudy place="Assisted Living Center" title="Rhoda Goldman Plaza" image="/rhodapic.jpg" link="/casestudies/rhodagoldman" description="In March 2025, Mode to Code began teaching classes at Rhoda Goldman Plaza, an assisted living center in San Francisco"/>
                         <Casestudy place="Online Class" title="The American International School of Bolivia" image="/bolivialogo.jpg" link="/casestudies/bolivia" description="In May 2025, Mode to Code began teaching online classes at The American International School of Bolivia"/>
                         {/* <Casestudy place="Partner Company" title="Breakthrough SummerBridge" image="/breakthrough.png" link="/casestudies/breakthrough" description="One of Mode to Code's very first classes, Chinese American International School was"/> */}
