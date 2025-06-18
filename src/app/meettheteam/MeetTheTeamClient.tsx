@@ -60,6 +60,13 @@ const people = [
             "Hi! I'm Caroline, an instructor with Mode to Code. I have been passionate about coding since elementary school, and now I lead my high school’s Girls Who Code club. Outside of school, I love to dance and hang out with my dogs!",
     },
     {
+        image: "/people/franchesqa.png",
+        name: "Franchesqa L",
+        title: "UHS Hacks Social Media Manager and Outreach Volunteer",
+        description:
+            "Hi! I'm Franchesqa, and I help with community outreach and content creation. When not designing our next post for UHS Hacks, I program small projects in Java, Python, and R. Outside of all of this, I spend my time playing badminton, teaching, or playing video games. ",
+    },
+    {
         image: "/people/annapic.png",
         name: "Anna B",
         title: "Instructor",
