@@ -38,7 +38,7 @@ export default function Client() {
                             <TeachingMap />
                         <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
                             <h3 className="uppercase text-blue-900 text-3xl lg:pt-0 pt-4">Making an impact</h3>
-                            <h2 className="text-4xl font-bold uppercase  pb-2 ">TEACHING 850+ STUDENTS AT 15+ Institutions</h2>
+                            <h2 className="text-4xl font-bold uppercase  pb-2 ">TEACHING 850+ STUDENTS AT 20+ Institutions</h2>
                             <hr className="w-full border-4" />
                             <p className="py-12 text-2xl font-light">Mode to Code is proud to be offering programs at schools all over San Francisco. We are also teaching students online in Vermont, India, Bolivia, and Italy. We are proud to have over 50 hours of instruction to students accross the globe!</p>
                             <BasicButton text={"Read some case studies"} link={"/casestudies"}></BasicButton>
