@@ -31,42 +31,53 @@ export default function TeachingMap() {
             </Marker>
             <Marker position={[44.5588, -72.5778]} icon={DefaultIcon}>
                 <Popup>
-                    Online class in Vermont!
+                    Online class in Vermont
                 </Popup>
             </Marker>
+            <Marker position={[49.3847, -123.336]} icon={DefaultIcon}>
+                <Popup>
+                    Online class in Bowen Island, Canada in August
+                </Popup>
+            </Marker>
+            <Marker position={[14.6407, -93.5133]} icon={DefaultIcon}>
+                <Popup>
+                    Online class in Guatemala in August
+                </Popup>
+            </Marker>
+
             <Marker position={[43.7696, 11.2558]} icon={DefaultIcon}>
                 <Popup>
-                    Online class in Italy!
+                    Online class in Italy
                 </Popup>
             </Marker>
             <Marker position={[-16.2902, -63.5887]} icon={DefaultIcon}>
                 <Popup>
-                    Online class in Bolivia!
+                    Online class in Bolivia
                 </Popup>
             </Marker>
             <Marker position={[20.5937, 78.9629]} icon={DefaultIcon}>
                 <Popup>
-                    Online class in India!
+                    Online class in India
                 </Popup>
             </Marker>
             <Marker position={[13.7942, -88.8965]} icon={DefaultIcon}>
                 <Popup>
-                    Online class offered in El Salvador in August!
+                    Online class in El Salvador in August
                 </Popup>
             </Marker>
             <Marker position={[-22.3285, 24.6849]} icon={DefaultIcon}>
                 <Popup>
-                    Online classes in Botswana!
+                    Online classes in Botswana
                 </Popup>
             </Marker>
             <Marker position={[18.1096, -77.2975]} icon={DefaultIcon}>
                 <Popup>
-                    Online classes in Jamaica!
+                    Online classes in Jamaica
                 </Popup>
             </Marker>
             <Marker position={[38.9875, -118.5311]} icon={DefaultIcon}>
                 <Popup>
-                    Online classes for students in Marin!
+                    Online classes for students in Marin
                 </Popup>
             </Marker>
 
