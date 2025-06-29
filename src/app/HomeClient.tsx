@@ -23,7 +23,7 @@ export default function HomeClient() {
                             <h3 className="uppercase text-blue-900 text-3xl">About us</h3>
                             <h2 className="uppercase text-4xl font-bold pb-2">Who we are</h2>
                             <hr className="border-4 border-black mb-8" />
-                            <p className="lg:text-2xl text-xl font-light mb-8">We are a team of high school students who are passionate about teaching the next generation valuable technological tools they will need to succeed. We believe the future is in the hands of young people. We are committed to ensuring they are well equipped to find the solutions we need in the future through technology.</p>
+                            <p className="lg:text-2xl text-xl font-light mb-8">We are a team of high school students who are passionate about teaching essential technological tools to students of all ages. We have taught <span className="font-bold">over 850 students </span> across <span className="font-bold">5 continents.</span></p>
                             <Link href="/about" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                                 <span
                                     className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
@@ -42,7 +42,7 @@ export default function HomeClient() {
                     <div className="w-full px-4">
                         <div className="text-center w-full">
                             <h2 className="font-black uppercase text-5xl">Our modes of teaching</h2>
-                            <h3 className="text-2xl max-w-4xl mx-auto pt-2 font">Check out all the different ways that Mode to Code is teaching students around the world valuable technological concepts:</h3>
+                            <h3 className="text-2xl max-w-4xl mx-auto pt-2 font">Check out all the different ways that Mode to Code is teaching students around the world:</h3>
                         </div>
                         <div className="flex lg:flex-row flex-col items-center  justify-center gap-x-6 lg:gap-y-8 gap-y-16 pt-8">
                             <div className="flex flex-col items-center w-md h-96">
