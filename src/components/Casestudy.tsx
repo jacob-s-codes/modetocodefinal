@@ -17,7 +17,7 @@ export default function Casestudy({ place, title, image, description, link }: { 
 
       <div>
         <p className='text-gray-700 text-sm'>{place}</p>
-        <Link href={link}><h2 className='text-xl font-black hover:underline hover:text-blue-700 hover:cursor-pointer'>{title}</h2></Link>
+        <Link href={link}><h2 className='text-xl font-black underline hover:text-blue-700 hover:cursor-pointer'>{title}</h2></Link>
       </div>
       
       <p>{description}...</p>
