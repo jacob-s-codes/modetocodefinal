@@ -35,7 +35,7 @@ export default function WebsitesClient() {
 
 
                     <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
-                        <img src="/frank/teachingimg1.jpg" alt=""
+                        <img src="/assistedliving/teachingimg1.jpg" alt=""
                             className="animateright w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
                         <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
                             <h2 className="lg:text-4xl text-3xl font-bold uppercase  pb-2 ">FInd us on social media</h2>
