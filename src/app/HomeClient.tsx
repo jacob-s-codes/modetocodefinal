@@ -46,9 +46,11 @@ export default function HomeClient() {
                         </div>
                         <div className="flex lg:flex-row flex-col items-center  justify-center gap-x-6 lg:gap-y-8 gap-y-16 pt-8">
                             <div className="flex flex-col items-center w-md h-96">
-                                <img src="/teachingimg2.jpg" alt="" className="rounded-xl shadow-2xl shadow-darkbg" />
-                                <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">In-person</h3>
-                                <p className="text-center text-xl font-light pt-2">In-person classes for students who prefer a more hands-on approach to learning.</p>
+                                <div className="lg:mx-0 mx-8 overflow-clip">
+                                    <img src="/teachingimg2.jpg" alt="" className="rounded-xl " />
+                                </div>
+                                <h3 className="text-center text-2xl font-bold mt-4 text-blue-900 uppercase">In-person</h3>
+                                <p className="text-center text-xl font-light pt-2 px-4">In-person classes, partnering with 8+ middle schools in SF.</p>
                             </div>
 
                             {/* <div className="flex flex-col items-center w-md">
@@ -56,17 +58,23 @@ export default function HomeClient() {
                   <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">online</h3>
                   <p className="text-center text-xl font-light pt-2">Online classes for students around the world!</p>
                     </div> */}
-                            <div className="flex flex-col items-center w-md h-96 lg:pt-0 pt-2">
-                                <img src="/bolivia/boliviateaching3.jpg" alt="" className="rounded-xl shadow-2xl shadow-darkbg" />
-                                <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">Online Classes</h3>
-                                <p className="text-center text-xl font-light pt-2">Helping students learn virtually around the world!</p>
+                            <div className="flex flex-col items-center w-md h-96">
+                                <div className="lg:mx-0 mx-8 overflow-clip">
+                                    <img src="/bolivia/boliviateaching3.jpg" alt="" className="rounded-xl " />
+                                </div>
+                                <h3 className="text-center text-2xl font-bold mt-4 text-blue-900 uppercase">Online Classes</h3>
+                                <p className="text-center text-xl font-light pt-2 px-4">Helping students learn virtually around the world!</p>
+                            </div>
+                            <div className="flex flex-col items-center w-md h-96">
+                                <div className="lg:mx-0 mx-8 overflow-clip">
+                                    <img src="/teachingimg22.jpg" alt="" className="rounded-xl " />
+                                </div>
+                                <h3 className="text-center text-2xl font-bold mt-4 text-blue-900 uppercase">For Assisted Living Residents</h3>
+                                <p className="text-center text-xl font-light pt-2 px-4">Teaching students of all ages the technology that they need to succeed.</p>
                             </div>
 
-                            <div className="flex flex-col items-center w-md h-96">
-                                <img src="/teachingimg22.jpg" alt="" className="rounded-xl shadow-2xl shadow-darkbg" />
-                                <h3 className="text-center text-2xl font-bold pt-4 text-blue-900 uppercase">For Assisted Living Residents</h3>
-                                <p className="text-center text-xl font-light pt-2">Teaching students of all ages the technology that they need succeed.</p>
-                            </div>
+
+                            
                         </div>
                     </div>
 
