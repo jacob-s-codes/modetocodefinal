@@ -9,7 +9,7 @@ type ProfileCardProps = {
 
 const ProfileCard: React.FC<ProfileCardProps> = ({ image, name, title, description }) => {
   return (
-    <div className="flex flex-col bg-blue-300 text-black p-8 rounded-2xl">
+    <div className="flex flex-col  text-black p-8 rounded-2xl">
       <div className="w-full flex items-center justify-center">
         <img
           src={image}
