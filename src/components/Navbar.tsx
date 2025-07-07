@@ -107,7 +107,7 @@ const Navbar = () => {
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">Case Studies</h3>
                                             </div>
                                             <p className="text-sm text-white">Learn more about the impact of our various programs in the community</p>
-                                            <div onClick={handleMegaMenuLinkClick}>
+                                            <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 {/* <Link href="/casestudies">Coming soon!</Link> */}
                                                 <Link href="/casestudies" className='w-fit'><Learnmorebtn /></Link>
                                             </div>
