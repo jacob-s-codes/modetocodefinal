@@ -1,4 +1,5 @@
 "use client";
+import Carosel from "@/components/Carosel";
 // import Banner from "@/components/Banner";
 import Testimonials from "@/components/Testimonials";
 import Link from "next/link";
@@ -37,11 +38,10 @@ export default function HomeClient() {
                         </div>
                     </div>
 
-
                     {/* Modes of teaching */}
                     <div className="w-full px-4">
                         <div className="text-center w-full">
-                            <h2 className="font-black uppercase text-5xl">Our modes of teaching</h2>
+                            <h2 className="font-black uppercase lg:text-5xl text-4xl">Our modes of teaching</h2>
                             <h3 className="text-2xl max-w-4xl mx-auto pt-2 font">Check out all the different ways that Mode to Code is teaching students around the world:</h3>
                         </div>
                         <div className="flex lg:flex-row flex-col items-center  justify-center gap-x-6 lg:gap-y-8 gap-y-16 pt-8">
@@ -74,8 +74,12 @@ export default function HomeClient() {
                             </div>
 
 
-                            
+
                         </div>
+                    </div>
+                    <div className="text-center pt-12 pb-24">
+                        <h2 className="font-black uppercase lg:text-5xl text-4xl lg:pb-4">institutions and schools we've worked with</h2>
+                        <Carosel />
                     </div>
 
 
