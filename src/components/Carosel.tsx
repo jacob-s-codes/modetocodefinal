@@ -19,6 +19,8 @@ export default function App() {
             <ImageforCarosel src="/schools/isflorence.png"/>
             <ImageforCarosel src="/sfpllogo.png"/>
             <ImageforCarosel src="/schools/presidiomiddlelogo.jpg"/>
+            <ImageforCarosel src="/schools/neilcumminslogo.png"/>
+            <ImageforCarosel src="/assistedliving/coterielogo.png"/>
           </Marquee>
         </div>
       </section>
