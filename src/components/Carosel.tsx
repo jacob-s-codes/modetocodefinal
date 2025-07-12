@@ -7,7 +7,7 @@ export default function App() {
     <>
       <section className="flex justify-center items-center ">
         <div className=" h-[200px] rounded-2xl w-8xl">
-          <Marquee className="  py-3 overflow-hidden grid  " speed={150}>
+          <Marquee className="  py-3 overflow-hidden grid  " speed={150} pauseOnHover={true}>
             <ImageforCarosel src="/breakthrough.png"/>
             <ImageforCarosel src="/bolivia/aisblogowide.png"/>
             <ImageforCarosel src="/liveoaklogo.jpg"/>
@@ -21,6 +21,7 @@ export default function App() {
             <ImageforCarosel src="/schools/presidiomiddlelogo.jpg"/>
             <ImageforCarosel src="/schools/neilcumminslogo.png"/>
             <ImageforCarosel src="/assistedliving/coterielogo.png"/>
+            <ImageforCarosel src="/schools/delhilogo.jpg"/>
           </Marquee>
         </div>
       </section>
