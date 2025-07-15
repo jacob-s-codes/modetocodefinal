@@ -79,7 +79,7 @@ export default function HomeClient() {
                         </div>
                     </div>
                     <div className="text-center pt-12 pb-24">
-                        <h2 className="font-black uppercase lg:text-5xl text-4xl lg:pb-4">institutions and schools we&apos;ve worked with</h2>
+                        <h2 className="font-black uppercase lg:text-5xl text-4xl lg:pb-4">Our partners</h2>
                         <Carosel />
                     </div>
 
