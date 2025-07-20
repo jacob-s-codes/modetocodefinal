@@ -2,10 +2,15 @@
 import React, { useEffect, useState } from 'react';
 import Learnmorebtn from './Learnmorebtn';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+    const pathname = usePathname();
+    const navBgClass = pathname === '/uhshacks' ? 'bg-red-900' : 'bg-darkbg';
+    const textColorClass = pathname === '/uhshacks' ? 'hover:text-red-300' : 'hover:text-blue-300';
+    const responsiveBg = pathname === '/uhshacks' ? 'hover:bg-red-500' : 'hover:bg-blue-800';
+    // 'bg-[#a6192e]
 
     const [activeMenu, setActiveMenu] = useState<string | undefined>(undefined);
 
@@ -36,11 +41,12 @@ const Navbar = () => {
 
     return (
         <div className="sticky top-0 z-30">
-            <div className="text-white w-full bg-darkbg relative overflow-visible">
-                <ul className="max-w-[1800px] mx-auto flex flex-row items-center justify-between lg:text-xl text-lg">
+            <div className={`text-white w-full ${navBgClass} relative overflow-visible`}>
+                <ul className="max-w-[1800px] mx-auto flex flex-row items-center justify-between lg:text-xl text-lg py-2">
                     <Link href="/" onClick={isMobileMenuOpen ? () => setIsMobileMenuOpen(false) : undefined}>
                         <li className="text-2xl ml-8">
-                            <img src="/horizontalmtclogo.jpg" alt="Logo" className="w-36" />
+                            {/* <img src="/horizontalmtclogo.jpg" alt="Logo" className="w-36" /> */}
+                            <img src="/svglogo.svg" alt="Logo" className="w-36" />
                         </li>
                     </Link>
 
@@ -55,35 +61,36 @@ const Navbar = () => {
 
                     {/* Dropdown for Mobile Menu */}
                     <div
-                        className={`absolute top-full right-0 w-3/4 sm:w-1/2 h-screen bg-darkbg text-white shadow-2xl transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible translate-x-0' : 'opacity-0 invisible translate-x-full'}`}
+                        className={`absolute top-full right-0 w-3/4 sm:w-1/2 h-screen ${navBgClass} text-white shadow-2xl transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible translate-x-0' : 'opacity-0 invisible translate-x-full'}`}
                     >
                         <div className="p-4 flex flex-col gap-2">
-                            <Link href="/about" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>ABOUT</Link>
+                            <Link href="/about" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>ABOUT</Link>
                             {/* <MobileLink name={"ABOUT"} link={'/about'}/> */}
-                            <Link href="/meettheteam" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>MEET THE TEAM</Link>
+                            <Link href="/meettheteam" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>MEET THE TEAM</Link>
                             {/* <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>CASE STUDIES - COMING SOON</Link> */}
-                            <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>CASE STUDIES</Link>
-                            <div className="h-px bg-gray-700 my-2"></div>
-                            <Link href="/learn" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>LEARN</Link>
-                            <Link href="/learnai" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>LEARN AI</Link>
-                            <Link href="/buildwebsites" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>BUILD WEBSITES</Link>
-                            <Link href="/makegames" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>MAKE GAMES</Link>
-                            <div className="h-px bg-gray-700 my-2"></div>
-                            <Link href="/contact" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200" onClick={toggleMobileMenu}>CONTACT</Link>
+                            <Link href="/casestudies" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>CASE STUDIES</Link>
+                            <Link href="/uhshacks" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>UHS HACKS</Link>
+                            <div className={`h-px  ${pathname === '/uhshacks' ? 'bg-white' : 'bg-gray-700'} my-2`}></div>
+                            <Link href="/learn" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>LEARN</Link>
+                            <Link href="/learnai" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>AI</Link>
+                            <Link href="/buildwebsites" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>BUILD WEBSITES</Link>
+                            <Link href="/makegames" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>MAKE GAMES</Link>
+                            <div className={`h-px  ${pathname === '/uhshacks' ? 'bg-white' : 'bg-gray-700'} my-2`}></div>
+                            <Link href="/contact" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>CONTACT</Link>
                         </div>
                     </div>
 
                     {/* Desktop Navigation */}
                     <div className="hidden flex-row justify-between lg:gap-x-36 gap-x-12 sm:flex">
-                        <li 
-                            className="hoverable hover:bg-darkbg hover:text-white"
+                        <li
+                            className={`hoverable hover:${navBgClass} hover:text-white`}
                             onMouseEnter={() => setActiveMenu('about')}
                             onMouseLeave={() => setActiveMenu(undefined)}
                         >
                             <div className='flex flex-row items-center group'>
-                                <Link href="/about" className="relative block py-6 pr-2 uppercase hover:text-blue-300" onClick={handleMegaMenuLinkClick}>ABOUT</Link>
+                                <Link href="/about" className={`relative block py-6 pr-2 uppercase ${textColorClass}`} onClick={handleMegaMenuLinkClick}>ABOUT</Link>
                             </div>
-                            <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg ${activeMenu === 'about' ? 'active-mega-menu' : ''}`}>
+                            <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl ${navBgClass} ${activeMenu === 'about' ? 'active-mega-menu' : ''}`}>
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
                                     {/* Text Section - 50% width */}
                                     <div className="flex flex-col items-center justify-center w-full lg:w-1/2 px-4 ">
@@ -112,27 +119,41 @@ const Navbar = () => {
                                                 <Link href="/casestudies" className='w-fit'><Learnmorebtn /></Link>
                                             </div>
                                         </ul>
+                                        <ul className="w-full mt-2 pb-6 pt-6 border border-white px-2 rounded-lg ">
+                                            <div className="flex items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-file-person-fill h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
+                                                    <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11" />
+                                                </svg>
+                                                <h3 className="font-bold text-xl text-white uppercase mb-2">UHS Hacks</h3>
+                                            </div>
+                                            <p className="text-sm text-white">Learn more about the impact of our various programs in the community</p>
+                                            <div onClick={handleMegaMenuLinkClick} className='w-fit'>
+                                                {/* <Link href="/casestudies">Coming soon!</Link> */}
+                                                <Link href="/uhshacks" className='w-fit'><Learnmorebtn /></Link>
+                                            </div>
+                                        </ul>
                                     </div>
+
 
                                     {/* Image Section - 50% width */}
                                     <div className="w-full lg:w-1/2 px-4">
-                                        <img src="/teachingimg29.jpg" alt="MTC Logo" className="w-full h-auto object-contain rounded-lg" />
+                                        <img src="/teachingimg29.jpg" alt="MTC Logo" className="w-full h-auto object-contain rounded-lg lg:flex hidden" />
                                     </div>
                                 </div>
                             </div>
                         </li>
 
-                        <li 
-                            className="hoverable hover:bg-darkbg hover:text-white"
+                        <li
+                            className={`hoverable hover:${navBgClass} hover:text-white`}
                             onMouseEnter={() => setActiveMenu('learn')}
                             onMouseLeave={() => setActiveMenu(undefined)}
-                            
+
                         >
                             <div className='flex flex-row items-center group'>
-                                <Link href="/learn" className="relative block py-6 pr-2 uppercase hover:text-blue-300" onClick={handleMegaMenuLinkClick}>LEARN</Link>
+                                <Link href="/learn" className={`relative block py-6 pr-2 uppercase ${textColorClass}`} onClick={handleMegaMenuLinkClick}>LEARN</Link>
                             </div>
 
-                            <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-darkbg ${activeMenu === 'learn' ? 'active-mega-menu' : ''}`}>
+                            <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl ${navBgClass} ${activeMenu === 'learn' ? 'active-mega-menu' : ''}`}>
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
                                     {/* Text Section - 50% width */}
                                     <div className="flex flex-col items-center justify-center w-full lg:w-1/2 px-4 ">
@@ -176,13 +197,13 @@ const Navbar = () => {
 
                                     {/* Image Section - 50% width */}
                                     <div className="w-full lg:w-1/2 px-4 flex flex-col items-center justify-center ">
-                                        <img src="/aibg.jpeg" alt="MTC Logo" className="w-full h-auto object-contain rounded-lg" />
+                                        <img src="/aibg.jpeg" alt="MTC Logo" className="w-full h-auto object-contain rounded-lg lg:flex hidden" />
                                     </div>
                                 </div>
                             </div>
                         </li>
 
-                        <Link href="/contact" className="mr-8 relative block py-6 px-4 lg:p-6 uppercase hover:text-blue-300">
+                        <Link href="/contact" className={`mr-8 relative block py-6 px-4 lg:p-6 uppercase ${textColorClass}`}>
                             <li>CONTACT</li>
                         </Link>
                     </div>
