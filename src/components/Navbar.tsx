@@ -28,6 +28,18 @@ const Navbar = () => {
         };
     }, [isMobileMenuOpen]);
 
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth > 640) {
+                setIsMobileMenuOpen(false);
+            }
+        }
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        }
+    }, [])
+
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
