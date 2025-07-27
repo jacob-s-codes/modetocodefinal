@@ -9,7 +9,7 @@ import HomeClient from './HomeClient';
 
 export const metadata = { 
   title: "Mode to Code | Home",
-  description: "Building a community of students and teachers who are passionate about technology.",
+  description: "A community of students and teachers who are passionate about technology.",
 }
 
 export default function Home() {
