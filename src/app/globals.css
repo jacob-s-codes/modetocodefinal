@@ -80,6 +80,17 @@ body {
   width: 100vw;
 }
 
+.inthenewsbg {
+  background-image: url("/news/canvasrebel.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: rgb(117, 116, 116);
+  background-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
+
 .casestudiesbg {
   background-image: url("/teachingimg19.jpg");
   background-size: cover;

@@ -81,6 +81,7 @@ const Navbar = () => {
                             <Link href="/meettheteam" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>MEET THE TEAM</Link>
                             {/* <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>CASE STUDIES - COMING SOON</Link> */}
                             <Link href="/casestudies" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>CASE STUDIES</Link>
+                            <Link href="/inthenews" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>IN THE NEWS</Link>
                             <Link href="/uhshacks" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>UHS HACKS</Link>
                             <div className={`h-px  ${pathname === '/uhshacks' ? 'bg-white' : 'bg-gray-700'} my-2`}></div>
                             <Link href="/learn" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>LEARN</Link>
@@ -136,9 +137,22 @@ const Navbar = () => {
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-file-person-fill h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
                                                     <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11" />
                                                 </svg>
+                                                <h3 className="font-bold text-xl text-white uppercase mb-2">In the News</h3>
+                                            </div>
+                                            <p className="text-sm text-white">Learn about Mode to Code in the news</p>
+                                            <div onClick={handleMegaMenuLinkClick} className='w-fit'>
+                                                {/* <Link href="/casestudies">Coming soon!</Link> */}
+                                                <Link href="/inthenews" className='w-fit'><Learnmorebtn /></Link>
+                                            </div>
+                                        </ul>
+                                        <ul className="w-full mt-2 pb-6 pt-6 border border-white px-2 rounded-lg ">
+                                            <div className="flex items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-file-person-fill h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
+                                                    <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11" />
+                                                </svg>
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">UHS Hacks</h3>
                                             </div>
-                                            <p className="text-sm text-white">Learn more about the impact of our various programs in the community</p>
+                                            <p className="text-sm text-white">Learn about UHS hacks in September</p>
                                             <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 {/* <Link href="/casestudies">Coming soon!</Link> */}
                                                 <Link href="/uhshacks" className='w-fit'><Learnmorebtn /></Link>
