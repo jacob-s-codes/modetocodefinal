@@ -14,6 +14,7 @@ const Footer = () => {
                 <div className="flex flex-row lg:gap-x-12 gap-x-10 pr-12">
                     <div className="flex flex-col gap-y-2">
                         <p className="font-extrabold">ABOUT US</p>
+                        <Link href="/" className="hover:text-blue-500">Home</Link>
                         <Link href="/about" className="hover:text-blue-500">About</Link>
                         <Link href="/meettheteam" className="hover:text-blue-500">The Team</Link>
                         <Link href="/contact" className="hover:text-blue-500">Contact</Link>
@@ -21,6 +22,7 @@ const Footer = () => {
                     <div className="flex flex-col gap-y-2">
                         <p className="font-extrabold">PAGES</p>
                         <Link href="/casestudies" className="hover:text-blue-500">Case Studies</Link>
+                        <Link href="/inthenews" className="hover:text-blue-500">In the News</Link>
                         <Link href="/learn" className="hover:text-blue-500">Learn</Link>
                         <Link href="/uhshacks" className="hover:text-blue-500">UHS Hacks</Link>
                     </div>
