@@ -27,9 +27,16 @@ const people = [
     {
         image: "/people/rohanpic.png",
         name: "Rohan S",
-        title: "Instructor and Lead Code Support Volunteer for UHS Hacks",
+        title: "Instructor and UHS Hacks Lead Code Support Volunteer",
         description:
             "I'm a teacher with Mode to Code, and I’ve loved coding since I was in elementary school. I now like working on small coding projects, usually websites. I also enjoy playing piano and tennis.",
+    },
+    {
+        image: "/people/franchesqa.png",
+        name: "Franchesqa L",
+        title: "UHS Hacks Social Media Manager and Lead Outreach Volunteer",
+        description:
+            "Hi! I'm Franchesqa, and I help with community outreach and content creation. When not designing our next post for UHS Hacks, I program small projects in Java, Python, and R. Outside of all of this, I spend my time playing badminton, teaching, or playing video games. ",
     },
     {
         image: "/people/lilalpic.jpg",
@@ -37,13 +44,6 @@ const people = [
         title: "UHS Hacks Lead Finance and Code Support Volunteer",
         description:
             "Hi! I’m helping out with UHS Hacks because I enjoy coding and want to help others learn more. I have experience in Java, Javascript, HTML, and CSS, and have helped develop websites for UCSF. In my free time, I enjoy doing gymnastics, drawing, and baking.",
-    },
-    {
-        image: "/people/rowanpic.png",
-        name: "Rowan C",
-        title: "UHS Hacks Lead Outreach and Code Support Volunteer",
-        description:
-            "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
     },
     {
         image: "/people/lilapic.png",
@@ -58,13 +58,6 @@ const people = [
         title: "Instructor",
         description:
             "Hi! I'm Caroline, an instructor with Mode to Code. I have been passionate about coding since elementary school, and now I lead my high school’s Girls Who Code club. Outside of school, I love to dance and hang out with my dogs!",
-    },
-    {
-        image: "/people/franchesqa.png",
-        name: "Franchesqa L",
-        title: "UHS Hacks Social Media Manager and Outreach Volunteer",
-        description:
-            "Hi! I'm Franchesqa, and I help with community outreach and content creation. When not designing our next post for UHS Hacks, I program small projects in Java, Python, and R. Outside of all of this, I spend my time playing badminton, teaching, or playing video games. ",
     },
     {
         image: "/people/annapic.png",
@@ -93,6 +86,13 @@ const people = [
         title: "Instructor and High School Outreach for UHS Hacks",
         description:
             "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. I founded my school's Girls Who Code club and also enjoy math, basketball, and reading.",
+    },
+    {
+        image: "/people/rowanpic.png",
+        name: "Rowan C",
+        title: "UHS Hacks Outreach Volunteer",
+        description:
+            "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
     },
     {
         image: "/people/aristupic.png",
