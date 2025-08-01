@@ -73,7 +73,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                     <CryptoText text={study.fact1 || "Default Fact"} />
                     {/* <hr className='lg:invisible visible w-full my-8'/> */}
                     <svg width="44" height="100" viewBox="0 0 44 1669" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5"  stroke="black" stroke-width="20" />
+                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black" stroke-width="20" />
                     </svg>
 
 
@@ -83,13 +83,19 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
                     <CryptoText text={study.fact2 || "Default Fact"} />
                     <svg width="44" height="100" viewBox="0 0 44 1669" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black"  stroke-width="20" />
+                        <path d="M22 0.5C22 1189.7 22 1608 22 1668.5" stroke="black" stroke-width="20" />
                     </svg>
                     {/* <hr className='lg:invisible visible w-full'/> */}
                     <CryptoText text={study.fact3 || "Default Fact"} />
 
                 </div>
-                <Link href="/casestudies" className='border border-black px-6 py-2 rounded-lg mt-8 hover:bg-darkbg hover:text-white duration-300'>Read more case studies!</Link>
+
+                <Link href="/casestudies"  className="relative inline-flex px-8 py-4 font-medium group w-fit">
+                    <span
+                        className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
+                    <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
+                    <span className="relative text-black group-hover:text-white uppercase">READ MORE CASE STUDIES!</span>
+                </Link>
 
 
 

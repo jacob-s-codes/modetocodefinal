@@ -15,6 +15,7 @@ export default function CaseStudies() {
                         <Casestudy place="In-Person" title="Chinese American International School" image="/caislogo.jpg" link="/casestudies/cais" description="One of Mode to Code's very first classes, Chinese American International School was"/>
                         <Casestudy place="Assisted Living Center" title="Rhoda Goldman Plaza" image="/rhodapic.jpg" link="/casestudies/rhodagoldman" description="In March 2025, Mode to Code began teaching classes at Rhoda Goldman Plaza, an assisted living center in San Francisco"/>
                         <Casestudy place="Online Class" title="The American International School of Bolivia" image="/bolivialogo.jpg" link="/casestudies/bolivia" description="In May 2025, Mode to Code began teaching online classes at The American International School of Bolivia"/>
+                        <Casestudy place="Hackathon" title="UHS Hacks" image="/uhsimg.jpg" link="/casestudies/uhshacks" description="UHS Hacks is a hackathon organized by Jacob, founder of Mode to Code. UHS Hacks"/>
                         {/* <Casestudy place="Partner Company" title="Breakthrough SummerBridge" image="/breakthrough.png" link="/casestudies/breakthrough" description="One of Mode to Code's very first classes, Chinese American International School was"/> */}
                     </div>
 
