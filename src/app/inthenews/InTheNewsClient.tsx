@@ -102,7 +102,7 @@ export default function InTheNews() {
                             </Link>
                         </div>
                         <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
-                            <img src="/news/shelburne.png" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+                            <img src="/news/shelburneimg.png" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
                         </div>
                     </div>
 

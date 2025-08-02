@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <div>
         <hr className='border-2 border-black'/>
-        <footer className="max-w-[1800px] mx-auto px-8 py-12 font-extralight footer filter brightness-50 ">
+        <footer className="max-w-[1800px] mx-auto px-8 py-12 font-extralight footer filter brightness-50 md:text-lg text-sm">
             <div className="flex flex-row justify-between items-center w-full">
-                <div className="flex flex-row lg:gap-x-12 gap-x-10 pr-12">
+                <div className="flex flex-row md:gap-x-12 gap-x-6 pr-12">
                     <div className="flex flex-col gap-y-2">
                         <p className="font-extrabold">ABOUT US</p>
                         <Link href="/" className="hover:text-blue-500">Home</Link>
