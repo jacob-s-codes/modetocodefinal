@@ -59,7 +59,7 @@ const caseStudies = [
         image3: "/hackathon/hackathonimg2.jpg",
         description1: "UHS Hacks is a hackathon organized by Jacob, founder of Mode to Code. UHS Hacks is an extension of Mode to Code as we try to make coding and technology accessible to students of all ages. UHS Hacks is completely free for all participants!",
         description2: "The event will take place on September 20th, 2025 at San Francisco University High School. You can learn more about the event at: https://uhshacks.com",
-        fact1: "$10,000+ in prizes",
+        fact1: "$15,000+ in prizes",
         fact2: "40 participants",
         fact3: "7 volunteers",
         website: "https://www.uhshacks.com",
