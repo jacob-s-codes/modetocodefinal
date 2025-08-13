@@ -25,7 +25,7 @@ export default function HomeClient() {
                             <h3 className="uppercase text-blue-900 text-3xl">About us</h3>
                             <h2 className="uppercase text-4xl font-bold pb-2">Who we are</h2>
                             <hr className="border-4 border-black mb-8" />
-                            <p className="lg:text-2xl text-xl font-light mb-8">We are a team of high school students who are passionate about teaching essential technological tools to students of all ages. We have taught <span className="font-bold">over 950 students </span> across <span className="font-bold">5 continents.</span></p>
+                            <p className="lg:text-2xl text-xl font-light mb-8">We are a team of high school students who are passionate about teaching essential technological tools to students of all ages. We have taught <span className="font-bold">over 1000 students </span> across <span className="font-bold">5 continents.</span></p>
                             <Link href="/about" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                                 <span
                                     className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
