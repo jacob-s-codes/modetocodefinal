@@ -13,13 +13,15 @@ export default function Casestudy({ place, title, image, description, link }: { 
           className="object-cover"
         />
       </div> */}
-      <Image src={image} alt="case" width={500} height={500} className='w-full h-auto rounded-lg'/>
+      <Image src={image} alt="case" width={500} height={500} className='w-full h-auto rounded-lg' />
 
       <div>
         <p className='text-gray-700 text-sm'>{place}</p>
-        <Link href={link}><h2 className='text-xl font-black underline hover:text-blue-700 hover:cursor-pointer'>{title}</h2></Link>
+        <a href={link} className="text-xl font-black underline w-fit hover:text-blue-700 hover:cursor-pointer">
+          {title}
+        </a>
       </div>
-      
+
       <p>{description}...</p>
     </div>
   );

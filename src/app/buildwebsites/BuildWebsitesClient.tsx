@@ -6,7 +6,7 @@ export default function WebsitesClient() {
         <div className='w-full overflow-x-hidden overflow-y-hidden bg-gradient-to-b from-white to-blue-300'>
             <div className="buildwebsitesbg h-screen w-full bg-cover bg-center overflow-y-hidden">
                 <div className="h-full flex flex-col justify-center items-center text-white">
-                    <h1 className="text-9xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">BUILD WEBSITES</h1>
+                    <h1 className="lg:text-9xl text-6xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">BUILD WEBSITES</h1>
                 </div>
             </div>
             <div className='w-full'>
