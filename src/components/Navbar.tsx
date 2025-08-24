@@ -76,12 +76,14 @@ const Navbar = () => {
                         className={`absolute top-full right-0 w-3/4 sm:w-1/2 h-screen ${navBgClass} text-white shadow-2xl transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible translate-x-0' : 'opacity-0 invisible translate-x-full'}`}
                     >
                         <div className="p-4 flex flex-col gap-2">
+                            <Link href="/inthenews" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>PRESS</Link>
+                            <div className={`h-px  ${pathname === '/uhshacks' ? 'bg-white' : 'bg-gray-700'} my-2`}></div>
                             <Link href="/about" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>ABOUT</Link>
                             {/* <MobileLink name={"ABOUT"} link={'/about'}/> */}
                             <Link href="/meettheteam" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>MEET THE TEAM</Link>
                             {/* <Link href="/casestudies" className="block px-4 py-3 hover:bg-blue-800 hover:text-white rounded transition-colors duration-200 pl-8" onClick={toggleMobileMenu}>CASE STUDIES - COMING SOON</Link> */}
                             <Link href="/casestudies" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>CASE STUDIES</Link>
-                            <Link href="/inthenews" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>IN THE NEWS</Link>
+
                             <Link href="/uhshacks" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200 pl-8`} onClick={toggleMobileMenu}>UHS HACKS</Link>
                             <div className={`h-px  ${pathname === '/uhshacks' ? 'bg-white' : 'bg-gray-700'} my-2`}></div>
                             <Link href="/learn" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>LEARN</Link>
@@ -95,6 +97,9 @@ const Navbar = () => {
 
                     {/* Desktop Navigation */}
                     <div className="hidden flex-row justify-between lg:gap-x-36 gap-x-12 sm:flex">
+                        <Link href="/inthenews" className={` relative block py-6  uppercase ${textColorClass}`}>
+                            <li>PRESS</li>
+                        </Link>
                         <li
                             className={`hoverable hover:${navBgClass} hover:text-white`}
                             onMouseEnter={() => setActiveMenu('about')}
@@ -132,19 +137,7 @@ const Navbar = () => {
                                                 <Link href="/casestudies" className='w-fit'><Learnmorebtn /></Link>
                                             </div>
                                         </ul>
-                                        <ul className="w-full mt-2 py-3 border border-white px-2 rounded-lg ">
-                                            <div className="flex items-center">
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-file-person-fill h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
-                                                    <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11" />
-                                                </svg>
-                                                <h3 className="font-bold text-xl text-white uppercase mb-2">In the News</h3>
-                                            </div>
-                                            <p className="text-lg text-white">Learn about Mode to Code in the news</p>
-                                            <div onClick={handleMegaMenuLinkClick} className='w-fit'>
-                                                {/* <Link href="/casestudies">Coming soon!</Link> */}
-                                                <Link href="/inthenews" className='w-fit'><Learnmorebtn /></Link>
-                                            </div>
-                                        </ul>
+
                                         <ul className="w-full mt-2 py-3 border border-white px-2 rounded-lg ">
                                             <div className="flex items-center">
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-file-person-fill h-8 mb-3 mr-3 fill-current text-white" viewBox="0 0 16 16">
@@ -229,7 +222,7 @@ const Navbar = () => {
                             </div>
                         </li>
 
-                        <Link href="/contact" className={`mr-8 relative block py-6 px-4 lg:p-6 uppercase ${textColorClass}`}>
+                        <Link href="/contact" className={`mr-8 relative block py-6 uppercase ${textColorClass}`}>
                             <li>CONTACT</li>
                         </Link>
                     </div>

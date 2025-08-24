@@ -27,28 +27,28 @@ const people = [
     {
         image: "/people/rohanpic.png",
         name: "Rohan S",
-        title: "Instructor and UHS Hacks Lead Code Support Volunteer",
+        title: "Instructor and UHS Hacks Volunteer",
         description:
             "I'm a teacher with Mode to Code, and I’ve loved coding since I was in elementary school. I now like working on small coding projects, usually websites. I also enjoy playing piano and tennis.",
     },
     {
         image: "/people/franchesqa.png",
         name: "Franchesqa L",
-        title: "UHS Hacks Social Media Manager and Lead Outreach Volunteer",
+        title: "UHS Hacks Social Media Manager",
         description:
             "Hi! I'm Franchesqa, and I help with community outreach and content creation. When not designing our next post for UHS Hacks, I program small projects in Java, Python, and R. Outside of all of this, I spend my time playing badminton, teaching, or playing video games. ",
     },
     {
         image: "/people/lilalpic.jpg",
         name: "Lila L",
-        title: "UHS Hacks Lead Finance and Code Support Volunteer",
+        title: "UHS Hacks Lead Finance",
         description:
             "Hi! I’m helping out with UHS Hacks because I enjoy coding and want to help others learn more. I have experience in Java, Javascript, HTML, and CSS, and have helped develop websites for UCSF. In my free time, I enjoy doing gymnastics, drawing, and baking.",
     },
     {
         image: "/people/lilapic.png",
         name: "Lila R",
-        title: "Social Media Manager",
+        title: "Mode to Code Social Media Manager",
         description:
             "Hi! I help out with Mode to Code’s social media. In my free time, you can find me writing, learning about psychology, or listening to music. You can email me at: lilajaderaj@gmail.com",
     },
@@ -83,21 +83,21 @@ const people = [
     {
         image: "/people/ellapic.jpg",
         name: "Ella S",
-        title: "Instructor and High School Outreach for UHS Hacks",
+        title: "Instructor and UHS Hacks Volunteer",
         description:
             "I helped teach middle school classes at CAIS and Live Oak. I enjoy coding in HTML, CSS, Tailwind and Python. I founded my school's Girls Who Code club and also enjoy math, basketball, and reading.",
     },
     {
         image: "/people/rowanpic.png",
         name: "Rowan C",
-        title: "UHS Hacks Outreach Volunteer",
+        title: "UHS Hacks Volunteer",
         description:
             "I joined Mode to Code because I want to create a space where students can come together to learn, build, and collaborate. Outside of school, I enjoy biking, exploring nature, and traveling. You can email me at: Rowan.chandra_26@sfuhs.org",
     },
     {
         image: "/people/aristupic.png",
         name: "Aristu S",
-        title: "UHS Hacks Outreach Volunteer",
+        title: "UHS Hacks Volunteer",
         description:
             "Hi, I'm Aristu. I'm passionate about teaching and empowering young minds with tech skills. I'm excited to help out with UHS Hacks!",
     },
@@ -105,14 +105,14 @@ const people = [
     {
         image: "/people/naveenpic.png",
         name: "Naveen G",
-        title: "UHS Hacks Code Support Volunteer",
+        title: "UHS Hacks Volunteer",
         description:
             "Excited to help out with UHS Hacks. Currently a software developer at Branded NIL and founder of locatemeals.com. I like to make crypto and AI related projects and play basketball.",
     },
     {
         image: "/people/ethanpic.png",
         name: "Ethan P",
-        title: "UHS Hacks Coding Competition Lead, Discord Organizer and Code Support Volunteer",
+        title: "UHS Hacks Volunteer",
         description:
             "Hi, I'm Ethan. I like all types of programming, including competitive programming, web, app, and game development, and math and physics visualizations. Regarding UHS Hacks, I've created the problems and solving interface for the midday competitive programming activity. You can view my projects at: https://github.com/grassEqualsBugs",
     },

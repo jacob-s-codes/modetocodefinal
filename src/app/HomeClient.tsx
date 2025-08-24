@@ -25,7 +25,47 @@ export default function HomeClient() {
                             <h3 className="uppercase text-blue-900 text-3xl">About us</h3>
                             <h2 className="uppercase text-4xl font-bold pb-2">Who we are</h2>
                             <hr className="border-4 border-black mb-8" />
-                            <p className="lg:text-2xl text-xl font-light mb-8">We are a team of high school students who are passionate about teaching essential technological tools to students of all ages. We have taught <span className="font-bold">1000+ students </span> across <span className="font-bold">5 continents.</span></p>
+                            <p className="lg:text-2xl text-xl font-light mb-8">We are a team of high school students who are passionate about teaching essential technological tools to students of all ages.</p>
+                            <div className="flex flex-row flex-wrap items-center pb-8 gap-x-8 gap-y-8">
+                                <div className="flex flex-col items-start gap-y-2">
+                                    <div className="flex flex-row items-center gap-x-3">
+                                        <svg className="h-8" viewBox="0 0 44 665" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" stroke-width="40" />
+                                        </svg>
+                                        <h3 className="text-3xl text-blue-900 font-bold">1000+ Students</h3>
+                                    </div>
+                                    <p className="lg:pl-3 text-xl font-light">Over one thousand students taught</p>
+                                </div>
+                                <div className="flex flex-col items-start gap-y-2">
+                                    <div className="flex flex-row items-center gap-x-3">
+                                        <svg className="h-8" viewBox="0 0 44 665" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" stroke-width="40" />
+                                        </svg>
+                                        <h3 className="text-3xl font-bold text-blue-900">15+ Volunteers</h3>
+                                    </div>
+                                    <p className="lg:pl-3 text-xl font-light">Over fifteen high school volunteers</p>
+                                </div>
+                                <div className="flex flex-col items-start gap-y-2">
+                                    <div className="flex flex-row items-center gap-x-3">
+                                        <svg className="h-8" viewBox="0 0 44 665" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" stroke-width="40" />
+                                        </svg>
+                                        <h3 className="text-3xl font-bold text-blue-900">30+ Partners</h3>
+                                    </div>
+                                    <p className="lg:pl-3 text-xl font-light">Working with over thirty institutions</p>
+                                </div>
+                                <div className="flex flex-col items-start gap-y-2">
+                                    <div className="flex flex-row items-center gap-x-3">
+                                        <svg className="h-8" viewBox="0 0 44 665" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" stroke-width="40" />
+                                        </svg>
+                                        <h3 className="text-3xl font-bold text-blue-900">10+ Countries</h3>
+                                    </div>
+                                    <p className="lg:pl-3 text-xl font-light">Teaching students across ten countries</p>
+                                </div>
+                            </div>
+
+
                             <Link href="/about" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                                 <span
                                     className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
@@ -51,7 +91,7 @@ export default function HomeClient() {
                                     <img src="/teachingimg2.jpg" alt="" className=" " />
                                 </div>
                                 <h3 className="text-center text-2xl font-bold mt-4 text-blue-900 uppercase">In-person</h3>
-                                <p className="text-center text-xl font-light pt-2 px-4">In-person classes, partnering with 8+ middle schools in SF.</p>
+                                <p className="text-center text-xl font-light pt-2 px-4">In-person classes, partnering with 8+ middle schools in San Francisco.</p>
                             </div>
 
                             {/* <div className="flex flex-col items-center w-md">
