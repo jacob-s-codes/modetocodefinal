@@ -86,7 +86,7 @@ export default function HomeClient() {
                     <div className="w-full px-4 py-44">
                         <div className="text-center w-full">
                             <h2 className="font-black uppercase lg:text-5xl text-4xl">Our modes of teaching</h2>
-                            <h3 className="text-2xl max-w-4xl mx-auto pt-2 font">Check out all the different ways that Mode to Code is teaching students around the world:</h3>
+                            <h3 className="text-2xl max-w-4xl mx-auto pt-2 font">Check out all the ways that Mode to Code is teaching students around the world:</h3>
                         </div>
                         <div className="flex lg:flex-row flex-col items-center  justify-center gap-x-6 lg:gap-y-8 gap-y-16 pt-8">
                             <div className="flex flex-col items-center w-md h-96">
