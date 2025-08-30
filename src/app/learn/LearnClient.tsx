@@ -16,7 +16,7 @@ export default function LearnClient() {
                         <h3 className=" text-blue-900">MTC ROADMAPS</h3>
                         <h2 className="text-4xl font-bold uppercase pt-2 ">HANDCRAFTED ROADMAPS THAT YOU CAN USE TO START</h2>
                         <hr className="w-full border-4" />
-                        <p className="pt-12 text-xl font-light">Learning to Code can feel overwhelming. Not knowing where to
+                        <p className="pt-12 text-xl font-light">Learning to code can feel overwhelming. Not knowing where to
                             start can be a problem. I&apos;ve handcrafted roadmaps that utilize <span className="font-bold">100%
                                 free, high quality resources</span> that you can use to start learning.</p>
                     </div>
