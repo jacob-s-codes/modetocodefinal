@@ -2,7 +2,7 @@
 import InTheNews from "./InTheNewsClient"
 
 export const metadata = {
-    title: "Mode to Code | In the News",
+    title: "Mode to Code | Press",
     description: "Checkout all the ways that Mode to Code has been featured",
 }
 
