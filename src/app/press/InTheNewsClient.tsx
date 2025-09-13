@@ -65,7 +65,8 @@ export default function InTheNews() {
                             </Link>
                         </div>
                         <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
-                            <img src="/news/sfchronicle.png" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+                            <Link href="https://drive.google.com/file/d/1xboXZ-_xTUqMql6JEKUgFwNGBilvQQld/view?usp=sharing" target="_blank">
+                                <img src="/news/sfchronicle.png" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg hover:shadow-white hover:scale-105 duration-300" /></Link>
                         </div>
                     </div>
                     <div className="flex lg:flex-row-reverse flex-col-reverse parent-leftright items-center justify-between text-right">
@@ -100,7 +101,8 @@ export default function InTheNews() {
                             </Link>
                         </div>
                         <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
-                            <img src="/news/inglesidelight.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+                        <Link href="https://drive.google.com/file/d/1A_qJPPQeTFDmVvAzjp4cktp_YpYHufPC/view?usp=sharing" target="_blank">
+                            <img src="/news/inglesidelight.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg hover:shadow-white duration-300 hover:scale-105" /></Link>
                         </div>
                     </div>
 
