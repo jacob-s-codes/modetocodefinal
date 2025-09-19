@@ -42,12 +42,12 @@ export default function TeachingMap() {
 
             <Marker position={[49.3847, -123.336]} icon={DefaultIcon}>
                 <Popup>
-                    Online class in Bowen Island, Canada in August
+                    Online class in Bowen Island, Canada this Fall
                 </Popup>
             </Marker>
             <Marker position={[14.6407, -93.5133]} icon={DefaultIcon}>
                 <Popup>
-                    Online class in Guatemala in August
+                    Online class in Guatemala this Fall
                 </Popup>
             </Marker>
 
