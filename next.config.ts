@@ -4,4 +4,16 @@ const nextConfig: NextConfig = {
   /* config options here */
 };
 
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/press',
+        destination: '/inthenews',
+        permanent: true,
+      },
+    ]
+  },
+}
+
 export default nextConfig;

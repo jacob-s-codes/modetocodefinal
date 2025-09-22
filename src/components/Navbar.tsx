@@ -76,7 +76,7 @@ const Navbar = () => {
                         className={`absolute top-full right-0 w-3/4 sm:w-1/2 h-screen ${navBgClass} text-white shadow-2xl transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible translate-x-0' : 'opacity-0 invisible translate-x-full'}`}
                     >
                         <div className="p-4 flex flex-col gap-2">
-                            <Link href="/press" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>PRESS</Link>
+                            <Link href="/inthenews" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>PRESS</Link>
                             <div className={`h-px  ${pathname === '/uhshacks' ? 'bg-white' : 'bg-gray-700'} my-2`}></div>
                             <Link href="/about" className={`block px-4 py-3 ${responsiveBg} hover:text-white rounded transition-colors duration-200`} onClick={toggleMobileMenu}>ABOUT</Link>
                             {/* <MobileLink name={"ABOUT"} link={'/about'}/> */}
@@ -97,7 +97,7 @@ const Navbar = () => {
 
                     {/* Desktop Navigation */}
                     <div className="hidden flex-row justify-between lg:gap-x-36 gap-x-12 sm:flex">
-                        <Link href="/press" className={` relative block py-6  uppercase ${textColorClass}`}>
+                        <Link href="/inthenews" className={` relative block py-6  uppercase ${textColorClass}`}>
                             <li>PRESS</li>
                         </Link>
                         <li
