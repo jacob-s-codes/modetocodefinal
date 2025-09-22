@@ -7,7 +7,18 @@ export default function WebsitesClient() {
         <div className="w-full overflow-x-hidden overflow-y-hidden">
             <div className="uhshacksbg h-screen w-full bg-cover bg-center overflow-y-hidden">
                 <div className="h-full flex flex-col justify-center items-center text-white">
-                    <h1 className="lg:text-9xl text-7xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-red-200 from-red-500">UHS HACKS</h1>
+                    <video
+                        src="/hackathon/bgmp4.mp4"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+                    ></video>
+
+                    {/* Overlay for dark effect (optional) */}
+                    <div className="absolute top-0 left-0 w-full h-full bg-black/60 z-10"></div>
+                    <h1 className="lg:text-9xl text-7xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-red-200 from-red-500 z-10">UHS HACKS</h1>
                 </div>
             </div>
             {/* Who we are */}
@@ -27,13 +38,13 @@ export default function WebsitesClient() {
                             </Link>
                         </div>
                         <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
-                            <img src="/uhsimg.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+                            <img src="/hackathon/fullimage.jpg" alt="Image of participants" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
                         </div>
                     </div>
 
 
                     <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
-                        <img src="/uhshacks.png" alt=""
+                        <img src="/hackathon/workingpic.jpg" alt="Working image"
                             className="lg:w-2xl w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
                         <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
                             <h2 className="lg:text-4xl text-3xl font-bold uppercase  pb-2 ">Our goal</h2>
