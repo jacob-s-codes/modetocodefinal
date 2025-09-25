@@ -24,6 +24,16 @@ export default function InTheNews() {
             <div className="w-full bg-blue-200 py-32">
                 <div className="w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between pt-32">
                     <NewsSection
+                        subtitle="in..."
+                        title="NBC Bay Area"
+                        excerpt={`"Jacob Shaul, a senior at San Francisco’s University High School, created a program to introduce computer coding to middle schoolers..."`}
+                        link="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/"
+                        imgSrc="/news/nbcbayarea.png"
+                        reverse
+                        buttontext="Watch Now"
+                    />
+
+                    <NewsSection
                         subtitle="in the..."
                         title="San Francisco Chronicle"
                         excerpt={`"Jacob Shaul, 17, center, founded 'Mode to Code,' an after-school computer literacy program, and is seen teaching at Everett Middle School in San Francisco. He wants to study computer science at a top university..."`}
@@ -47,7 +57,7 @@ export default function InTheNews() {
                         excerpt={`"We caught up with the brilliant and insightful Jacob Shaul a few weeks ago and have shared our conversation below..."`}
                         link="https://canvasrebel.com/meet-jacob-shaul/"
                         imgSrc="/news/canvasrebel.png"
-                        
+
                     />
 
                     <NewsSection
@@ -65,7 +75,7 @@ export default function InTheNews() {
                         excerpt={`"The Mode to Code afterschool class at Shelburne Community School was the first class Jacob Shaul ever taught online. Now, he's going to be teaching classes around the world..."`}
                         link="https://www.vtcng.com/shelburnenews/news/local_news/mode-to-code-goes-from-shelburne-to-botswana-and-beyond/article_f62633bd-b646-4dd0-9eef-adffee739fe3.html"
                         imgSrc="/news/shelburneimg.png"
-                        
+
                     />
                 </div>
             </div>
