@@ -25,6 +25,15 @@ export default function InTheNews() {
                 <div className="w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between pt-32">
                     <NewsSection
                         subtitle="in..."
+                        title="CNN"
+                        excerpt={`"Jacob Shaul is the kind of rising high school student who spends Saturdays playing chess and devours books by Malcom Gladwell and Angela Duckworth..."`}
+                        link="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course"
+                        imgSrc="/news/cnn.png"
+                        
+                        buttontext="Read More"
+                    />
+                    <NewsSection
+                        subtitle="in..."
                         title="NBC Bay Area"
                         excerpt={`"Jacob Shaul, a senior at San Francisco’s University High School, created a program to introduce computer coding to middle schoolers..."`}
                         link="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/"
