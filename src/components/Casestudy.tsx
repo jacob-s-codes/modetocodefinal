@@ -1,28 +1,66 @@
 import React from 'react';
 import Image from 'next/image';
-// import Link from 'next/link';
 
-export default function Casestudy({ place, title, image, description, link }: { place: string, title: string, image: string, description: string, link: string }) {
+export default function Casestudy({ 
+  place, 
+  title, 
+  image, 
+  description, 
+  link 
+}: { 
+  place: string;
+  title: string;
+  image: string;
+  description: string;
+  link: string;
+}) {
   return (
-    <div className='flex flex-col gap-x-4 lg:gap-y-6 gap-y-12  px-4 pt-4 pb-8 lg:h-[450px] hover:shadow-black duration-300 lg:w-80 w-full h-auto  border-2 border-black '>
-      {/* <div className="relative w-full h-48 rounded-lg overflow-hidden">
-        <Image
-          src={image}
-          alt="Case study image"
-          fill
-          className="object-cover"
+    <div className="group relative flex flex-col gap-6 p-6 lg:h-[450px] lg:w-80 w-full h-auto bg-gray-50 border-2 border-gray-300 rounded-xl shadow-sm hover:shadow-lg hover:shadow-gray-400 hover:border-gray-400 transition-all duration-300 ease-in-out">
+      {/* Image Container */}
+      <div className="relative overflow-hidden rounded-lg">
+        <Image 
+          src={image} 
+          alt="Case study image" 
+          width={500} 
+          height={300} 
+          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105" 
         />
-      </div> */}
-      <Image src={image} alt="case" width={500} height={500} className='w-full h-auto rounded-lg' />
-
-      <div>
-        <p className='text-gray-700 text-sm'>{place}</p>
-        <a href={link} className="text-xl font-black underline w-fit hover:text-blue-700 hover:cursor-pointer">
-          {title}
-        </a>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
 
-      <p>{description}...</p>
+      {/* Content */}
+      <div className="flex flex-col gap-3 flex-grow">
+        {/* Place and Title */}
+        <div className="space-y-1">
+          <p className="text-xs font-medium text-gray-500 uppercase tracking-wider">
+            {place}
+          </p>
+          <a 
+            href={link} 
+            className="text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors duration-200 line-clamp-2 group-hover:underline decoration-2 underline-offset-2"
+          >
+            {title}
+          </a>
+        </div>
+
+        {/* Description */}
+        <p className="text-gray-600 text-sm leading-relaxed flex-grow">
+          {description}...
+        </p>
+
+        {/* Subtle visual indicator */}
+        <a href={link}><div className="flex items-center justify-between mt-auto pt-2">
+          <div className="w-8 h-0.5 bg-gradient-to-r from-blue-500 to-darkbg rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          <svg 
+            className="w-4 h-4 text-gray-400 group-hover:text-blue-500 transition-colors duration-200" 
+            fill="none" 
+            stroke="currentColor" 
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </div></a>
+      </div>
     </div>
   );
 }
