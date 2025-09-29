@@ -68,7 +68,7 @@ export default function TeachingMap() {
             </Marker>
             <Marker position={[13.7942, -88.8965]} icon={DefaultIcon}>
                 <Popup>
-                    Online class in El Salvador in August
+                    Online class in El Salvador
                 </Popup>
             </Marker>
             <Marker position={[-22.3285, 24.6849]} icon={DefaultIcon}>
