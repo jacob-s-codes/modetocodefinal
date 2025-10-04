@@ -97,16 +97,19 @@ const Navbar = () => {
 
                     {/* Desktop Navigation */}
                     <div className="hidden flex-row justify-between lg:gap-x-36 gap-x-12 sm:flex">
-                        <Link href="/inthenews" className={` relative block py-6  uppercase ${textColorClass}`}>
-                            <li>PRESS</li>
-                        </Link>
+                        <div className='py-6'>
+                            <Link href="/inthenews" className={` relative block   uppercase ${textColorClass}`}>
+                                <li>PRESS</li>
+                            </Link>
+                        </div>
                         <li
                             className={`hoverable hover:${navBgClass} hover:text-white`}
                             onMouseEnter={() => setActiveMenu('about')}
                             onMouseLeave={() => setActiveMenu(undefined)}
                         >
                             <div className='flex flex-row items-center group'>
-                                <Link href="/about" className={`relative block py-6 pr-2 uppercase ${textColorClass}`} onClick={handleMegaMenuLinkClick}>ABOUT</Link>
+                                
+                                <Link href="/about" className={`relative block py-6 uppercase ${textColorClass}`} onClick={handleMegaMenuLinkClick}>ABOUT</Link>
                             </div>
                             <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl ${navBgClass} ${activeMenu === 'about' ? 'active-mega-menu' : ''}`}>
                                 <div className="container mx-auto w-full flex flex-wrap lg:flex-nowrap justify-center items-center ">
@@ -169,7 +172,7 @@ const Navbar = () => {
 
                         >
                             <div className='flex flex-row items-center group'>
-                                <Link href="/learn" className={`relative block py-6 pr-2 uppercase ${textColorClass}`} onClick={handleMegaMenuLinkClick}>LEARN</Link>
+                                <Link href="/learn" className={`relative block py-6 uppercase ${textColorClass}`} onClick={handleMegaMenuLinkClick}>LEARN</Link>
                             </div>
 
                             <div className={`p-6 mega-menu mb-16 sm:mb-0 shadow-xl ${navBgClass} ${activeMenu === 'learn' ? 'active-mega-menu' : ''}`}>
@@ -222,7 +225,7 @@ const Navbar = () => {
                             </div>
                         </li>
 
-                        <Link href="/contact" className={`mr-8 relative block py-6 uppercase ${textColorClass}`}>
+                        <Link href="/contact" className={`mr-8 relative block my-6 uppercase ${textColorClass}`}>
                             <li>CONTACT</li>
                         </Link>
                     </div>
