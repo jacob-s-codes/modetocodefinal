@@ -82,6 +82,35 @@ export default function HomeClient() {
                         </div>
                     </div>
 
+                    <div className="w-full px-4 lg:py-44 py-32">
+                        <div className="text-center w-full">
+                            <h2 className="font-black uppercase lg:text-5xl text-4xl">As seen in...</h2>
+                        </div>
+                        <div className="pt-12">
+                            <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 lg:gap-y-0 gap-y-12 items-center justify-items-center">
+                                <a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/cnnlogo.svg" alt="CNN" className="w-72 h-auto" /></a>
+                                <a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/nbc.png" alt="NBC" className="w-72 h-auto" /></a>
+                                <a href="https://www.sfchronicle.com/college-admissions/article/college-application-university-california-20889356.php" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/chronicle.png" alt="SF Chronicle" className="w-72 h-auto" /></a>
+                            </div>
+                            {/* <div className="flex gap-64 items-center justify-center mt-16">
+                                <a href="https://patch.com/california/san-francisco/bay-area-student-gives-back-community-mode-code-program" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/patch.png" alt="Patch" className="w-72 h-auto" /></a>
+                                <a href="https://canvasrebel.com/meet-jacob-shaul/" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/canvasrebel.png" alt="NBC Logo" className="w-72 h-auto" /></a>
+                            </div> */}
+                        </div>
+                        <div className="w-full text-center pt-12">
+
+                            <Link href="/inthenews" className="relative inline-flex px-8 py-4 font-medium group w-fit">
+                                <span
+                                    className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
+                                <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
+                                <span className="relative text-black group-hover:text-white uppercase">Read more features</span>
+                            </Link>
+                        </div>
+
+
+
+                    </div>
+
                     {/* Modes of teaching */}
                     <div className="w-full px-4 lg:py-44 py-32">
                         <div className="text-center w-full">
