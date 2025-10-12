@@ -66,6 +66,23 @@ export default function TeachingMap() {
                     Online class in India
                 </Popup>
             </Marker>
+            <Marker position={[34.6391, -118.9969]} icon={DefaultIcon}>
+                <Popup>
+                    Teaching in Modesto, California
+                </Popup>
+            </Marker>
+            {/* <Marker position={[46.6034, 1.8883]} icon={DefaultIcon}>
+                <Popup>
+                    Online class in France
+                </Popup>
+            </Marker> */}
+
+            <Marker position={[23.6345, -102.5528]} icon={DefaultIcon}>
+                <Popup>
+                    Online class in Mexico
+                </Popup>
+            </Marker>
+
             <Marker position={[13.7942, -88.8965]} icon={DefaultIcon}>
                 <Popup>
                     Online class in El Salvador
