@@ -103,9 +103,9 @@ body {
 }
 
 .aboutusbg {
-  background-image: url("/teachingimg9.jpg");
+  background-image: url("/assistedliving/khalilteachingwide.jpg");
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-color: rgb(181, 179, 179);
   background-blend-mode: multiply;

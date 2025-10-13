@@ -77,7 +77,7 @@ export default function HomeClient() {
                                     </svg>
                                     <h3 className="text-3xl font-bold text-blue-900">10+ Countries</h3>
                                 </div>
-                                <p className="lg:pl-3 text-xl font-light">Teaching students across ten countries</p>
+                                <p className="lg:pl-3 text-xl font-light">Teaching students across ten+ countries</p>
                             </div>
                         </div>
                     </div>
