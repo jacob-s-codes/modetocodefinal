@@ -148,7 +148,7 @@ const Navbar = () => {
                                                 </svg>
                                                 <h3 className="font-bold text-xl text-white uppercase mb-2">UHS Hacks</h3>
                                             </div>
-                                            <p className="text-lg text-white">Learn about UHS Hacks in September</p>
+                                            <p className="text-lg text-white">Learn about UHS Hacks, a hackathon that's an extension of Mode to Code</p>
                                             <div onClick={handleMegaMenuLinkClick} className='w-fit'>
                                                 {/* <Link href="/casestudies">Coming soon!</Link> */}
                                                 <Link href="/uhshacks" className='w-fit'><Learnmorebtn /></Link>
