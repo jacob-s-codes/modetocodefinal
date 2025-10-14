@@ -135,7 +135,7 @@ export default function HomeClient() {
                                 <div className="lg:mx-0 mx-8 overflow-clip">
                                     <img src="/bolivia/boliviateaching3.jpg" alt="" className="" />
                                 </div>
-                                <h3 className="text-center text-2xl font-bold mt-4 text-blue-900 uppercase">Online Classes</h3>
+                                <h3 className="text-center text-2xl font-bold mt-4 text-blue-900 uppercase">Online</h3>
                                 <p className="text-center text-xl font-light pt-2 px-4">Working with 15+ organizations to learn virtually around the world</p>
                             </div>
                             <div className="flex flex-col items-center w-md h-96">
