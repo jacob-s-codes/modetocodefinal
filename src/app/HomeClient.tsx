@@ -20,37 +20,51 @@ export default function HomeClient() {
                 <div className=" w-full max-w-[1800px] mx-auto px-8 flex flex-col justify-between  pt-32 ">
 
                     {/* Who we are */}
-                    <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between">
-                        <div className="flex flex-col xl:max-w-3xl max-w-xl animateleft">
+                    <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between z-20">
+                        {/* Left text section */}
+                        <div className="relative flex flex-col xl:max-w-3xl max-w-xl animateleft lg:py-12">
+                            {/* Background rectangle */}
+                            <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-blue-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
+
                             <h3 className="uppercase text-blue-900 text-3xl">About us</h3>
                             <h2 className="uppercase text-4xl font-bold pb-2">Who we are</h2>
                             <hr className="border-4 border-black mb-8" />
-                            <p className="lg:text-2xl text-xl font-light mb-8">We are a team of high school students who are passionate about teaching essential technological tools to students of all ages.</p>
+                            <p className="lg:text-2xl text-xl font-light mb-8">
+                                We are a team of high school students who are passionate about teaching essential technological tools to students of all ages.
+                            </p>
 
-
-
-                            <Link href="/about" className="relative inline-flex px-8 py-4 font-medium group w-fit">
-                                <span
-                                    className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
+                            <Link
+                                href="/about"
+                                className="relative inline-flex px-8 py-4 font-medium group w-fit"
+                            >
+                                <span className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
                                 <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
-                                <span className="relative text-black group-hover:text-white ">LEARN MORE ABOUT
-                                    US</span>
+                                <span className="relative text-black group-hover:text-white">
+                                    LEARN MORE ABOUT US
+                                </span>
                             </Link>
                         </div>
+
+                        {/* Right image */}
                         <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
-                            <img src="/teachingimg6.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+                            <img
+                                src="/teachingimg6.jpg"
+                                alt=""
+                                className="w-full rounded-xl shadow-2xl shadow-darkbg"
+                            />
                         </div>
                     </div>
-                    <div className="pt-16">
+
+                    <div className="pt-16 z-20">
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-start pb-8 gap-8">
                             <div className="flex flex-col items-start gap-y-2">
                                 <div className="flex flex-row items-center gap-x-3">
                                     <svg className="h-8" viewBox="0 0 44 665" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" stroke-width="40" />
                                     </svg>
-                                    <h3 className="text-3xl text-blue-900 font-bold">1000+ Students</h3>
+                                    <h3 className="text-3xl text-blue-900 font-bold">1200+ Students</h3>
                                 </div>
-                                <p className="lg:pl-3 text-xl font-light">Over one thousand students taught</p>
+                                <p className="lg:pl-3 text-xl font-light">Over twelve hundred students taught</p>
                             </div>
                             <div className="flex flex-col items-start gap-y-2">
                                 <div className="flex flex-row items-center gap-x-3">
@@ -82,11 +96,12 @@ export default function HomeClient() {
                         </div>
                     </div>
 
-                    <div className="w-full px-4 lg:py-44 py-32">
+                    <div className="w-full px-4 lg:py-44 py-36 z-20">
                         <div className="text-center w-full">
                             <h2 className="font-black uppercase lg:text-5xl text-4xl">As seen in...</h2>
                         </div>
-                        <div className="pt-12">
+                        <div className="pt-12 relative ">
+                            <div className="absolute -z-10 inset-0 scale-110 lg:scale-x-110 scale-x-150 lg:scale-y-200 md:scale-y-125 scale-y-125 bg-blue-300  skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-6 translate-y-10"></div>
                             <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 lg:gap-y-0 gap-y-12 items-center justify-items-center">
                                 <a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/cnnlogo.svg" alt="CNN" className="w-72 h-auto" /></a>
                                 <a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/nbc.png" alt="NBC" className="w-72 h-auto" /></a>
@@ -181,8 +196,9 @@ export default function HomeClient() {
                         <h2 className="font-black uppercase text-4xl">In the news</h2>
                         <h3>Read about real-world impacts, interviews, and more: </h3>
                     </div> */}
-                    <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between">
-                        <div className="flex flex-col xl:max-w-3xl max-w-xl animateleft">
+                    <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between z-20">
+                        <div className="flex flex-col xl:max-w-3xl max-w-xl animateleft relative">
+                            <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-blue-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
                             <h3 className="uppercase font-light text-blue-900 lg:text-3xl text-2xl">AI, WEB DEVELOPMENT, AND PYTHON</h3>
                             <h2 className="uppercase lg:text-4xl text-3xl font-bold pb-2 pt-1">Technology that students can apply to the real world</h2>
                             <hr className="border-4 border-black mb-8" />
@@ -202,8 +218,9 @@ export default function HomeClient() {
 
                     <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
                         <img src="/teachingimg25.jpg" alt=""
-                            className="animateright w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
-                        <div className="lg:text-3xl text-2xl max-w-2xl text-right pl-8 animateleft">
+                            className="animateright z-30 w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
+                        <div className="lg:text-3xl text-2xl max-w-2xl text-right pl-8 animateleft relative z-20">
+                            <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-blue-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
                             <h3 className="font-light text-blue-900">BUILDING COMMUNITY</h3>
                             <h2 className="lg:text-4xl text-3xl font-bold uppercase pt-1 pb-2 ">interested in teaching or having this free
                                 program
