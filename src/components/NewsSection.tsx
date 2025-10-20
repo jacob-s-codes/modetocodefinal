@@ -21,10 +21,11 @@ function NewsSection({ subtitle, title, excerpt, link, imgSrc, reverse, buttonte
     >
       {/* Text Section */}
       <div
-        className={`flex flex-col xl:max-w-2xl max-w-xl ${
+        className={`flex flex-col xl:max-w-2xl relative z-20 max-w-xl ${
           reverse ? "justify-end w-full animateleft" : "animateleft"
         }`}
       >
+        <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-blue-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
         <h3 className="uppercase text-blue-900 lg:text-3xl text-2xl">{subtitle}</h3>
         <h2 className="uppercase lg:text-4xl text-3xl font-bold pb-2">{title}</h2>
         <hr className="border-4 border-black mb-8" />
@@ -46,7 +47,7 @@ function NewsSection({ subtitle, title, excerpt, link, imgSrc, reverse, buttonte
 
       {/* Image Section */}
       <div
-        className={`max-w-3xl relative animateright rounded-xl lg:pb-0 pb-8 ${
+        className={`max-w-3xl relative animateright rounded-xl z-20 lg:pb-0 pb-8 ${
           reverse ? "lg:mr-8" : "lg:ml-8"
         }`}
       >
