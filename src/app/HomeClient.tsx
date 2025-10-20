@@ -191,7 +191,7 @@ export default function HomeClient() {
             <TeachingMap />
           </div> */}
 
-                <div className=" w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between  py-32 ">
+                <div className=" w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between pt-48 pb-32 ">
                     {/* <div className="w-full text-center">
                         <h2 className="font-black uppercase text-4xl">In the news</h2>
                         <h3>Read about real-world impacts, interviews, and more: </h3>
