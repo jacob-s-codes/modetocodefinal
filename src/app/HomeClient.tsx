@@ -30,7 +30,7 @@ export default function HomeClient() {
                             <h2 className="uppercase text-4xl font-bold pb-2">Who we are</h2>
                             <hr className="border-4 border-black mb-8" />
                             <p className="lg:text-2xl text-xl font-light mb-8">
-                                We are a team of high school students who are passionate about teaching essential technological tools to students of all ages.
+                                We are a team of high school students, passionate about teaching essential technological tools to students of all ages.
                             </p>
 
                             <Link
