@@ -23,7 +23,7 @@ export default function Client() {
                             <h3 className="uppercase text-blue-900 text-3xl">Our Mission</h3>
                             <h2 className="uppercase text-4xl font-bold pb-2">Teaching students the technology that they need</h2>
                             <hr className="border-4 border-black mb-8" />
-                            <p className="text-2xl font-light mb-8">Mode to Code brings together students of all ages who are intersted in technology and high schoolers who are passionate and skilled, both virtually and in person!</p>
+                            <p className="text-2xl font-light mb-8">Mode to Code brings together students of all ages who are interested in technology and high school volunteers who are passionate and skilled, both in person and virtually!</p>
 
                         </div>
                         <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
@@ -40,7 +40,7 @@ export default function Client() {
                             <h3 className="uppercase text-blue-900 text-3xl lg:pt-0 pt-4">Making an impact</h3>
                             <h2 className="text-4xl font-bold uppercase  pb-2 ">TEACHING 1200+ STUDENTS ACROSS 30+ Institutions</h2>
                             <hr className="w-full border-4" />
-                            <p className="py-12 text-2xl font-light">Mode to Code is proud to be offering programs at schools all over San Francisco. We are also teaching students online in Vermont, India, Bolivia, and Italy. We are proud to have <span className="font-bold">thousands of hours</span> of instruction to students accross the globe!</p>
+                            <p className="py-12 text-2xl font-light">Mode to Code is proud to be offering programs at schools all over the San Francisco Bay Area. We are also teaching students online in Bolivia, Botswana, India, Italy, and Jamaica. We are proud to have <span className="font-bold">thousands of hours</span> of instruction around the world!</p>
                             <BasicButton text={"Read some case studies"} link={"/casestudies"}></BasicButton>
                         </div>
 
