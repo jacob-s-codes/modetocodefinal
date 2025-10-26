@@ -71,11 +71,11 @@ export default function TeachingMap() {
                     Teaching in Modesto, California
                 </Popup>
             </Marker>
-            {/* <Marker position={[46.6034, 1.8883]} icon={DefaultIcon}>
+            <Marker position={[46.6034, 1.8883]} icon={DefaultIcon}>
                 <Popup>
                     Online class in France
                 </Popup>
-            </Marker> */}
+            </Marker>
 
             <Marker position={[23.6345, -102.5528]} icon={DefaultIcon}>
                 <Popup>
