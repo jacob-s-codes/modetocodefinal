@@ -52,11 +52,21 @@ export default function InTheNews() {
 
                     <NewsSection
                         subtitle="in..."
+                        title="The San Francisco Experience Podcast"
+                        excerpt={`"Teaching middle schoolers how to code: how a teenager created a company that is active in the Bay Area, online and even overseas..."`}
+                        link="https://www.thesanfranciscoexperiencepodcast.com/mode-to-code-educating-students-of-all-ages-around-the-world-about-coding-and-technology-talking-w/"
+                        imgSrc="/news/sfexperiencepod.png"
+                        buttontext="Listen Now"
+                        reverse
+                    />
+
+                    <NewsSection
+                        subtitle="in..."
                         title="Patch"
                         excerpt={`"Jacob Shaul is thankful to have learned how to code in middle school and wants to give the same opportunity to others..."`}
                         link="https://patch.com/california/san-francisco/bay-area-student-gives-back-community-mode-code-program"
                         imgSrc="/news/patchimg.png"
-                        reverse
+                        
                     />
 
 
@@ -66,7 +76,7 @@ export default function InTheNews() {
                         excerpt={`"We caught up with the brilliant and insightful Jacob Shaul a few weeks ago and have shared our conversation below..."`}
                         link="https://canvasrebel.com/meet-jacob-shaul/"
                         imgSrc="/news/canvasrebel.png"
-
+                        reverse
                     />
 
                     <NewsSection
@@ -75,7 +85,7 @@ export default function InTheNews() {
                         excerpt={`"Glen Park's Jacob Shaul is making computer coding accessible for all ages. The San Francisco University High School junior spent the last year, with help from UHS' Dean of Teaching & Learning Byron Philhour..."`}
                         link="https://www.inglesidelight.com/mode-to-code-jacob-shaul/"
                         imgSrc="/news/inglesidelight.jpg"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -84,7 +94,7 @@ export default function InTheNews() {
                         excerpt={`"The Mode to Code afterschool class at Shelburne Community School was the first class Jacob Shaul ever taught online. Now, he's going to be teaching classes around the world..."`}
                         link="https://www.vtcng.com/shelburnenews/news/local_news/mode-to-code-goes-from-shelburne-to-botswana-and-beyond/article_f62633bd-b646-4dd0-9eef-adffee739fe3.html"
                         imgSrc="/news/shelburneimg.png"
-
+                        reverse
                     />
                 </div>
             </div>
