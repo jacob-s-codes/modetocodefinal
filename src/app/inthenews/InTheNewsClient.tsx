@@ -96,6 +96,14 @@ export default function InTheNews() {
                         imgSrc="/news/shelburneimg.png"
                         reverse
                     />
+
+                    <NewsSection
+                        subtitle="in the..."
+                        title="UHS Journal"
+                        excerpt={`"For Jacob Shaul, technology has always been more than a subject - it's a way to connect and create. His interest in it began in middle school and deepened at UHS, where he..."`}
+                        link="https://issuu.com/sfuhsorg/docs/uhs_journal_fall_2025/21"
+                        imgSrc="/news/UHSjournal.png"
+                    />
                 </div>
             </div>
         </div>
