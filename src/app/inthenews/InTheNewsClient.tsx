@@ -33,7 +33,7 @@ export default function InTheNews() {
                         buttontext="Read More"
                     />
                     <NewsSection
-                        subtitle="in..."
+                        subtitle="On..."
                         title="NBC Bay Area"
                         excerpt={`"Jacob Shaul, a senior at San Francisco’s University High School, created a program to introduce computer coding to middle schoolers..."`}
                         link="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/"
@@ -62,11 +62,21 @@ export default function InTheNews() {
 
                     <NewsSection
                         subtitle="in..."
+                        title="LaunchX: Fueling Tomorrow's Entrepreneurs"
+                        excerpt={`"We talk about turning a small after-school club into a global program, teaching coding as a creative art form, and pushing through rejection when nobody’s responding to your emails. If you’re curious what it looks like to start small and grow into something that spans continents, this is the episode for you..."`}
+                        link="https://podcasts.apple.com/us/podcast/from-school-club-to-global-classroom-jacob-shauls-mode/id1773055733?i=1000738765740"
+                        imgSrc="/news/launchx.jpeg"
+                        buttontext="Listen Now"
+                        
+                    />
+
+                    <NewsSection
+                        subtitle="in..."
                         title="Patch"
                         excerpt={`"Jacob Shaul is thankful to have learned how to code in middle school and wants to give the same opportunity to others..."`}
                         link="https://patch.com/california/san-francisco/bay-area-student-gives-back-community-mode-code-program"
                         imgSrc="/news/patchimg.png"
-                        
+                        reverse
                     />
 
 
@@ -76,7 +86,7 @@ export default function InTheNews() {
                         excerpt={`"We caught up with the brilliant and insightful Jacob Shaul a few weeks ago and have shared our conversation below..."`}
                         link="https://canvasrebel.com/meet-jacob-shaul/"
                         imgSrc="/news/canvasrebel.png"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -85,7 +95,7 @@ export default function InTheNews() {
                         excerpt={`"Glen Park's Jacob Shaul is making computer coding accessible for all ages. The San Francisco University High School junior spent the last year, with help from UHS' Dean of Teaching & Learning Byron Philhour..."`}
                         link="https://www.inglesidelight.com/mode-to-code-jacob-shaul/"
                         imgSrc="/news/inglesidelight.jpg"
-                        
+                        reverse
                     />
 
                     <NewsSection
@@ -94,7 +104,7 @@ export default function InTheNews() {
                         excerpt={`"The Mode to Code afterschool class at Shelburne Community School was the first class Jacob Shaul ever taught online. Now, he's going to be teaching classes around the world..."`}
                         link="https://www.vtcng.com/shelburnenews/news/local_news/mode-to-code-goes-from-shelburne-to-botswana-and-beyond/article_f62633bd-b646-4dd0-9eef-adffee739fe3.html"
                         imgSrc="/news/shelburneimg.png"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -103,6 +113,7 @@ export default function InTheNews() {
                         excerpt={`"For Jacob Shaul, technology has always been more than a subject - it's a way to connect and create. His interest in it began in middle school and deepened at UHS, where he..."`}
                         link="https://issuu.com/sfuhsorg/docs/uhs_journal_fall_2025/21"
                         imgSrc="/news/UHSjournal.png"
+                        reverse
                     />
                 </div>
             </div>
