@@ -3,7 +3,7 @@ import React from 'react'
 
 const Socialmedia = () => {
     return (
-        <div className="flex flex-row lg:gap-x-12 gap-x-6 font-bold justify-end">
+        <div className="flex flex-row lg:gap-x-12 gap-x-6 font-bold justify-end group-hover:text-white">
             <Link href="https://www.instagram.com/mode_to_code/" target="_blank"
                 className="hover:rotate-12 hover:scale-105 duration-300"><svg xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor" className="bi bi-instagram lg:w-12 w-8 h-auto" viewBox="0 0 16 16">

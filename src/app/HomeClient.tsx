@@ -60,7 +60,7 @@ export default function HomeClient() {
                             <div className="flex flex-col items-start gap-y-2">
                                 <div className="flex flex-row items-center gap-x-3">
                                     <svg className="h-8" viewBox="0 0 44 665" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" stroke-width="40" />
+                                        <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" strokeWidth="40" />
                                     </svg>
                                     <h3 className="text-3xl text-blue-900 font-bold">1200+ Students</h3>
                                 </div>
