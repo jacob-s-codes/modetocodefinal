@@ -18,7 +18,7 @@ export default function TeachingMap() {
             [-85, -180], // Southwest corner
             [85, 180],   // Northeast corner
         ]}
-            maxBoundsViscosity={1.0} dragging={true} zoomControl={false} doubleClickZoom={false} keyboard={false} className="w-full rounded-xl z-0" style={{ height: "calc(100vh - 200px)" }}>
+            maxBoundsViscosity={1.0} dragging={true} zoomControl={false} doubleClickZoom={false} keyboard={false} className="w-full rounded-xl z-20" style={{ height: "calc(100vh - 200px)" }}>
             <TileLayer
                 attribution='&copy; <a href="https://carto.com/">CARTO</a>'
                 url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
@@ -71,11 +71,11 @@ export default function TeachingMap() {
                     Teaching in Modesto, California
                 </Popup>
             </Marker>
-            {/* <Marker position={[46.6034, 1.8883]} icon={DefaultIcon}>
+            <Marker position={[46.6034, 1.8883]} icon={DefaultIcon}>
                 <Popup>
                     Online class in France
                 </Popup>
-            </Marker> */}
+            </Marker>
 
             <Marker position={[23.6345, -102.5528]} icon={DefaultIcon}>
                 <Popup>
