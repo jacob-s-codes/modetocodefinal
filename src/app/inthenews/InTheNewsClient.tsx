@@ -54,7 +54,7 @@ export default function InTheNews() {
                         subtitle="On..."
                         title="KRON 4 News"
                         excerpt={`"Tis the season for scammers, on the phone and online. But coming to the rescue is a Bay Area teen who's sharing his tech tips to all ages, from middle schoolers to well past middle age..."`}
-                        link="https://youtu.be/qNz7SYaRR2Y?si=QpYwMbmrz5xRi-Tv"
+                        link="https://www.youtube.com/watch?v=v7QDRZtmCyU"
                         imgSrc="/news/kroncover.png"
                         buttontext="Watch now"
                         reverse
