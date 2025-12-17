@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function WebsitesClient() {
     return (
         <div className="w-full overflow-x-hidden overflow-y-hidden">
-            <div className=" h-screen w-full bg-cover bg-center overflow-y-hidden">
+            <div className=" h-[100dvh] w-full bg-cover bg-center overflow-y-hidden">
                 <div className="h-full flex flex-col justify-center items-center text-white">
                     <video
                         src="/hackathon/bgmp4.mp4"
