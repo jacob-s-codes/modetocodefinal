@@ -24,8 +24,9 @@ export default function WebsitesClient() {
             {/* Who we are */}
             <div className="w-full bg-red-200 pb-32">
                 <div className=" w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between  pt-32 ">
-                    <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between">
-                        <div className="flex flex-col xl:max-w-3xl max-w-xl animateleft">
+                    <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between relative z-20">
+                        <div className="relative flex flex-col xl:max-w-3xl max-w-xl animateleft lg:py-12">
+                            <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-red-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
                             <h3 className="uppercase text-red-900 lg:text-3xl text-2xl">About</h3>
                             <h2 className="uppercase lg:text-4xl text-3xl font-bold pb-2">What is UhS Hacks?</h2>
                             <hr className="border-4 border-black mb-8" />
@@ -43,13 +44,15 @@ export default function WebsitesClient() {
                     </div>
 
 
-                    <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
+                    <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between">
                         <img src="/hackathon/workingpic.jpg" alt="Working image"
-                            className="lg:w-2xl w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
-                        <div className="text-3xl max-w-2xl text-right pl-8 animateleft">
-                            <h2 className="lg:text-4xl text-3xl font-bold uppercase  pb-2 ">Our goal</h2>
+                            className="lg:w-2xl w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center z-30" />
+                        <div className="lg:text-3xl text-2xl max-w-2xl text-right pl-8 animateleft relative z-20">
+                            <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-red-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
+                            <h3 className="uppercase text-red-900 lg:text-3xl text-2xl">Our Goal</h3>
+                            <h2 className="lg:text-4xl text-3xl font-bold uppercase  pb-2 ">More than a hackathon</h2>
                             <hr className="w-full border-4" />
-                            <p className="py-12 lg:text-2xl text-xl font-light">UHS Hacks is a continuation and extension of Mode to Code. Our core mission is to bring technology and software education to high school students as well as a greater community around the world.
+                            <p className="py-12 lg:text-2xl text-xl font-light">UHS Hacks is a continuation and extension of Mode to Code. Our core mission is to bring technology and software education to high school students as well as the greater community around the world.
                             </p>
                             <div className="flex flex-row lg:gap-x-12 gap-x-6 font-bold justify-end">
                                 <Link href="https://www.instagram.com/uhshacks/" target="_blank"
