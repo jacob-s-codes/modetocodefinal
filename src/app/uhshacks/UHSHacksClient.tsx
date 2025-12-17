@@ -22,7 +22,7 @@ export default function WebsitesClient() {
                 </div>
             </div>
             {/* Who we are */}
-            <div className="w-full bg-red-200 pb-32">
+            <div className="w-full bg-red-200 pb-32 h-full">
                 <div className=" w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between  pt-32 ">
                     <div className="flex lg:flex-row flex-col-reverse parent-leftright lg:items-center justify-between relative z-20">
                         <div className="relative flex flex-col xl:max-w-3xl max-w-xl animateleft lg:py-12">
