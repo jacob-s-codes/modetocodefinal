@@ -24,7 +24,7 @@ export default function InTheNews() {
             <div className="w-full bg-blue-200 py-32">
                 <div className="w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between pt-32">
                     <NewsSection
-                        subtitle="in..."
+                        subtitle="on..."
                         title="CNN"
                         excerpt={`"Jacob Shaul is the kind of rising high school student who spends Saturdays playing chess and devours books by Malcom Gladwell and Angela Duckworth..."`}
                         link="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course"
@@ -61,7 +61,7 @@ export default function InTheNews() {
                     />
 
                     <NewsSection
-                        subtitle="in..."
+                        subtitle="On..."
                         title="The San Francisco Experience Podcast"
                         excerpt={`"Teaching middle schoolers how to code: how a teenager created a company that is active in the Bay Area, online and even overseas..."`}
                         link="https://www.thesanfranciscoexperiencepodcast.com/mode-to-code-educating-students-of-all-ages-around-the-world-about-coding-and-technology-talking-w/"
@@ -71,7 +71,7 @@ export default function InTheNews() {
                     />
 
                     <NewsSection
-                        subtitle="in..."
+                        subtitle="On..."
                         title="LaunchX: Fueling Tomorrow's Entrepreneurs"
                         excerpt={`"We talk about turning a small after-school club into a global program, teaching coding as a creative art form, and pushing through rejection when nobody’s responding to your emails. If you’re curious what it looks like to start small and grow into something that spans continents, this is the episode for you..."`}
                         link="https://podcasts.apple.com/us/podcast/from-school-club-to-global-classroom-jacob-shauls-mode/id1773055733?i=1000738765740"
@@ -81,7 +81,7 @@ export default function InTheNews() {
                     />
 
                     <NewsSection
-                        subtitle="in..."
+                        subtitle="On..."
                         title="Patch"
                         excerpt={`"Jacob Shaul is thankful to have learned how to code in middle school and wants to give the same opportunity to others..."`}
                         link="https://patch.com/california/san-francisco/bay-area-student-gives-back-community-mode-code-program"
