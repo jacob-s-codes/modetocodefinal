@@ -8,7 +8,7 @@ const Footer = () => {
     const time = new Date();
     const year = time.getFullYear();
     const pathname = usePathname();
-    const navBgClass = pathname === '/uhshacks' ? 'text-red-500' : 'text-blue-500';
+    // const navBgClass = pathname === '/uhshacks' ? 'text-red-500' : 'text-blue-500';
     const textColorClass = pathname === '/uhshacks' ? 'hover:text-red-500' : 'hover:text-blue-500';
 
     return (
