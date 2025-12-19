@@ -9,10 +9,11 @@ export default function LearnClient() {
                 <h1 className="lg:text-9xl text-8xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">LEARN</h1>
             </div>
         </div>
-        <div className="bg-gradient-to-b from-white to-blue-200 pb-24">
+        <div className="bg-gradient-to-b bg-blue-200 pb-24">
             <div className="py-48 max-w-[1800px] mx-auto px-12">
                 <div className="flex lg:flex-row flex-col-reverse items-center justify-between animateup">
-                    <div className="text-3xl max-w-2xl mr-8">
+                    <div className="relative flex flex-col xl:max-w-3xl z-20 animateleft lg:py-12 text-3xl max-w-2xl mr-8">
+                        <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-blue-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
                         <h3 className=" text-blue-900">MTC ROADMAPS</h3>
                         <h2 className="text-4xl font-bold uppercase pt-2 ">HANDCRAFTED ROADMAPS THAT YOU CAN USE TO START</h2>
                         <hr className="w-full border-4" />
@@ -20,7 +21,7 @@ export default function LearnClient() {
                             start can be a problem. I&apos;ve handcrafted roadmaps that utilize <span className="font-bold">100%
                                 free, high quality resources</span> that you can use to start learning.</p>
                     </div>
-                    <img src="/roadmapimg.jpg" alt="" className="lg:mb-0 mb-6 w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg" />
+                    <img src="/roadmapimg.jpg" alt="" className="lg:mb-0 mb-6 w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg z-30" />
                 </div>
 
             </div>
