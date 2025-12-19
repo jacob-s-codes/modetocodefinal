@@ -66,6 +66,7 @@ const Footer = () => {
                     <div className="flex flex-col gap-12 ">
                         <Socialmedia />
                         <div className="flex flex-row lg:gap-x-8 gap-x-3 text-right">
+                            <p className="">Website built by <a href="https://github.com/jacob-s-codes" target='_blank'><span className={`${textColorClass} w-fit`}>Jacob Shaul</span></a></p>
                             <p className="">Mode to Code, SF, CA</p>
                             <p>© {year} Mode to Code</p>
                         </div>
