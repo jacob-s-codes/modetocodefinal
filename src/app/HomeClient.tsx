@@ -2,7 +2,7 @@
 import Carosel from "@/components/Carosel";
 // import Banner from "@/components/Banner";
 import Testimonials from "@/components/Testimonials";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 export default function HomeClient() {
@@ -213,23 +213,15 @@ export default function HomeClient() {
                                 <span className="relative text-black group-hover:text-white uppercase">Check Out our curriculum</span>
                             </Link>
                         </div>
-                        <div className="max-w-3xl relative rounded-xl lg:ml-8 lg:pb-0 pb-8 shadow-2xl shadow-black">
-                            <Image
-                                src="/teachingimg8.jpg"
-                                alt="Teaching students technology"
-                                width={800}
-                                height={600}
-                                className="w-full rounded-xl"
-                            />
-                        </div>
-                        {/* <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
+                        
+                        <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
                             <img src="/teachingimg8.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
-                        </div> */}
+                        </div>
                     </div>
 
 
                     <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
-                        <div className="max-w-3xl relative rounded-xl lg:mr-8 lg:pb-0 pb-8 z-30 shadow-2xl shadow-black">
+                        {/* <div className="max-w-3xl relative rounded-xl lg:mr-8 lg:pb-0 pb-8 z-30 shadow-2xl shadow-black">
                             <Image
                                 src="/teachingimg25.jpg"
                                 alt="Teaching students technology"
@@ -237,9 +229,9 @@ export default function HomeClient() {
                                 height={600}
                                 className="w-full rounded-xl"
                             />
-                        </div>
-                        {/* <img src="/teachingimg25.jpg" alt=""
-                            className="animateright z-30 w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" /> */}
+                        </div> */}
+                        <img src="/teachingimg25.jpg" alt=""
+                            className="animateright z-30 w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
                         <div className="lg:text-3xl text-2xl max-w-2xl text-right pl-8 animateleft relative z-20">
                             <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-blue-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
                             <h3 className="font-light text-blue-900">BUILDING COMMUNITY</h3>
