@@ -2,6 +2,7 @@
 import Carosel from "@/components/Carosel";
 // import Banner from "@/components/Banner";
 import Testimonials from "@/components/Testimonials";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function HomeClient() {
@@ -78,7 +79,7 @@ export default function HomeClient() {
                             <div className="flex flex-col items-start gap-y-2">
                                 <div className="flex flex-row items-center gap-x-3">
                                     <svg className="h-8" viewBox="0 0 44 665" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" stroke-width="40" />
+                                        <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" strokeWidth="40" />
                                     </svg>
                                     <h3 className="text-3xl font-bold text-blue-900">30+ Partners</h3>
                                 </div>
@@ -87,7 +88,7 @@ export default function HomeClient() {
                             <div className="flex flex-col items-start gap-y-2">
                                 <div className="flex flex-row items-center gap-x-3">
                                     <svg className="h-8" viewBox="0 0 44 665" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" stroke-width="40" />
+                                        <path d="M22 0C22 474.111 22 640.88 22 665" stroke="#1c398e" strokeWidth="40" />
                                     </svg>
                                     <h3 className="text-3xl font-bold text-blue-900">10+ Countries</h3>
                                 </div>
@@ -102,11 +103,12 @@ export default function HomeClient() {
                         </div>
                         <div className="pt-12 relative ">
                             <div className="absolute -z-10 inset-0 scale-110 lg:scale-x-110 scale-x-150 lg:scale-y-200 md:scale-y-125 scale-y-125 bg-blue-300  skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-6 translate-y-10"></div>
+
                             <div className="grid lg:grid-cols-4 grid-cols-1 gap-8 lg:gap-y-0 gap-y-12 items-center justify-items-center">
-                                <a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/cnnlogo.svg" alt="CNN" className="lg:w-72 w-60 h-auto" /></a>
-                                <a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/nbc.png" alt="NBC" className="lg:w-72 w-60 h-auto" /></a>
-                                <a href="https://www.sfchronicle.com/college-admissions/article/college-application-university-california-20889356.php" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/chronicle.png" alt="SF Chronicle" className="lg:w-72 w-60 h-auto" /></a>
-                                <a href="https://www.youtube.com/watch?v=v7QDRZtmCyU" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/kronlogo.svg" alt="SF Chronicle" className="lg:w-72 w-60 h-auto" /></a>
+                                <a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/cnnlogo.svg" alt="CNN" className="lg:w-64 w-60 h-auto" /></a>
+                                <a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/nbc.png" alt="NBC" className="lg:w-64 w-60 h-auto" /></a>
+                                <a href="https://www.sfchronicle.com/college-admissions/article/college-application-university-california-20889356.php" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/chronicle.png" alt="SF Chronicle" className="lg:w-64 w-60 h-auto" /></a>
+                                <a href="https://www.youtube.com/watch?v=v7QDRZtmCyU" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/kronlogo.svg" alt="SF Chronicle" className="lg:w-64 w-60 h-auto" /></a>
                             </div>
                             {/* <div className="flex gap-64 items-center justify-center mt-16">
                                 <a href="https://patch.com/california/san-francisco/bay-area-student-gives-back-community-mode-code-program" target="_blank" className="hover:rotate-4 hover:scale-105 duration-300"><img src="/news/logo/patch.png" alt="Patch" className="w-72 h-auto" /></a>
@@ -211,15 +213,33 @@ export default function HomeClient() {
                                 <span className="relative text-black group-hover:text-white uppercase">Check Out our curriculum</span>
                             </Link>
                         </div>
-                        <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
-                            <img src="/teachingimg8.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+                        <div className="max-w-3xl relative rounded-xl lg:ml-8 lg:pb-0 pb-8 shadow-2xl shadow-black">
+                            <Image
+                                src="/teachingimg8.jpg"
+                                alt="Teaching students technology"
+                                width={800}
+                                height={600}
+                                className="w-full rounded-xl"
+                            />
                         </div>
+                        {/* <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8">
+                            <img src="/teachingimg8.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg" />
+                        </div> */}
                     </div>
 
 
                     <div className="flex lg:flex-row flex-col parent-leftright lg:items-center items-end justify-between ">
-                        <img src="/teachingimg25.jpg" alt=""
-                            className="animateright z-30 w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" />
+                        <div className="max-w-3xl relative rounded-xl lg:mr-8 lg:pb-0 pb-8 z-30 shadow-2xl shadow-black">
+                            <Image
+                                src="/teachingimg25.jpg"
+                                alt="Teaching students technology"
+                                width={800}
+                                height={600}
+                                className="w-full rounded-xl"
+                            />
+                        </div>
+                        {/* <img src="/teachingimg25.jpg" alt=""
+                            className="animateright z-30 w-full rounded-xl shadow-2xl max-w-3xl shadow-darkbg lg:mb-0 mb-6 items-center" /> */}
                         <div className="lg:text-3xl text-2xl max-w-2xl text-right pl-8 animateleft relative z-20">
                             <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-blue-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
                             <h3 className="font-light text-blue-900">BUILDING COMMUNITY</h3>
