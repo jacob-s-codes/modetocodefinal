@@ -43,7 +43,7 @@ export default function WebsitesClient() {
                             <h3 className="uppercase text-blue-900 lg:text-3xl text-2xl">Connect</h3>
                             <h2 className="lg:text-4xl text-3xl font-bold uppercase  pb-2 ">Find us on social media</h2>
                             <hr className="w-full border-4" />
-                            <p className="py-12 lg:text-2xl text-xl font-light">Check out our social media and stay updated with what we&apos;re up to!</p>
+                            <p className="py-12 lg:text-2xl text-xl font-light">Check out our social media to stay updated with what we&apos;re working on and what&apos;s coming next!</p>
                             <Socialmedia />
                         </div>
 
