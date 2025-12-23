@@ -73,7 +73,7 @@ const Testimonials = () => {
 
           <div className="review rr relative">
             <img
-              src="/parenttestimonial.png"
+              src="/kelseytestimonial.png"
               alt="Testimonial"
               className="rounded-xl sm:w-96 sm:h-96 w-96 h-auto object-cover shadow-2xl shadow-black"
             />
