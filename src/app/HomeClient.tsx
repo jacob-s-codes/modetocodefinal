@@ -206,7 +206,7 @@ export default function HomeClient() {
                             <h2 className="uppercase lg:text-4xl text-3xl font-bold pb-2 pt-1">Technology that students can apply to the real world</h2>
                             <hr className="border-4 border-black mb-8" />
                             <p className="lg:text-2xl text-xl font-light mb-8">Mode to Code teaches students valuable technological tools which they can start using in their everyday lives. Students take our Intro to Web Development course and learn the basics of HTML and CSS. We also dive into TailwindCSS, a popular CSS framework.</p>
-                            <Link href="https://docs.google.com/document/d/1Zlth06mrS1nKHkwDvhHZauodJ-R0rReItN2jh66ooIU/edit?tab=t.0#heading=h.6lr3dxwvur1j" target="_blank" className="relative inline-flex px-8 py-4 font-medium group w-fit">
+                            <Link href="https://drive.google.com/file/d/18i1W_kilvMqhyezjuXPjwpqCaD5trMcM/view?usp=sharing" target="_blank" className="relative inline-flex px-8 py-4 font-medium group w-fit">
                                 <span
                                     className="absolute inset-0 transition duration-500 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:translate-x-0 group-hover:translate-y-0"></span>
                                 <span className="absolute inset-0 bg-white border-2 border-black group-hover:bg-black"></span>
