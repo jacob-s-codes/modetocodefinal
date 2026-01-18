@@ -21,7 +21,7 @@ export default function InTheNews() {
                 </div>
             </div>
 
-            <div className="w-full bg-blue-200 py-32">
+            <div className="w-full bg-blue-200 py-12">
                 <div className="w-full max-w-[1800px] mx-auto px-8 flex flex-col gap-y-44 justify-between pt-32">
                     <NewsSection
                         subtitle="on..."
