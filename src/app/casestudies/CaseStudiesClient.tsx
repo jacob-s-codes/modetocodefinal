@@ -1,6 +1,6 @@
 import Casestudiestoptwo from "@/components/Casestudiestoptwo";
 import Casestudy from "@/components/Casestudy";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function CaseStudies() {
     return (
