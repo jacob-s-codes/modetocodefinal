@@ -130,7 +130,7 @@ export default function HomeClient() {
                     </div>
 
                     {/* Modes of teaching */}
-                    <div className="w-full px-4 lg:py-44 py-32">
+                    <div className="w-full px-4 lg:py-24 py-16">
                         <div className="text-center w-full">
                             <h2 className="font-black uppercase lg:text-5xl text-4xl">Our modes of teaching</h2>
                             <h3 className="text-2xl max-w-4xl mx-auto pt-2 font">Check out the ways that Mode to Code is teaching students around the world:</h3>

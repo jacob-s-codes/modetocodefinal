@@ -22,9 +22,9 @@ export default function Casestudy({
           src={image} 
           alt="Case study image" 
            
-          className="w-full h-96 " 
+          className="w-full h-auto " 
         /></a>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        
       </div>
 
       {/* Content */}
@@ -34,14 +34,14 @@ export default function Casestudy({
           
           <a 
             href={link} target='_blank' 
-            className="text-xl font-bold text-gray-900 hover:text-blue-500 transition-colors duration-200 line-clamp-2 group-hover:underline decoration-2 underline-offset-2"
+            className="text-xl font-bold text-gray-900 hover:text-blue-900 transition-colors duration-200 line-clamp-2 group-hover:underline decoration-2 underline-offset-2"
           >
             {title}
           </a>
         </div>
 
         {/* Description */}
-        <p className="text-gray-600 text-sm leading-relaxed flex-grow ">
+        <p className="text-gray-700 text-sm leading-relaxed flex-grow ">
           {description}...
         </p>
 
