@@ -47,7 +47,7 @@ export default function TeachingMap() {
             </Marker>
             <Marker position={[14.6407, -93.5133]} icon={DefaultIcon}>
                 <Popup>
-                    Online class in Guatemala this Fall
+                    Online class in Guatemala 
                 </Popup>
             </Marker>
 
@@ -74,6 +74,17 @@ export default function TeachingMap() {
             <Marker position={[46.6034, 1.8883]} icon={DefaultIcon}>
                 <Popup>
                     Online class in France
+                </Popup>
+            </Marker>
+            <Marker position={[51.5074, -0.1278]} icon={DefaultIcon}>
+                <Popup>
+                    Online class in England
+                </Popup>
+            </Marker>
+
+            <Marker position={[42.3601, -69.0589]} icon={DefaultIcon}>
+                <Popup>
+                    Online class in Boston, MA
                 </Popup>
             </Marker>
 
