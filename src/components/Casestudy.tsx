@@ -34,14 +34,14 @@ export default function Casestudy({
           
           <a 
             href={link} target='_blank' 
-            className="text-xl font-bold text-gray-900 hover:text-blue-900 transition-colors duration-200 line-clamp-2 group-hover:underline decoration-2 underline-offset-2"
+            className="text-xl font-bold text-white hover:text-blue-300 transition-colors duration-200 line-clamp-2 group-hover:underline  decoration-2 underline-offset-2"
           >
             {title}
           </a>
         </div>
 
         {/* Description */}
-        <p className="text-gray-700 text-sm leading-relaxed flex-grow ">
+        <p className="text-white text-sm leading-relaxed flex-grow ">
           {description}...
         </p>
 

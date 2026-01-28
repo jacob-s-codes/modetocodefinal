@@ -23,7 +23,7 @@ export default function CaseStudies() {
                         <Casestudy title="Chinese American International School" image="/teachingimg17.jpg" link="/casestudies/cais" description="One of Mode to Code's very first classes, Chinese American International School was" />
                         <Casestudy title="The American International School of Bolivia" image="/bolivia/boliviateaching3.jpg" link="/casestudies/bolivia" description="In May 2025, Mode to Code began teaching online classes at The American International School of Bolivia" />
                     </div>
-                    <div className="absolute -z-10 inset-0 translate-y-72 bg-blue-300 -skew-y-8  xl:-translate-x-12  lg:translate-y-72 rounded-full"></div>
+                    <div className="absolute -z-10 inset-0 translate-y-72 bg-darkbg2 -skew-y-8  xl:-translate-x-12  lg:translate-y-72 rounded-full"></div>
 
                 </div>
 
