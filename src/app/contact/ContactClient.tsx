@@ -18,7 +18,7 @@ export default function WebsitesClient() {
                         <div className="flex flex-col xl:max-w-3xl max-w-xl animateleft relative">
                             <div className="absolute -z-10 inset-0 scale-x-200 xl:scale-150 xl:scale-y-125 lg:scale-y-105 md:scale-150 scale-125 bg-blue-300 -skew-y-3 rounded-xl xl:-translate-x-12 -translate-x-8 lg:translate-y-0 -translate-y-6"></div>
                             <h3 className="uppercase text-blue-900 lg:text-3xl text-2xl">Email us</h3>
-                            <h2 className="uppercase lg:text-4xl text-3xl font-bold pb-2">INTERESTED IN JOINING OR OFFERING MODE TO CODE AT YOUR SCHOOL?</h2>
+                            <h2 className="uppercase lg:text-4xl text-3xl font-bold pb-2">INTERESTED IN JOINING OR OFFERING MODE TO CODE AT YOUR ORGANIZATION?</h2>
                             <hr className="border-4 border-black mb-8" />
                             <p className="lg:text-2xl text-xl font-light mb-8">You can email Jacob at <a href="mailto:jacob@modetocode.com" className='font-bold hover:underline '>jacob@modetocode.com</a> for specific questions or email <a href="mailto:info@modetocode.com" className='font-bold hover:underline'>info@modetocode.com</a> for general ones.</p>
                             <p className="lg:text-2xl text-xl font-light mb-8"> You can also find and contact one of the members of our team by going to the &quot;Meet the Team&ldquo; page.</p>
