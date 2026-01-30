@@ -13,7 +13,7 @@ export default function App() {
             <ImageforCarosel src="/liveoaklogo.jpg" href="https://www.liveoaksf.org/"/>
             <ImageforCarosel src="/caislogo.jpg" href="https://www.cais.org/"/>
             <ImageforCarosel src="/assistedliving/ivyparklogo.webp" href="https://ivyliving.com/cathedralhill/"/>
-            <ImageforCarosel src="/rhodapic.jpg" href="https://rgplaza.jfcs.org/"/>
+            <ImageforCarosel src="/rhodagoldman/rhodapic.png" href="https://rgplaza.jfcs.org/"/>
             <ImageforCarosel src="/botswana/westwoodlogo.png" href="https://www.westwood.ac.bw/"/>
             <ImageforCarosel src="/assistedliving/franklogo.webp" href="https://frankresidences.org/"/>
             <ImageforCarosel src="/schools/isflorence.png" href="https://www.isfitaly.org/"/>
