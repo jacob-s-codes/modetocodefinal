@@ -9,7 +9,7 @@ export default function WebsitesClient() {
                     <h1 className="lg:text-9xl text-6xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500">BUILD WEBSITES</h1>
                 </div>
             </div>
-            <div className='w-full'>
+            <div className='w-full max-w-[1800px] mx-auto'>
                 <CardLeft title={'Step 1: Learn HTML and CSS'} description={'This websites teaches you all the basics that you need to know about websites and is how I started learning.'} imageUrl={'/Internetingishard.png'} buttonText={'Try it Out!'} buttonUrl={'https://internetingishard.netlify.app/html-and-css/introduction/'}></CardLeft>
 
                 <CardRight title={"Step 2: The Odin Project"} description={'Another completely free resource that allows you to learn the basics of HTML and CSS but also more advanced topics if you\'re interested.'} imageUrl={'/theodinprojectimage.png'} buttonText={'Try it Out!'} buttonUrl={'https://www.theodinproject.com/paths/foundations/courses/foundations#html-foundations'} ></CardRight>

@@ -10,7 +10,7 @@ const page = () => {
                     <h1 className="lg:text-9xl text-7xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r to-blue-200 from-blue-500 uppercase">Make Games</h1>
                 </div>
             </div>
-            <div className='w-full'>
+            <div className='w-full max-w-[1800px] mx-auto'>
                 <CardLeft title={'Step 1: Learn the Basics'} description={'Python is a coding language that is easy to learn and is used by many programmers. I highly recommend starting with Khan Academy, a free, online learning platform.'} imageUrl={'/khanlogo.png'} buttonText={'Try it out!'} buttonUrl={'https://www.khanacademy.org/computing/intro-to-python-fundamentals'}></CardLeft>
 
                 <CardRight title={"Step 2: Bro Code Python Course"} description={'This is an excellent course that will teach you more of the basics while also giving you great projects to work on!'} imageUrl={'/brocodeimg.jpg'} buttonText={'Watch now!'} buttonUrl={'https://youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT&si=SCJsO8HqhKSgQ2iL'} ></CardRight>
