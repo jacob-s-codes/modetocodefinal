@@ -38,8 +38,8 @@ export default function InTheNews() {
                         excerpt={`"Jacob Shaul, a senior at San Francisco’s University High School, created a program to introduce computer coding to middle schoolers..."`}
                         link="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/"
                         imgSrc="/news/nbcbayarea.png"
-                        reverse
                         buttontext="Watch Now"
+                        reverse
                     />
 
                     <NewsSection
@@ -48,6 +48,7 @@ export default function InTheNews() {
                         excerpt={`"Jacob Shaul, 17, center, founded 'Mode to Code,' an after-school computer literacy program, and is seen teaching at Everett Middle School in San Francisco. He wants to study computer science at a top university..."`}
                         link="https://www.sfchronicle.com/college-admissions/article/college-application-university-california-20889356.php"
                         imgSrc="/news/sfchronicle.png"
+                        
                     />
 
                     <NewsSection
@@ -100,12 +101,21 @@ export default function InTheNews() {
                     />
 
                     <NewsSection
+                        subtitle="in..."
+                        title="Bold Journey"
+                        excerpt={`"We recently connected with Jacob Shaul and have shared our conversation below...."`}
+                        link="https://boldjourney.com/meet-jacob-shaul/"
+                        imgSrc="/news/boldjourney.png"
+                        
+                    />
+
+                    <NewsSection
                         subtitle="in the..."
                         title="Ingleside Light"
                         excerpt={`"Glen Park's Jacob Shaul is making computer coding accessible for all ages. The San Francisco University High School junior spent the last year, with help from UHS' Dean of Teaching & Learning Byron Philhour..."`}
                         link="https://www.inglesidelight.com/mode-to-code-jacob-shaul/"
                         imgSrc="/news/inglesidelight.jpg"
-                        
+                        reverse
                     />
 
                     <NewsSection
@@ -114,7 +124,7 @@ export default function InTheNews() {
                         excerpt={`"The Mode to Code afterschool class at Shelburne Community School was the first class Jacob Shaul ever taught online. Now, he's going to be teaching classes around the world..."`}
                         link="https://www.vtcng.com/shelburnenews/news/local_news/mode-to-code-goes-from-shelburne-to-botswana-and-beyond/article_f62633bd-b646-4dd0-9eef-adffee739fe3.html"
                         imgSrc="/news/shelburneimg.png"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -123,7 +133,7 @@ export default function InTheNews() {
                         excerpt={`"For Jacob Shaul, technology has always been more than a subject - it's a way to connect and create. His interest in it began in middle school and deepened at UHS, where he..."`}
                         link="https://issuu.com/sfuhsorg/docs/uhs_journal_fall_2025/21"
                         imgSrc="/news/UHSjournal.png"
-                        
+                        reverse
                     />
                 </div>
             </div>

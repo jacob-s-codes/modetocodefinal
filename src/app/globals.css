@@ -81,11 +81,11 @@ body {
 }
 
 .inthenewsbg {
-  background-image: url("/news/sfchronicle.png");
+  background-image: url("/news/smalleringleside.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: rgb(196, 195, 195);
+  background-color: rgb(126, 124, 124);
   background-blend-mode: multiply;
   height: 100vh;
   width: 100vw;
