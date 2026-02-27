@@ -43,12 +43,22 @@ export default function InTheNews() {
                     />
 
                     <NewsSection
+                        subtitle="On..."
+                        title="KTVU Fox News"
+                        excerpt={`"SAN FRANCISCO - A high school student in San Francisco is volunteering his time by bridging the gap between generations when it comes to artificial intelligence and technology...."`}
+                        link="https://www.ktvu.com/news/teen-teaching-ai-free-grows-program-international-movement"
+                        imgSrc="/news/foximage3.png"
+                        buttontext="Watch Now"
+                        
+                    />
+
+                    <NewsSection
                         subtitle="in the..."
                         title="San Francisco Chronicle"
                         excerpt={`"Jacob Shaul, 17, center, founded 'Mode to Code,' an after-school computer literacy program, and is seen teaching at Everett Middle School in San Francisco. He wants to study computer science at a top university..."`}
                         link="https://www.sfchronicle.com/college-admissions/article/college-application-university-california-20889356.php"
                         imgSrc="/news/sfchronicle.png"
-                        
+                        reverse
                     />
 
                     <NewsSection
@@ -58,7 +68,7 @@ export default function InTheNews() {
                         link="https://www.kron4.com/video/workshop-helps-seniors-spot-online-scams/11341091/"
                         imgSrc="/news/kroncover2.png"
                         buttontext="Watch now"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -68,7 +78,7 @@ export default function InTheNews() {
                         link="https://www.thesanfranciscoexperiencepodcast.com/mode-to-code-educating-students-of-all-ages-around-the-world-about-coding-and-technology-talking-w/"
                         imgSrc="/news/sfexperiencepod.png"
                         buttontext="Listen Now"
-                        
+                        reverse
                     />
 
                     <NewsSection
@@ -78,7 +88,7 @@ export default function InTheNews() {
                         link="https://podcasts.apple.com/us/podcast/from-school-club-to-global-classroom-jacob-shauls-mode/id1773055733?i=1000738765740"
                         imgSrc="/news/launchx.jpeg"
                         buttontext="Listen Now"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -87,7 +97,7 @@ export default function InTheNews() {
                         excerpt={`"Jacob Shaul is thankful to have learned how to code in middle school and wants to give the same opportunity to others..."`}
                         link="https://patch.com/california/san-francisco/bay-area-student-gives-back-community-mode-code-program"
                         imgSrc="/news/patchimg.png"
-                        
+                        reverse
                     />
 
 
@@ -97,7 +107,7 @@ export default function InTheNews() {
                         excerpt={`"We caught up with the brilliant and insightful Jacob Shaul a few weeks ago and have shared our conversation below..."`}
                         link="https://canvasrebel.com/meet-jacob-shaul/"
                         imgSrc="/news/canvasrebel.png"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -105,8 +115,8 @@ export default function InTheNews() {
                         title="2026 Live Oak Young Changemaker Award"
                         excerpt={`"The Young Alumni Changemaker Award began in 2022 to recognize that Live Oak students do not wait to make an impact in their communities. The award honors current high school juniors and seniors who graduated from Live Oak that model..."`}
                         link="https://www.liveoaksf.org/news-detail?pk=949124"
-                        imgSrc="/news/liveoakimg.png"
-                        
+                        imgSrc="/news/liveoakaward.png"
+                        reverse
                     />
 
                     <NewsSection
@@ -115,7 +125,7 @@ export default function InTheNews() {
                         excerpt={`"We recently connected with Jacob Shaul and have shared our conversation below...."`}
                         link="https://boldjourney.com/meet-jacob-shaul/"
                         imgSrc="/news/boldjourney.png"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -124,7 +134,7 @@ export default function InTheNews() {
                         excerpt={`"Glen Park's Jacob Shaul is making computer coding accessible for all ages. The San Francisco University High School junior spent the last year, with help from UHS' Dean of Teaching & Learning Byron Philhour..."`}
                         link="https://www.inglesidelight.com/mode-to-code-jacob-shaul/"
                         imgSrc="/news/inglesidelight.jpg"
-                        
+                        reverse
                     />
 
                     <NewsSection
@@ -133,7 +143,7 @@ export default function InTheNews() {
                         excerpt={`"The Mode to Code afterschool class at Shelburne Community School was the first class Jacob Shaul ever taught online. Now, he's going to be teaching classes around the world..."`}
                         link="https://www.vtcng.com/shelburnenews/news/local_news/mode-to-code-goes-from-shelburne-to-botswana-and-beyond/article_f62633bd-b646-4dd0-9eef-adffee739fe3.html"
                         imgSrc="/news/shelburneimg.png"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -142,7 +152,7 @@ export default function InTheNews() {
                         excerpt={`"For Jacob Shaul, technology has always been more than a subject - it's a way to connect and create. His interest in it began in middle school and deepened at UHS, where he..."`}
                         link="https://issuu.com/sfuhsorg/docs/uhs_journal_fall_2025/21"
                         imgSrc="/news/UHSjournal.png"
-                        
+                        reverse
                     />
                 </div>
             </div>
