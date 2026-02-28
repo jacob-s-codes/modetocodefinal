@@ -81,9 +81,9 @@ body {
 }
 
 .inthenewsbg {
-  background-image: url("/news/sfchroniclewithoutwords.webp");
+  background-image: url("/news/foxinterview.jpg");
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-color: rgb(126, 124, 124);
   background-blend-mode: multiply;
