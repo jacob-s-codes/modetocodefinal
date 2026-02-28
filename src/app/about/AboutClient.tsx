@@ -28,7 +28,7 @@ export default function Client() {
 
                         </div>
                         <div className="max-w-3xl relative animateright rounded-xl lg:ml-8 lg:pb-0 pb-8 z-20">
-                            <img src="/teachingimg27.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg z-20" />
+                            <img src="/assistedliving/frankfox2.jpg" alt="" className="w-full rounded-xl shadow-2xl shadow-darkbg z-20" />
                         </div>
                     </div>
 

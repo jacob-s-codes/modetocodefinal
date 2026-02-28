@@ -47,7 +47,7 @@ export default function InTheNews() {
                         title="KTVU Fox News"
                         excerpt={`"SAN FRANCISCO - A high school student in San Francisco is volunteering his time by bridging the gap between generations when it comes to artificial intelligence and technology...."`}
                         link="https://www.ktvu.com/news/teen-teaching-ai-free-grows-program-international-movement"
-                        imgSrc="/news/foxinterview.jpg"
+                        imgSrc="/assistedliving/frankfox0.png"
                         buttontext="Watch Now"
                         
                     />
