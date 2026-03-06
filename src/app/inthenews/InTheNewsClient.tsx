@@ -47,7 +47,7 @@ export default function InTheNews() {
                         title="KTVU Fox News"
                         excerpt={`"SAN FRANCISCO - A high school student in San Francisco is volunteering his time by bridging the gap between generations when it comes to artificial intelligence and technology...."`}
                         link="https://www.ktvu.com/news/teen-teaching-ai-free-grows-program-international-movement"
-                        imgSrc="/assistedliving/frankfox0.png"
+                        imgSrc="/news/foximage4.png"
                         buttontext="Watch Now"
                         
                     />
@@ -92,12 +92,21 @@ export default function InTheNews() {
                     />
 
                     <NewsSection
+                        subtitle="In..."
+                        title="The Jewish News of Northern California"
+                        excerpt={`"Healing the world wasn’t Jacob Shaul’s primary goal in 2024 when, as a high school sophomore, he started teaching computer coding to students at a local middle school..."`}
+                        link="https://jweekly.com/2026/03/05/teens-volunteer-run-project-teaches-coding-to-younger-kids-and-seniors-too/"
+                        imgSrc="/news/thejfeature.png"
+                        reverse
+                    />
+
+                    <NewsSection
                         subtitle="On..."
                         title="Patch"
                         excerpt={`"Jacob Shaul is thankful to have learned how to code in middle school and wants to give the same opportunity to others..."`}
                         link="https://patch.com/california/san-francisco/bay-area-student-gives-back-community-mode-code-program"
                         imgSrc="/news/patchimg.png"
-                        reverse
+                        
                     />
 
 
@@ -107,7 +116,7 @@ export default function InTheNews() {
                         excerpt={`"We caught up with the brilliant and insightful Jacob Shaul a few weeks ago and have shared our conversation below..."`}
                         link="https://canvasrebel.com/meet-jacob-shaul/"
                         imgSrc="/news/canvasrebel.png"
-                        
+                        reverse
                     />
 
                     <NewsSection
@@ -116,7 +125,7 @@ export default function InTheNews() {
                         excerpt={`"The Young Alumni Changemaker Award began in 2022 to recognize that Live Oak students do not wait to make an impact in their communities. The award honors current high school juniors and seniors who graduated from Live Oak that model..."`}
                         link="https://www.liveoaksf.org/news-detail?pk=949124"
                         imgSrc="/news/liveoakaward.png"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -125,7 +134,7 @@ export default function InTheNews() {
                         excerpt={`"We recently connected with Jacob Shaul and have shared our conversation below...."`}
                         link="https://boldjourney.com/meet-jacob-shaul/"
                         imgSrc="/news/boldjourney.png"
-                        
+                        reverse
                     />
 
                     <NewsSection
@@ -134,7 +143,7 @@ export default function InTheNews() {
                         excerpt={`"Glen Park's Jacob Shaul is making computer coding accessible for all ages. The San Francisco University High School junior spent the last year, with help from UHS' Dean of Teaching & Learning Byron Philhour..."`}
                         link="https://www.inglesidelight.com/mode-to-code-jacob-shaul/"
                         imgSrc="/news/inglesidelight.jpg"
-                        reverse
+                        
                     />
 
                     <NewsSection
@@ -143,7 +152,7 @@ export default function InTheNews() {
                         excerpt={`"The Mode to Code afterschool class at Shelburne Community School was the first class Jacob Shaul ever taught online. Now, he's going to be teaching classes around the world..."`}
                         link="https://www.vtcng.com/shelburnenews/news/local_news/mode-to-code-goes-from-shelburne-to-botswana-and-beyond/article_f62633bd-b646-4dd0-9eef-adffee739fe3.html"
                         imgSrc="/news/shelburneimg.png"
-                        
+                        reverse
                     />
 
                     <NewsSection
@@ -152,7 +161,7 @@ export default function InTheNews() {
                         excerpt={`"For Jacob Shaul, technology has always been more than a subject - it's a way to connect and create. His interest in it began in middle school and deepened at UHS, where he..."`}
                         link="https://issuu.com/sfuhsorg/docs/uhs_journal_fall_2025/21"
                         imgSrc="/news/UHSjournal.png"
-                        reverse
+                        
                     />
                 </div>
             </div>
