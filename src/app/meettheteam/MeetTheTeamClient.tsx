@@ -32,6 +32,20 @@ const people = [
             "I'm a teacher with Mode to Code, and I’ve loved coding since I was in elementary school. I now like working on small coding projects, usually websites. I also enjoy playing piano and tennis.",
     },
     {
+        image: "/people/rahulpic.png",
+        name: "Rahul H",
+        title: "Instructor",
+        description:
+            "Hi! I’m Rahul, an instructor at  Mode to Code. I’m passionate about using technology to build things that are useful and creative. I have been coding since middle school. Outside of Mode to Code, I enjoy going to the beach, playing saxophone, and hanging out with friends.",
+    },
+    {
+        image: "/people/arjunpic.png",
+        name: "Arjun R",
+        title: "Instructor",
+        description:
+            "Hi! I’m Arjun, an instructor at Mode to Code. I started programming with Scratch in elementary school and have been interested in it ever since. Outside of that, I enjoy playing sports, listening to music, and hanging out with friends.",
+    },
+    {
         image: "/people/franchesqa.png",
         name: "Franchesqa L",
         title: "UHS Hacks Social Media Manager",
