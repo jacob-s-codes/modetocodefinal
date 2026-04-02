@@ -42,7 +42,7 @@ export default function Client() {
 
                             <h3 className="uppercase text-blue-900 text-3xl lg:pt-0 pt-4">Making an impact</h3>
                             <h2 className="text-4xl font-bold uppercase pb-2">
-                                TEACHING 1200+ STUDENTS ACROSS 30+ Institutions
+                                TEACHING 1500+ STUDENTS ACROSS 30+ Institutions
                             </h2>
                             <hr className="w-full border-4" />
                             <p className="py-12 text-2xl font-light">
