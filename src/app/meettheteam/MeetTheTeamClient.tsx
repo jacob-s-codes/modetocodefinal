@@ -9,18 +9,33 @@ const people = [
         description:
             "I founded Mode to Code over the summer of 2024, and am passionate about teaching technology. I enjoy coding, playing drums, and hanging out with my family. You can email me at: jacob@modetocode.com",
     },
+
+    {
+        image: "/people/noahpic.png",
+        name: "Noah S",
+        title: "After-School Program Lead",
+        description:
+            "Hi! I’m Noah, an instructor at Mode to Code. I’ve really enjoyed coding ever since elementary school, and am hoping to pass that passion on to others. Outside of coding, I also enjoy chess and tennis.",
+    },
+    {
+        image: "/people/rahulpic.png",
+        name: "Rahul H",
+        title: "Assisted Living Program Lead",
+        description:
+            "Hi! I’m Rahul, an instructor at  Mode to Code. I’m passionate about using technology to build things that are useful and creative. I have been coding since middle school. Outside of Mode to Code, I enjoy going to the beach, playing saxophone, and hanging out with friends.",
+    },
     
     {
         image: "/people/aydinpic.jpg",
         name: "Aydin K",
-        title: "Assisted Living Program Co-Lead",
+        title: "Assisted Living Instructor",
         description:
             "Hi! I'm Aydin, a co-leader of the Assisted Living Program for Mode to Code. My goal is to create a space where we can bridge the digital divide gap between the youth and the elderly. Outside of school and teaching, I love volunteering, playing soccer, and hanging out with friends.",
     },
     {
         image: "/people/grahampic.jpg",
         name: "Graham T",
-        title: "Assisted Living Program Co-Lead",
+        title: "Assisted Living Instructor",
         description:
             "Hi, my name is Graham. I joined Mode to Code because I noticed a disconnect between younger generations and their grandparents. Through the assisted living program, I hope to help bridge that gap. Outside of Mode to Code, I enjoy playing sports, reading, and spending time with my friends and family.",
     },
@@ -31,13 +46,7 @@ const people = [
         description:
             "I'm a teacher with Mode to Code, and I’ve loved coding since I was in elementary school. I now like working on small coding projects, usually websites. I also enjoy playing piano and tennis.",
     },
-    {
-        image: "/people/rahulpic.png",
-        name: "Rahul H",
-        title: "Instructor",
-        description:
-            "Hi! I’m Rahul, an instructor at  Mode to Code. I’m passionate about using technology to build things that are useful and creative. I have been coding since middle school. Outside of Mode to Code, I enjoy going to the beach, playing saxophone, and hanging out with friends.",
-    },
+    
     {
         image: "/people/arjunpic.png",
         name: "Arjun R",
