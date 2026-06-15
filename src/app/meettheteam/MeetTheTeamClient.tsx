@@ -13,7 +13,7 @@ const people = [
     {
         image: "/people/noahpic.png",
         name: "Noah S",
-        title: "After-School Program Lead",
+        title: "After School Program Lead",
         description:
             "Hi! I’m Noah, an instructor at Mode to Code. I’ve really enjoyed coding ever since elementary school, and am hoping to pass that passion on to others. Outside of coding, I also enjoy chess and tennis.",
     },
